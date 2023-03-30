@@ -1,0 +1,334 @@
+#                                                                                                        
+#     _/_/_/_/                                _/_/_/                        _/                           
+#    _/          _/_/_/    _/_/_/  _/    _/  _/    _/    _/_/_/    _/_/_/  _/  _/    _/    _/  _/_/_/    
+#   _/_/_/    _/    _/  _/_/      _/    _/  _/_/_/    _/    _/  _/        _/_/      _/    _/  _/    _/   
+#  _/        _/    _/      _/_/  _/    _/  _/    _/  _/    _/  _/        _/  _/    _/    _/  _/    _/    
+# _/_/_/_/    _/_/_/  _/_/_/      _/_/_/  _/_/_/      _/_/_/    _/_/_/  _/    _/    _/_/_/  _/_/_/       
+#                                    _/                                                    _/            
+#                               _/_/                                                      _/             
+# Messages Configuration
+#  
+# Thank you very much for purchasing my plugin <3
+# If you have any questions / problems, please use my online service desk:
+# https://prodigysupport.team/tickets/servicedesk/customer/portal/1
+# ~ JarFiles
+
+# String which will appear in front of each message
+# You can use the {prefix} placeholder in almost any message.
+# NOTE:
+# Sometimes {prefix} will be replaced with nothing, if the message must not contain a prefix
+prefix: '&6[&4EasyBackup&6]&r'
+# Message which will appear if ingame commands have been disabled
+ingame-commands-disabled: '{prefix} &c¡Lo siento, solo pueden ejecutarse comandos
+  desde la consola!'
+# Completely disable all notification messages (NOT RECOMMENDED)
+disable-notifications: false
+# Message which will be sent if you try to execute a command which is made for the spigot edition only
+spigot-only-command: '{prefix} &c¡Lo siento, este comando solo puede ser ejecutado
+  en un &4Servidor de Spigot&c!'
+# Message which will appear if a player doesn't have the permission to execute a command
+no-permission: '{prefix} &c¡Lo siento, &4no tienes permiso &cpara usar este &4comando&c!'
+# Message which will appear if a player doesn't have the permission to excute a specific argument in a command
+no-permission-argument: '{prefix} &c¡Lo siento, &4no tienes permiso &cpara usar este
+  &4argumento&c!'
+# Message which will appear if an unknown error occurs while executing a command
+generic-error: '{prefix} &c¡Lo siento, ha surgido un problema al ejecutar esto! &7Mira
+  en la consola para obtener más detalles.'
+# Message which will appear if the executed command does not exist
+unknown: '{prefix} &c¡Lo siento, este comando &4no existe&c!'
+# Message which will be sent if the command syntax is wrong
+#  
+# Placeholders:
+# {command} - will be replaced with the command
+# {syntax} -  will be replaced with the expected syntax
+invalid-syntax: '{prefix} &c¡&4Uso incorrecto&c! Usa &4{command} {syntax}&c.'
+# Message which will be sent if an error occurs while executing the command
+error-performing-command: '{prefix} &cSe ha producido un error al ejecutar el comando.'
+# Message which will be sent if a specific value is expected but not present
+#  
+# Placeholders:
+# {valid} - will be replaced with the expected values
+please-specify-one-of: '{prefix} &cPor favor, especifica uno de estos: &4{valid}&c.'
+# Message which will be sent if a number value is expected but not present
+#  
+# Placeholders:
+# {num} - will be replaced with the given value
+must-be-a-number: '{prefix} &c¡&4{num} &cdebe ser un &4número&c!'
+# Message which will be sent if a character value is expected but the given one has too less characters
+#  
+# Placeholders:
+# {min} - will be replaced with the excepted minimum length
+min-length: '{prefix} &c¡Debe tener al menos &4{min} caracteres &cde longitud!'
+# Message which will be sent if a number value is expected but the given one is too low
+#  
+# Placeholders:
+# {min} - will be replaced with the excepted minimum value
+at-least: '{prefix} &c¡Por favor, introduce un valor de mínimo &4{min}&c!'
+# Message which will be sent if a number value is expected but the given one is too high
+#  
+# Placeholders:
+# {min} - will be replaced with the excepted maximum value
+max-length: '{prefix} &c¡Por favor, introduce un valor máximo de &4{max}&c!'
+# Message which will be sent if the console is not allowed to execute a command
+no-console: '{prefix} &c¡No se puede ejecutar este comando en &4Consola&c!'
+# Message which will be sent if a player value is expected but the given one is not present
+#  
+# Placeholders:
+# {search} - the given player name
+player-not-found: '{prefix} &c¡No se encuentra el jugador con el nombre de &4{search}&c!'
+# Message which will be sent if someone searches for a command which does not exist
+#  
+# Placeholders:
+# {search} - the given search query
+no-command-found: '{prefix} &c¡No se ha encontrado nada que coincida con &4{search}&c!'
+help:
+  # Message which displays the help page information
+  #  
+  # Placeholders:
+  # {page} - current page
+  # {totalpages} - number of total pages
+  # {results} - number of results
+  information: '{prefix} &eMostrando página &6{page} &ede &6{totalpages} &7Resultado:
+    &f{results}&7.'
+  # Message which will be sent if no more results are found
+  no-results: '{prefix} &eNo ha más resultados.'
+  # Message which displays the header of a help message
+  #  
+  # Placeholders:
+  # {commandprefix} - prefix of a command
+  # {command} - name of the command
+  header: '{prefix} &eMostrando ayuda sobre &6{commandprefix}{command}&e:'
+  # Format of each help message entry
+  #  
+  # Placeholders:
+  # {command} - name of the command
+  # {parameters} - arguments / parameters of the command
+  # {seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
+  # {description} - description of the command
+  format: '{prefix} &6/{command} &e{parameters}'
+  detailed:
+    # Message which displays the detailed header of a help message
+    #  
+    # Placeholders:
+    # {commandprefix} - prefix of a command
+    # {command} - name of the command
+    header: '{prefix} &3ℹ &bMostrando ayuda detallada sobre &3{commandprefix}{command}&b:'
+    # Format of each detailed command help message entry
+    #  
+    # Placeholders:
+    # {command} - name of the command
+    # {parameters} - arguments / parameters of the command
+    # {seperator} - just for styling. [-] (will be replaced with nothing if there is no command description)
+    # {description} - description of the command
+    command-format: '{prefix} &6/{command} &e{parameters} &7► {description}.'
+    # Format of each detailed parameter help message entry
+    #  
+    # Placeholders:
+    # {syntaxorname} - name of the parameter
+    # {description} - description of the parameter
+    parameter-format: '{prefix} &6{syntaxorname} &7► {description}.'
+  # Message which displays the header of a search help message
+  #  
+  # Placeholders:
+  # {commandprefix} - prefix of a command
+  # {command} - name of the command
+  # {search} - search result
+  search-header: '{prefix} &eBuscando resultados sobre &6{commandprefix}{command}
+    &e{search}:'
+# Message which will be sent if an error occurs while executing the command
+# Is used by messages in the *.error.* section
+#  
+# Placeholders:
+# {message} - will be replaced with the error message
+error-prefix: '{prefix} &c¡Se ha producido un &4error&c: {message}!'
+# Message which will be sent if you try to execute a command which is made for the bungee edition only
+bungee-only-command: '{prefix} &c¡Lo siento, este comando solo puede ser usado en
+  un &4Servidor Bungee&c!'
+cleaner:
+  # Message which will be sent once the cleaner starts
+  start-clean: '{prefix} &4✘ &cEliminando los archivos más antiguos...'
+  # Message which will be sent if a manually cleaner finishes
+  #  
+  # Placeholders:
+  # {time} - Time for the cleaner
+  finish: '{prefix} &eEl proceso de limpieza a concluido. Proceso realizado en: {time}.'
+  # Message which will be sent if you try to run the cleaner but it's not enabled
+  not-enabled: '{errorprefix} &cLa función de &4limpieza &cestá &4desactivada&c.'
+  # Message which will be sent once the cleaner finishes cleaning a directory
+  #  
+  # Placeholders:
+  # {directory} - directory which has been cleaned
+  # {amount} - amount of files which have been deleted
+  clean-dir-done: '{prefix} &8  ◆ &7Se han eliminado &f{amount} &7archivos de la carpeta
+    &f{directory}&7.'
+  # Message which will be sent once the cleaner starts cleaning a directory
+  #  
+  # Placeholders:
+  # {directory} - name of the directory
+  clean-dir: '{prefix} &4✘ &cEliminando archivos de la carpeta &4{directory}&c:'
+# Message which will be sent if a character value is expected but the given one has too many characters
+#  
+# Placeholders:
+# {max} - will be replaced with the excepted minimum length
+must-be-max-length: '{prefix} &c¡Debe ser de al menos &4{min} &ccaracteres!'
+backup:
+  # Will be send when a backup has been started
+  start-creation: '{prefix} &2✚ &aSe ha &2iniciado &ael proceso de creación de una
+    &6Copia de Seguridad &ade los archivos del servidor.'
+  # Will be send when a backup has been created
+  #  
+  # Placeholders:
+  # {time} - will be replaced with the backup create duration
+  finish-creation: '{prefix} &2ℹ &aHa &2finalizado &ael proceso de creación de la
+    &6Copia de Seguridad &ade los archivos del servidor en {time}.'
+  # Will be send when an error occurs during the backup creation or the upload process
+  error: '{prefix} &4⚠ &cSe ha producido un &4error &cal generar la Copia de Seguridad.'
+  # Will be send when the backup process has been cancelled
+  cancel: '{prefix} &4⚠ &cSe ha &4cancelado &cla Copia de Seguridad.'
+  # Message which will be sent every 5 seconds with the current save percentage
+  #  
+  # Placeholders:
+  # {saved} - saved bytes
+  # {totalsize} - total size of the backup
+  # {percent} - percentage of the zip saving
+  # {speed} - current backup speed
+  save-percent: '{prefix} &6⌸ &2{percent}% &8► &eEmpaquetados &6{saved} &ede {totalsize}
+    &8({speed})'
+  # Delay between each percentage message in seconds
+  percent-msg-delay: 5
+  # Message which will be sent once the plugin finishes deleting old backups
+  #  
+  # Placeholders:
+  # {amount} - amount of deleted files
+  deleted-previous: '{prefix} &8 ◆ &7Se han eliminado &f{amount} &7Copias de Seguridad
+    antiguas.'
+  anti-lag:
+    # Message which will be sent if the server is lagging
+    slow-down: '{prefix} &3ℹ &bSe ha &3reducido &bla velocidad de creación de la Copia
+      de Seguridad, para evitar producir retrasos a los jugadores.'
+    # Message which will be sent if the backup has returned to it's max speed
+    speed-up: '{prefix} &3ℹ &bSe ha &3restablecido &bla velocidad de creación de la
+      Copia de Seguridad.'
+  # Message which will be sent if you try to upload a backup but the backup directory hasn't been created yet
+  directory-does-not-exist: '{errorprefix} &cLa carpeta de almacenamiento de las Copias
+    de Seguridad no existe.'
+  # Message which will be sent if you try to create a backup while it's already running
+  already-running: '{errorprefix} &cYa hay un proceso de creación en marcha.'
+  # Message which will be sent if you try to cancel a backup while it's not running
+  not-running: '{errorprefix} &cNo se está realizando ninguna Copia de Seguridad en
+    este momento.'
+  # Message which will be sent if the specified backup could not be found
+  file-not-found: '{errorprefix} &cEl archivo especificado &4no existe &co el nombre
+    no es correcto.'
+upload:
+  # Message which will be sent if you start an upload
+  start: '{prefix} &6⇧ &eIniciando la &6Subida &ede la última Copia de Seguridad...'
+  # Message which will be sent if a manually upload finishes
+  #  
+  # Placeholders:
+  # {time} - Time for the upload
+  finish: '{prefix} &eSe han subido todas las copias &6{time}&e.'
+  # Message which will be sent if you start an upload but there is no latest backup
+  no-backup: '{errorprefix} &cNo se ha encontrado la última Copia de Seguridad.'
+upload-services:
+  # Message which will be sent once an upload starts
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  start-upload: '{prefix} &6⇧ &eIniciando la subida en &6{service}&e...'
+  # Message which will be sent once the plugin established the connetion to the service
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  logged-in: '{prefix} &eIdentificación de &6{service} &eaceptada.'
+  # Message which will be sent once the plugin finishes deleting old backups
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  # {amount} - amount of deleted files
+  deleted-previous: '{prefix} &8 ◆ &7Se han eliminado &f{amount} &7Copia de Seguridad
+    anteriores de &f{service}&7.'
+  # Message which will be sent every 5 seconds with the current upload percentage
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  # {saved} - saved bytes
+  # {totalsize} - total size of the backup
+  # {percent} - percentage of the zip saving
+  # {speed} - current backup speed
+  upload-percent: '{prefix} &6⇧ &eSe han subido &6{saved} &ede {totalsize} &8({speed})
+    ► &2{percent}%'
+  # Delay between each percentage message in seconds
+  percent-msg-delay: 5
+  # Message which will be sent once an upload has been finished
+  #  
+  # Placeholders:
+  # {service} - name of the upload service
+  finish-upload: '{prefix} &eSe ha terminado de subir la Copia de Seguridad en &6{service}&e.'
+  # Message which will be sent once the local backup file has been deleted successfully
+  delete-local: '{prefix} &eSe ha eliminado la Copia de Seguridad del disco.'
+  # Message which will be sent if you try to upload something but there is no internet connection available
+  no-internet: '{prefix} &4No &cse ha podido &4subir &cla Copia de Seguridad porque
+    no hay conexión a internet.'
+  # Message which will be sent if there aren't any upload services enabled
+  no-service-enabled: '{prefix} &cNo es posible subir de la Copia de Seguridad, porque
+    no hay ningún servicio activado.'
+restore:
+  # Message which will be sent if you start restoring a backup
+  start: '{prefix} &eSe ha iniciado el proceso de restauración.'
+  # Message which will be sent when kicking all players
+  kick-message: '{prefix} &eSe va a restaurar una copia de archivos. El servidor volverá
+    a estar disponible dentro de poco.'
+  # Message which will be sent if restoring a backup fails
+  fail: '{prefix} &cNo se ha podido realizar el proceso de restauración.'
+  # Will be send when restoring a backup was successful
+  #  
+  # Placeholders:
+  # {time} - will be replaced with the restore duration
+  finish: '{prefix} &6⚠ &eRestauración completada. &cDETENER AHORA EL SERVIDOR&e.
+    &7Proceso concluido en {time}.'
+  # Message which will sent if you try to restore an encrypted backup but you didn't specify a password
+  backup-password-missing: '{errorprefix} &cEl archivo especificado está protegido
+    con contraseña y no ha sido especificada.'
+  # Message which will be sent if try to restore an incremental backup
+  no-incremental-backups: '{errorprefix} &cNo se puede restaurar una Copia de Seguridad
+    acumulativa.'
+disk:
+  # Message which will be sent if use the disk command
+  #  
+  # Placeholders:
+  # {used} - used disk space
+  # {totalsize} - total available space
+  space: '{prefix} &3ℹ &bEasyBackup está usando &3{used} &bde {totalsize}.'
+  # Message which will be sent if use the disk command
+  #  
+  # Placeholders:
+  # {amount} - directory amount
+  folder: '{prefix} &eCarpetas: &6{amount}'
+  # Message which will be sent if use the disk command
+  #  
+  # Placeholders:
+  # {amount} - files amount
+  files: '{prefix} &eArchivos: &6{amount}'
+reload:
+  # Message which will be sent once the plugin starts reloading the config
+  start: '{prefix} &6⟳ &eRecargando la configuración de EasyBackup...'
+  # Message which will be sent once the plugin finishes reloading the config
+  finish: '{prefix} &7 ► Se ha recargado la configuración de EasyBackup.'
+  # Message which will be sent once the plugin finishes reloading the config
+  finish-note: '{prefix} &6⚠ &e¡Atención! &7Recargando EasyBackup solo se recarga
+    parte del mismo. Deberás reiniciar el servidor para recargar todos los archivos
+    del plugin.'
+  # Message which will be sent if an error occurs while reloading the config
+  fail: '{prefix} &4No &cse ha podido recargar la &4configuración&c.'
+delete:
+  # Message which will be sent if the backup deletion finishes successfully
+  #  
+  # Placeholders:
+  # {backup} - backup file name
+  success: '{prefix} &4✘ &cLa &4Copia de Seguridad &cse ha &4eliminado &ccorrectamente.'
+  # Message which will be sent if the backup deletion fails
+  #  
+  # Placeholders:
+  # {backup} - backup file name
+  fail: '{prefix} &6⚠ &7No se ha podido &4eliminar &7la &6Copia de Seguridad&7.'
