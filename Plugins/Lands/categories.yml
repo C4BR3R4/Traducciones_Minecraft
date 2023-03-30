@@ -1,0 +1,29 @@
+# In this file you can configure categories. Land categories can be set
+# in the various options menu of a land. This helps players finding
+# for example shop lands in the /lands list menu
+# NOTE: This file can't be reloaded via /lands reload. You must reload or restart your server to
+# have any changes take effect
+
+land:
+  # The first category will be the default
+  default:
+    name: '&7General'
+    description:
+      - '&7Un territorio como cualquier otro.'
+  members:
+    name: '&eBuscando miembros ☺'
+    description:
+      - '&7Esta tierra está buscando'
+      - '&7nuevos ciudadanos activos.'
+  shop:
+    name: '&cTienda'
+    description:
+      - '&7Este territorio contiene tiendas.'
+  pvp:
+    name: '&4Coliseo PvP ⚔'
+    description:
+      - '&7Este territorio tiene un coliseo PvP.'
+  mobfarm:
+    name: '&9Granja de Monstruos'
+    description:
+      - '&7Este territorio tiene una granja de criaturas.'
