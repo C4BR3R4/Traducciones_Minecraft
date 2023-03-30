@@ -1,0 +1,2555 @@
+#==============================O==============================#
+# I---------------------------------------------------------I #
+# |   Advanced Achievements 6.1.0 configuration - Readme   | #
+# 1---------------------------------------------------------1 #
+#==============================o==============================#
+
+# Only spaces, NO tabs. Don't forget the indents (2 spaces per indentation level).
+# To check syntax errors in your file, use: https://yaml-online-parser.appspot.com
+# Default config: https://github.com/PyvesB/AdvancedAchievements/blob/master/advanced-achievements-plugin/src/main/resources/config.yml
+# If you want to help the project, feel free to check our GitHub: https://github.com/PyvesB/AdvancedAchievements
+# Visit the wiki for some valuable additional documentation: https://github.com/PyvesB/AdvancedAchievements/wiki
+# For donations use: https://www.paypal.com/cgi-bin/webscr?hosted_button_id=7KTQYC4YT52NQ&cmd=_s-xclick
+
+#=============================O=O=============================#
+# II-------------------------------------------------------II #
+# |                    General  settings                    | #
+# 2---------------------------------------------------------2 #
+#=============================o=o=============================#
+
+# Time in seconds between each /aach book (unless user has permission achievement.*).
+TimeBook: 900
+
+# Check for update on plugin launch and notify when an OP joins the game.
+CheckForUpdate: true
+
+# Set to true to activate firework effects when a player receives an achievement.
+Firework: true
+
+# Choose ball_large, ball, burst, creeper, star or random.
+FireworkStyle: ball_large
+
+# Set to true to activate simpler effects and a calm sound when a player receives an achievement.
+# Ignored if Firework setting is set to true.
+SimplifiedReception: false
+
+# Number of players displayed in /aach top, week and month commands.
+TopList: 5
+
+# Set to true to activate particle effects when performing /aach book, /aach stats with all achievements and
+# /aach top, week or month when ranked in the top list.
+AdditionalEffects: true
+
+# Set to true to activate sounds when performing /aach book, /aach stats with all achievements and /aach top, 
+# week or month when ranked in the top list.
+Sound: true
+
+# For /aach book. Possible values: github.com/PyvesB/AdvancedAchievements/wiki/Sound-names
+SoundBook: entity_player_levelup
+
+# For /aach stats with all achievements. Possible values: github.com/PyvesB/AdvancedAchievements/wiki/Sound-names
+SoundStats: entity_firework_rocket_blast
+
+# For /aach top, week, month when ranked in the top list. Possible values: github.com/PyvesB/AdvancedAchievements/wiki/Sound-names
+SoundRanking: entity_firework_rocket_blast
+
+# Set the icon of the plugin (default: shamrock, \u2618).
+Icon: \u2618
+
+# Set the color of the plugin (default: 5, dark purple).
+Color: 5
+
+# Notify other connected players when an achievement is received.
+# This defines the default behaviour, a player can override what he sees by using /aach toggle.
+NotifyOtherPlayers: false
+
+# When NotifyOtherPlayers is enabled, notifications are done using action bars when ActionBarNotify is true.
+# When ActionBarNotify is false, chat messages are used.
+ActionBarNotify: true
+
+# Display achievement DisplayName and Message as screen titles. Ignored if using Minecraft 1.7.9 or 1.7.10.
+TitleScreen: true
+
+# Display chat messages when a player receives an achievement.
+ReceiverChatMessages: true
+
+# When a player receives an achievement, the DisplayName, Message and rewards of the achievement are displayed in
+# the chat. If HoverableReceiverChatText is true, a single hoverable text will be displayed to the receiver.
+# Otherwise texts will be displayed one after the other.
+HoverableReceiverChatText: false
+
+# Separator between name, description and date on a book page.
+BookSeparator: ""
+
+# Set the format of the achievement name in /aach list (default: "%ICON% %NAME% %ICON%").
+ListAchievementFormat: "%ICON% %NAME% %ICON%"
+
+# Set the format of the header used for most chat messages (default: "§7[%ICON%§7]").
+ChatHeader: "§7[%ICON%§7]"
+
+# Stop all stats from increasing when player in creative mode, including PlayedTime.
+# Connection achievements will only be handled once a player switches to a non-creative mode.
+RestrictCreative: true
+
+# Stop all stats from increasing when player in spectator mode, including PlayedTime.
+# Connection achievements will only be handled once a player switches to a non-spectator mode.
+# No effect if using Minecraft 1.7.9 or 1.7.10.
+RestrictSpectator: true
+
+# Stop all stats from increasing when player in adventure mode, including PlayedTime.
+# Connection achievements will only be handled once a player switches to a non-adventure mode.
+RestrictAdventure: false
+
+# Stop all stats from increasing when player in a specific world, including PlayedTime (delete the [] before adding values).
+# Connection achievements will only be handled once a player enters a non-excluded world.
+ExcludedWorlds: []
+#  - yourWorld1
+#  - yourWorld2
+
+# Ignore vertical dimension (Y axis) when calculating distance statistics.
+IgnoreVerticalDistance: false
+
+# Don't show these categories in the achievement GUI or in the stats output.
+# Also prevent obtaining achievements for these categories and prevent stats from increasing.
+DisabledCategories:
+- AdvancementsCompleted
+
+# Obfuscate achievements that have not yet been received in /aach list.
+ObfuscateNotReceived: false
+
+# For categories with a series of related achievements where the only thing changing is the number of times
+# the event has occurred, show achievements that have been obtained and show the next obtainable achievement,
+# but obfuscate the additional achievements. For example, under Places, stone, the first achievement could have a
+# target of 100 stone, the second 500 stone, and the third 1000 stone.  When ObfuscateProgressiveAchievements
+# is true, initially only the 100 stone achievement will be readable in the GUI.  Once 100 stone have been placed,
+# the 500 stone achievement will become legible.
+ObfuscateProgressiveAchievements: false
+
+# Similar to ObfuscateProgressiveAchievements, but displays not received achievements as locked in /aach list.
+HideProgressiveAchievements: false
+
+# Hide categories for which a player has not yet received achievements by displaying them as locked in /aach list.
+HideNotReceivedCategories: false
+
+# Completely hide categories for which the player does not have the corresponding count permissions.
+HideNoPermissionCategories: false
+
+# Hide the reward display in /aach list.
+HideRewardDisplayInList: false
+
+# Display precise statistic information in the /aach list progress bars.
+EnrichedListProgressBars: true
+
+# Annotate each achievement displayed in a /aach list category with a number.
+NumberedItemsInList: false
+
+# Color used for not yet received achievements in /aach list.
+ListColorNotReceived: 8
+
+# Italicise not yet received achievements in /aach list. Obfuscated achievements are not affected.
+ListItaliciseNotReceived: true
+
+# Sort pages of the book in chronological order (false for reverse chronological order).
+BookChronologicalOrder: true
+
+# Do not take into account items broken with Silk Touch for the Breaks achievements.
+DisableSilkTouchBreaks: false
+
+# Do not take into account ores broken with Silk Touch for the Breaks achievements.
+# DisableSilkTouchBreaks takes precedence over this. Not applicable to iron or gold ores.
+DisableSilkTouchOreBreaks: false
+
+# Language file to use. Available: lang.yml, lang-BP.yml, lang-CN.yml, lang-CZ.yml, lang-DE.yml, lang-ES.yml, lang-FI.yml
+# lang-FR.yml, lang-HU.yml, lang-IT.yml, lang-PL.yml, lang-RO.yml, lang-RU.yml, lang-SE.yml, lang-TR.yml, lang-TW.yml, lang-VN.yml
+LanguageFileName: es_ES.yml
+
+# Time in seconds between each statistic count. Only the listed categories are currently supported.
+StatisticCooldown:
+  LavaBuckets: 10
+  WaterBuckets: 10
+  Milk: 10
+  Beds: 30
+  Brewing: 5
+  MusicDiscs: 30
+
+# Display action bar message when player performs an action while in the cooldown period.
+# No effect if using Minecraft 1.7.9 or 1.7.10.
+CooldownActionBar: true
+
+# Locale used to format dates in /aach book and /aach list. You must select an ISO 639 language code.
+# The list of possible language codes can be found at www.loc.gov/standards/iso639-2/php/code_list.php
+DateLocale: en
+
+# Display reception time of achievements in /aach book and /aach list in addition to the date. For achievements
+# received in plugin versions prior to 3.0, the precise time information is not available and will be displayed as midnight.
+DateDisplayTime: true
+
+# Register advancements with a description corresponding to the Goal parameter of each achievement.
+# If changed, run /aach generate to regenerate advancements with the new parameter value taken into account.
+# No effect if using Minecraft versions prior to 1.12.
+RegisterAdvancementDescriptions: true
+
+# If true, hide advancements from the advancement GUI. Advancement notifications will still appear when receiving achievements.
+# No effect if using Minecraft versions prior to 1.12.
+HideAdvancements: false
+
+# If true, PlayedTime will no longer increase when the player is AFK. Requires Essentials to work.
+IgnoreAFKPlayedTime: false
+
+# Awarded when a player has received all the achievements. Use the same reward pattern as with achievements.
+# See https://github.com/PyvesB/AdvancedAchievements/wiki/Rewards
+AllAchievementsReceivedRewards:
+  IncreaseMaxOxygen: 30
+  Experience: 100
+
+# Title shown on the root advancement.
+RootAdvancementTitle: Advanced Achievements
+
+# Background shown on the Advanced Achievements advancement tab.
+# Must be a resource location to any image in a resource pack.
+AdvancementsBackground: "minecraft:textures/item/book.png"
+
+#=============================OOO=============================#
+# III-----------------------------------------------------III #
+# |                    Database settings                    | #
+# 3---------------------------------------------------------3 #
+#=============================ooo=============================#
+
+# Make a daily backup of your local database (if sqlite or h2).
+DatabaseBackup: false
+
+# Database type, sqlite, h2, postgresql or mysql. Do a full server restart for this to take effect.
+DatabaseType: h2
+
+# Prefix added to the tables in the database. If you switch from the default tables names (no prefix),
+# the plugin will attempt an automatic renaming. Otherwise you have to rename your tables manually.
+# Do a full server restart for this to take effect.
+TablePrefix: ""
+  
+# Specify additional options when opening a connection to a MySQL/PostgreSQL database. Start each option with &,
+# for instance "&useUnicode=yes&characterEncoding=UTF-8". Make sure the key-value pairs themselves are URL encoded.
+AdditionalConnectionOptions: ""
+
+# Settings to connect to your MySQL/PostgreSQL database (ignored if sqlite).
+# A PostgreSQL database address will be similar to jdbc:postgresql://localhost:5432/minecraft
+DatabaseAddress: "jdbc:mysql://localhost:3306/minecraft"
+DatabaseUser: root
+DatabasePassword: root
+  
+#============================OO=OO============================#
+# IV-------------------------------------------------------IV #
+# |                  Performance settings                   | #
+# |        Change only if you are an experienced user       | #
+# 4---------------------------------------------------------4 #
+#============================oo=oo============================#
+
+# Frequency of play time checks for players (seconds). Smaller values give more precision but more CPU usage.
+PlaytimeTaskInterval: 60
+
+# Calculates distance traveled by players (seconds). Smaller values give more precision but more CPU usage.
+DistanceTaskInterval: 5
+
+# Frequency of some statistics writes to the database (seconds). Do a full server restart, and not just /aach reload.
+PooledRequestsTaskInterval: 10
+
+#============================OOOOO============================#
+# V---------------------------------------------------------V #
+# |              Multiple action achievements               | #
+# |       These require sub-categories and thresholds       | #
+# 5---------------------------------------------------------5 #
+#============================ooooo============================#
+
+# When a specific block is placed (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
+Places:
+  sandstone:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arena.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arena!'
+      Name: coloca_10000_sandstone
+      DisplayName: '&6Construcción: Ladrillos de Arena'
+      Reward:
+        Money: 5000
+  sandstone:1:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arena Tallada.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arena Tallada!'
+      Name: coloca_10000_chiseled_sandstone
+      DisplayName: '&6Construcción: Ladrillos de Arena Tallada'
+      Reward:
+        Money: 6000
+  sandstone:2:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arena Lisa.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arena Lisa!'
+      Name: coloca_10000_smoth_sandstone
+      DisplayName: '&6Construcción: Ladrillos de Arena Lisa'
+      Reward:
+        Money: 6000
+  red_sandstone:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arena Roja.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arena Roja!'
+      Name: coloca_10000_red_sandstone
+      DisplayName: '&6Construcción: Ladrillos de Arena Roja'
+      Reward:
+        Money: 5000
+  red_sandstone:1:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arena Roja Tallada.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arena Roja Tallada!'
+      Name: coloca_10000_red_chiseled_sandstone
+      DisplayName: '&6Construcción: Ladrillos de Arena Roja Tallada'
+      Reward:
+        Money: 6000
+  red_sandstone:2:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arena Roja Lisa.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arena Roja Lisa!'
+      Name: coloca_10000_red_smoth_sandstone
+      DisplayName: '&6Construcción: Ladrillos de Arena Roja Lisa'
+      Reward:
+        Money: 6000
+  glass:
+    '10000':
+      Goal: '&dColoca Diez Mil Bloques de Cristal.'
+      Message: '&e¡Has colocado un total de 10.000 Bloques de Cristal!'
+      Name: coloca_10000_glass
+      DisplayName: '&6Construcción: Bloques de Cristal'
+      Reward:
+        Money: 5000
+  brick_block:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Arcilla.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Arcilla!'
+      Name: coloca_10000_brick_block
+      DisplayName: '&6Construcción: Ladrillos de Arcilla'
+      Reward:
+        Money: 5000
+  cobblestone:
+    '10000':
+      Goal: '&dColoca Diez Mil Bloques de Piedra Picada.'
+      Message: '&e¡Has colocado un total de 10.000 Bloques de Piedra Picada!'
+      Name: coloca_10000_piedra_picada
+      DisplayName: '&6Construcción: Piedra Picada'
+      Reward:
+        Money: 1000
+  stone:2:
+    '10000':
+      Goal: '&dColoca Diez Mil Bloques de Granito Pulido.'
+      Message: '&e¡Has colocado un total de 10.000 Bloques de Granito Pulido!'
+      Name: coloca_10000_granito_pulido
+      DisplayName: '&6Construcción: Granito Pulido'
+      Reward:
+        Money: 5000
+  stone:4:
+    '10000':
+      Goal: '&dColoca Diez Mil Bloques de Diorita Pulida.'
+      Message: '&e¡Has colocado un total de 10.000 Bloques de Diorita Pulida!'
+      Name: coloca_10000_diorita_pulida
+      DisplayName: '&6Construcción: Diorita Pulida'
+      Reward:
+        Money: 5000
+  stone:6:
+    '10000':
+      Goal: '&dColoca Diez Mil Bloques de Andesita Pulida.'
+      Message: '&e¡Has colocado un total de 10.000 Bloques de Andesita Pulida!'
+      Name: coloca_10000_andesita_pulida
+      DisplayName: '&6Construcción: Andesita Pulida'
+      Reward:
+        Money: 5000
+  stonebrick:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Piedra.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Piedra!'
+      Name: coloca_10000_ladrillos_piedra
+      DisplayName: '&6Construcción: Ladrillos de Piedra'
+      Reward:
+        Money: 6000
+  stonebrick:3:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Piedra Tallada.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Piedra Tallada!'
+      Name: coloca_10000_ladrillos_piedra_tallada
+      DisplayName: '&6Construcción: Ladrillos de Piedra Tallada'
+      Reward:
+        Money: 6000
+  planks:
+    '10000':
+      Goal: '&dColoca Diez Mil Tablas de Madera de Roble.'
+      Message: '&e¡Has colocado un total de 10.000 Tablas de Madera de Roble!'
+      Name: coloca_10000_oak_planks
+      DisplayName: '&6Construcción: Tablas de Roble'
+      Reward:
+        Money: 5000
+  planks:1:
+    '10000':
+      Goal: '&dColoca Diez Mil Tablas de Madera de Abeto.'
+      Message: '&e¡Has colocado un total de 10.000 Tablas de Madera de Abeto!'
+      Name: coloca_10000_spruce_planks
+      DisplayName: '&6Construcción: Tablas de Abeto'
+      Reward:
+        Money: 5000
+  planks:2:
+    '10000':
+      Goal: '&dColoca Diez Mil Tablas de Madera de Abedul.'
+      Message: '&e¡Has colocado un total de 10.000 Tablas de Madera de Abedul!'
+      Name: coloca_10000_birch_planks
+      DisplayName: '&6Construcción: Tablas de Abedul'
+      Reward:
+        Money: 5000
+  planks:3:
+    '10000':
+      Goal: '&dColoca Diez Mil Tablas de Madera Silvestre.'
+      Message: '&e¡Has colocado un total de 10.000 Tablas de Madera Silvestre!'
+      Name: coloca_10000_jungle_planks
+      DisplayName: '&6Construcción: Tablas Silvestres'
+      Reward:
+        Money: 5000
+  planks:4:
+    '10000':
+      Goal: '&dColoca Diez Mil Tablas de Madera de Acacia.'
+      Message: '&e¡Has colocado un total de 10.000 Tablas de Madera de Acacia!'
+      Name: coloca_10000_acacia_planks
+      DisplayName: '&6Construcción: Tablas de Acacia'
+      Reward:
+        Money: 6000
+  planks:5:
+    '10000':
+      Goal: '&dColoca Diez Mil Tablas de Madera de Roble Oscuro.'
+      Message: '&e¡Has colocado un total de 10.000 Tablas de Madera de Roble Oscuro!'
+      Name: coloca_10000_dark_oak_planks
+      DisplayName: '&6Construcción: Tablas de Roble Oscuro'
+      Reward:
+        Money: 6000
+  end_bricks:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos de Piedra del End.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos de Piedra del End!'
+      Name: coloca_10000_ladrillos_piedra_end
+      DisplayName: '&6Construcción: Ladrillos de Piedra del End'
+      Reward:
+        Money: 7000
+  purpur_block:
+    '10000':
+      Goal: '&dColoca Diez Mil Ladrillos Púrpura.'
+      Message: '&e¡Has colocado un total de 10.000 Ladrillos Púrpura!'
+      Name: coloca_10000_purpur_block
+      DisplayName: '&6Construcción: Ladrillos Púrpura'
+      Reward:
+        Money: 7000
+  purpur_pillar:
+    '10000':
+      Goal: '&dColoca Diez Mil Pilares Púrpura.'
+      Message: '&e¡Has colocado un total de 10.000 Pilares Púrpura!'
+      Name: coloca_10000_purpur_pillar
+      DisplayName: '&6Construcción: Pilares Púrpura'
+      Reward:
+        Money: 7000
+
+# When a specific block is broken (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
+# You can use notations such as sand:1 for pre-1.13 versions, which means sand item with metadata 1 (red sand).
+Breaks: 
+  sand:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arena.'
+      Message: '&e¡Has cavado 10.000 Bloques de Arena!'
+      Name: break_10000_sand0
+      DisplayName: '&6Colección: Arena'
+      Reward:
+        Money: 1000
+  sand:1:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arena Rojiza.'
+      Message: '&e¡Has cavado 10.000 Bloques de Arena Rojiza!'
+      Name: break_10000_sand1
+      DisplayName: '&6Colección: Arena Rojiza'
+      Reward:
+        Money: 1000
+  gravel:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Gravilla.'
+      Message: '&e¡Has cavado 10.000 Bloques de Gravilla!'
+      Name: break_10000_gravel1
+      DisplayName: '&6Colección: Gravilla'
+      Reward:
+        Money: 1000
+  clay:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arcilla.'
+      Message: '&e¡Has roto 10.000 Bloques de Arcilla!'
+      Name: break_10000_clay1
+      DisplayName: '&6Colección: Arcilla'
+      Reward:
+        Money: 1000
+  stained_clay:0:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arcilla Blanca.'
+      Message: '&e¡Has roto 10.000 Bloques de Arcilla Blanca!'
+      Name: break_10000_clay2
+      DisplayName: '&6Colección: Arcilla Blanca'
+      Reward:
+        Money: 1000
+  stained_clay:8:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arcilla Gris Claro.'
+      Message: '&e¡Has roto 10.000 Bloques de Arcilla Gris Claro!'
+      Name: break_10000_clay3
+      DisplayName: '&6Colección: Arcilla Gris Claro'
+      Reward:
+        Money: 1000
+  stained_clay:4:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arcilla Amarilla.'
+      Message: '&e¡Has roto 10.000 Bloques de Arcilla Amarilla!'
+      Name: break_10000_clay4
+      DisplayName: '&6Colección: Arcilla Amarilla'
+      Reward:
+        Money: 1000
+  stained_clay:1:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arcilla Naranja.'
+      Message: '&e¡Has roto 10.000 Bloques de Arcilla Naranja!'
+      Name: break_10000_clay5
+      DisplayName: '&6Colección: Arcilla Naranja'
+      Reward:
+        Money: 1000
+  stained_clay:14:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arcilla Roja.'
+      Message: '&e¡Has roto 10.000 Bloques de Arcilla Roja!'
+      Name: break_10000_clay6
+      DisplayName: '&6Colección: Arcilla Roja'
+      Reward:
+        Money: 1000
+  stone:
+    '10000':
+      Goal: '&dRecoge Diez Mil Piedras.'
+      Message: '&e¡Has picado 10.000 Bloques de Piedra!'
+      Name: break_10000_stone
+      DisplayName: '&6Colección: Piedra'
+      Reward:
+        Money: 1000
+        Command: give PLAYER 4 64; give PLAYER 1 64
+  stone:1:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Granito.'
+      Message: '&e¡Has picado 10.000 Bloques de Granito!'
+      Name: break_10000_stone1
+      DisplayName: '&6Colección: Granito'
+      Reward:
+        Money: 1000
+  stone:3:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Diorita.'
+      Message: '&e¡Has picado 10.000 Bloques de Diorita!'
+      Name: break_10000_stone2
+      DisplayName: '&6Colección: Diorita'
+      Reward:
+        Money: 1000
+  stone:5:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Andesita.'
+      Message: '&e¡Has picado 10.000 Bloques de Andesita!'
+      Name: break_10000_stone3
+      DisplayName: '&6Colección: Andesita'
+      Reward:
+        Money: 1000
+  glowstone:
+    '10000':
+      Goal: '&dRecoge Diez Mil Piedras Luminosas.'
+      Message: '&e¡Has picado 10.000 Bloques de Piedra Luminosa!'
+      Name: break_10000_gowstone
+      DisplayName: '&6Colección: Piedra Luminosa'
+      Reward:
+        Money: 6000
+  end_stone:
+    '10000':
+      Goal: '&dRecoge Diez Mil Piedras del End.'
+      Message: '&e¡Has picado 10.000 Piedras del End!'
+      Name: break_10000_end_stone
+      DisplayName: '&6Colección: Piedra del End'
+      Reward:
+        Money: 6000
+  purpur_block:
+    '10000':
+      Goal: '&dRecoge Diez Mil Ladrillos Púrpura.'
+      Message: '&e¡Has roto 10.000 bloques de Ladrillo Púrpura!'
+      Name: break_10000_purpur_block
+      DisplayName: '&6Colección: Ladrillo Púrpura'
+      Reward:
+        Money: 7000
+  netherrack:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Piedra Infernal.'
+      Message: '&e¡Has picado 10.000 Bloques de Piedra Infernal!'
+      Name: break_10000_netherrack
+      DisplayName: '&6Colección: Piedra Infernal'
+      Reward:
+        Money: 6000
+  nether_brick:
+    '10000':
+      Goal: '&dRecoge Diez Mil Infradrillos.'
+      Message: '&e¡Has roto 10.000 Bloques de Infradrillos!'
+      Name: break_10000_nether_brick
+      DisplayName: '&6Colección: Infradrillos'
+      Reward:
+        Money: 7000
+  grass:
+    '10000':
+      Goal: '&dRecoge Diez Mil Pedazos de Césped.'
+      Message: '&e¡Has cavado 10.000 Pedazos de Césped!'
+      Name: break_10000_grass
+      DisplayName: '&6Colección: Césped'
+      Reward:
+        Money: 1000
+  dirt:
+    '10000':
+      Goal: '&dRecoge Diez Mil Pedazos de Tierra.'
+      Message: '&e¡Has cavado 10.000 Pedazos de Tierra!'
+      Name: break_10000_dirt
+      DisplayName: '&6Colección: Tierra'
+      Reward:
+        Money: 1000
+  soul_sand:
+    '10000':
+      Goal: '&dRecoge Diez Mil Bloques de Arena de Almas.'
+      Message: '&e¡Has cavado 10.000 Pedazos de Arena de Almas!'
+      Name: break_10000_soul_sand
+      DisplayName: '&6Colección: Arena de Almas'
+      Reward:
+        Money: 6000
+  log:
+    '10000':
+      Goal: '&dRecoge Diez Mil Troncos de Roble.'
+      Message: '&e¡Has talado 10.000 Troncos de Roble!'
+      Name: break_10000_log
+      DisplayName: '&6Colección: Roble'
+      Reward:
+        Money: 5000
+  log:2:
+    '10000':
+      Goal: '&dRecoge Diez Mil Troncos de Abedul.'
+      Message: '&e¡Has talado 10.000 Troncos de Abedul!'
+      Name: break_10000_log2
+      DisplayName: '&6Colección: Abedul'
+      Reward:
+        Money: 5000
+  log:1:
+    '10000':
+      Goal: '&dRecoge Diez Mil Troncos de Abeto.'
+      Message: '&e¡Has talado 10.000 Troncos de Abeto!'
+      Name: break_10000_log3
+      DisplayName: '&6Colección: Abeto'
+      Reward:
+        Money: 5000
+  log:3:
+    '10000':
+      Goal: '&dRecoge Diez Mil Troncos Silvestres.'
+      Message: '&e¡Has talado 10.000 Troncos Silvestres!'
+      Name: break_10000_log4
+      DisplayName: '&6Colección: Tronco Silvestre'
+      Reward:
+        Money: 5000
+  log2:
+    '10000':
+      Goal: '&dRecoge Diez Mil Troncos de Acacia.'
+      Message: '&e¡Has talado 10.000 Troncos de Acacia!'
+      Name: break_10000_log5
+      DisplayName: '&6Colección: Acacia'
+      Reward:
+        Money: 6000
+  log2:1:
+    '10000':
+      Goal: '&dRecoge Diez Mil Troncos de Roble Oscuro.'
+      Message: '&e¡Has talado 10.000 Troncos de Robe Oscuro!'
+      Name: break_10000_log6
+      DisplayName: '&6Colección: Roble Oscuro'
+      Reward:
+        Money: 6000
+  coal_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Carbón.'
+      Message: '&e¡Has picado 10.000 Menas de Carbón!'
+      Name: break_10000_coal_ore
+      DisplayName: '&6Colección: &0Carbón'
+      Reward:
+        Money: 15000
+  iron_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Hierro.'
+      Message: '&e¡Has picado 10.000 Menas de Hierro!'
+      Name: break_10000_iron_ore
+      DisplayName: '&6Colección: &7Hierro'
+      Reward:
+        Money: 7000
+  gold_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Oro.'
+      Message: '&e¡Has picado 10.000 Menas de Oro!'
+      Name: break_10000_gold_ore
+      DisplayName: '&6Colección: &eOro'
+      Reward:
+        Money: 7000
+  lapis_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Lapislázuli.'
+      Message: '&e¡Has picado 10.000 Menas de Lapislázuli!'
+      Name: break_10000_lapis_ore
+      DisplayName: '&6Colección: &9Lapislázuli'
+      Reward:
+        Money: 7000
+  redstone_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Redstone.'
+      Message: '&e¡Has picado 10.000 Menas de Redstone!'
+      Name: break_10000_redstone_ore
+      DisplayName: '&6Colección: &cRedstone'
+      Reward:
+        Money: 7000
+  quartz_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Cuarzo.'
+      Message: '&e¡Has picado 10.000 Menas de Cuarzo!'
+      Name: break_10000_quartz_ore
+      DisplayName: '&6Colección: &7Cuarzo'
+      Reward:
+        Money: 7000
+  diamond_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Diamantes.'
+      Message: '&e¡Has picado 10.000 Menas de Diamantes!'
+      Name: break_10000_diamond_ore
+      DisplayName: '&6Colección: &3Diamante'
+      Reward:
+        Money: 7000
+  emerald_ore:
+    '10000':
+      Goal: '&dRecoge Diez Mil Menas de Esmeraldas.'
+      Message: '&e¡Has picado 10.000 Menas de Esmeraldas!'
+      Name: break_10000_emerald_ore
+      DisplayName: '&6Colección: &2Esmeralda'
+      Reward:
+        Money: 7000
+
+# When "something" is killed. You can use any of the following:
+# - an entity type (available names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names).
+# - poweredcreeper.
+# - a mob's custom name (name tag/plugins such as Mythic Mobs).
+# - player to track player kills as a whole.
+# - specificplayer- followed by player UUID to track how many times a specific player has been killed.
+Kills:
+  zombie:
+    '10':
+      Goal: '&dAsesina tus Diez primeros No-Muertos Zombies.'
+      Message: '&8¡Te has familiarizado con los no-muertos!'
+      DisplayName: Carne podrida
+      Name: kills_10_zombie
+      Reward:
+        Money: 100
+    '100':
+      Goal: '&dAsesina un Centenar de Zombies.'
+      Message: '&b¡Has asesinado 100 Zombies!'
+      DisplayName: '&3Limpia-Tumbas'
+      Name: kills_100_zombie
+      Reward:
+        Money: 1000
+    '1000':
+      Goal: '&dOtorga Redención a un Millar de No-Muertos Zombies.'
+      Message: '&a¡Has asesinado un millar de Zombies!'
+      DisplayName: '&2Redentor'
+      Name: kills_1000_zombie
+      Reward:
+        Money: 5000
+        command: ex give TrampaZombie
+    '10000':
+      Goal: '&dPurifica un total de Diez Mil No-Muertos Zombies.'
+      Message: '&e¡Has asesinado diez mil Zombies!'
+      DisplayName: '&6Maestro Redentor'
+      Name: kills_10000_zombie
+      Reward:
+        Money: 7000
+        command: ex give TrampaZombie
+  Skeleton:
+    '10':
+      Goal: '&dAsesina tus Diez primeros No-Muertos Esqueletos.'
+      Message: '&8¡Te has familiarizado con los Esqueletos!'
+      DisplayName: Hueso Hueco
+      Name: kills_10_Skeleton
+      Reward:
+        Money: 100
+    '100':
+      Goal: '&dAsesina un Centenar de Esqueletos.'
+      Message: '&b¡Has asesinado 100 Esqueletos!'
+      DisplayName: '&3Limpia-Criptas'
+      Name: kills_100_Skeleton
+      Reward:
+        Money: 1000
+    '1000':
+      Goal: '&dOtorga Redención a un Millar de No-Muertos Esqueletos.'
+      Message: '&a¡Has asesinado un millar de Esqueletos!'
+      DisplayName: '&2Purificador'
+      Name: kills_1000_Skeleton
+      Reward:
+        Money: 5000
+        command: ex give TrampaEsqueleto
+    '10000':
+      Goal: '&dPurifica un total de Diez Mil No-Muertos Esqueletos.'
+      Message: '&e¡Has asesinado diez mil Esqueletos!'
+      DisplayName: '&6Maestro Redentor'
+      Name: kills_10000_Skeleton
+      Reward:
+        Money: 7000
+        command: ex give TrampaEsqueleto
+  Spider:
+    '10':
+      Goal: '&dGolpea tus Diez primeros Arácnidos.'
+      Message: '&8¡Te has familiarizado con los Arácnidos!'
+      DisplayName: ¡eeks!
+      Name: kills_10_Spider
+      Reward:
+        Money: 100
+    '100':
+      Goal: '&dAsesina un Centenar de Arácnidos.'
+      Message: '&b¡Has asesinado 100 Arácnidos!'
+      DisplayName: '&3¡Aplástala!'
+      Name: kills_100_Spider
+      Reward:
+        Money: 1000
+    '1000':
+      Goal: '&dAplasta a un Millar de Arácnidos.'
+      Message: '&a¡Has asesinado un millar de Arácnidos!'
+      DisplayName: '&2Control de Plagas'
+      Name: kills_1000_Spider
+      Reward:
+        Money: 5000
+        command: ex give TrampaArania
+    '10000':
+      Goal: '&dDestroza un total de Diez Mil Arácnidos.'
+      Message: '&e¡Has asesinado diez mil Arácnidos!'
+      DisplayName: '&6Maestro Exterminador'
+      Name: kills_10000_Spider
+      Reward:
+        Money: 7000
+        command: ex give TrampaArania
+  Creeper:
+    '10':
+      Goal: '&dGolpea tus Diez primeros Creepers.'
+      Message: '&8¡Te has familiarizado con los Creepers!'
+      DisplayName: ¡Psssss...!
+      Name: kills_10_Creeper
+      Reward:
+        Money: 100
+    '100':
+      Goal: '&dAsesina un Centenar de Creepers.'
+      Message: '&b¡Has asesinado 100 Creepers!'
+      DisplayName: '&3Prevenir Estallidos'
+      Name: kills_100_Creeper
+      Reward:
+        Money: 1000
+    '1000':
+      Goal: '&dDescuartiza a un Millar de Creepers.'
+      Message: '&a¡Has asesinado un millar de Creepers!'
+      DisplayName: '&2Zumbido de Batalla'
+      Name: kills_1000_Creeper
+      Reward:
+        Money: 5000
+        command: ex give TrampaCreeper
+    '10000':
+      Goal: '&dDestroza un total de Diez Mil Creepers.'
+      Message: '&e¡Has asesinado diez mil Creepers!'
+      DisplayName: '&6Maestro del Sosiego'
+      Name: kills_10000_Creeper
+      Reward:
+        Money: 7000
+        command: ex give TrampaCreeper
+  Slime:
+    '10':
+      Goal: '&dGolpea tus Diez primeras Babosas.'
+      Message: '&8¡Te has familiarizado con las Babosas!'
+      DisplayName: ¡Pringoso!
+      Name: kills_10_Slime
+      Reward:
+        Money: 100
+    '100':
+      Goal: '&dAsesina un Centenar de Babosas.'
+      Message: '&b¡Has asesinado 100 Babosas!'
+      DisplayName: '&3¡Pegajoso!'
+      Name: kills_100_Slime
+      Reward:
+        Money: 1000
+    '1000':
+      Goal: '&dDescuartiza a un Millar de Babosas.'
+      Message: '&a¡Has asesinado un millar de Babosas!'
+      DisplayName: '&2¡Vicoso!'
+      Name: kills_1000_Slime
+      Reward:
+        Money: 5000
+        command: ex give TrampaSlime
+    '10000':
+      Goal: '&dDestroza un total de Diez Mil Babosas.'
+      Message: '&e¡Has asesinado diez mil Babosas!'
+      DisplayName: '&6Maestro Gelatinoso'
+      Name: kills_10000_Slime
+      Reward:
+        Money: 7000
+        command: ex give TrampaSlime
+  Blaze:
+    '10':
+      Goal: '&dApaga tus Diez primeros Blaze.'
+      Message: '&8¡Te has familiarizado con los Blaze!'
+      DisplayName: ¡Qué me Quema!
+      Name: kills_10_Blaze
+      Reward:
+        Money: 100
+    '100':
+      Goal: '&dAsesina un Centenar de Blaze.'
+      Message: '&b¡Has asesinado 100 Blaze!'
+      DisplayName: '&3Mata-Fuegos'
+      Name: kills_100_Blaze
+      Reward:
+        Money: 1000
+    '1000':
+      Goal: '&dChamusca a un Millar de Blaze.'
+      Message: '&a¡Has asesinado un millar de Blaze!'
+      DisplayName: '&2Apaga las Brasas'
+      Name: kills_1000_Blaze
+      Reward:
+        Money: 5000
+        command: ex give TrampaBlaze
+    '10000':
+      Goal: '&dInmola un total de Diez Mil Blaze.'
+      Message: '&e¡Has asesinado diez mil Blaze!'
+      DisplayName: '&6Maestro de la Combustión'
+      Name: kills_10000_Blaze
+      Reward:
+        Money: 7000
+        command: ex give TrampaBlaze
+          
+# When a specific target is shot (but not necessarily killed) with a projectile.
+# Available target block names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names
+# Available target entity names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names
+TargetsShot:
+  villager:
+    10:
+      Goal: '&dLanza cosas a los Aldeanos.'
+      Message: '&eHas lapidado a 10 aldeanos.'
+      Name: targetsshot_10_villager
+      DisplayName: Lapidador
+  glass:
+    100:
+      Goal: '&dRompe las ventanas de la abuela.'
+      Message: '&e¡Has roto 100 ventanas a flechazos!'
+      Name: targetsshot_100_glass
+      DisplayName: '&6Destructor de Ventanas'
+
+# When a specific item is crafted (available names: github.com/PyvesB/AdvancedAchievements/wiki/Material-names).
+Crafts:
+  wooden_shovel:
+    '1000':
+      Goal: '&dFabrica Mil Palas de Madera.'
+      Message: '&e¡Has fabricado 1.000 Palas de Madera!'
+      Name: craft_1000_wooden_shovel
+      DisplayName: '&6Herramienta: Pala de Madera'
+      Reward:
+        Money: 1000
+  stone_shovel:
+    '1000':
+      Goal: '&dFabrica Mil Palas de Piedra.'
+      Message: '&e¡Has fabricado 1.000 Palas de Piedra!'
+      Name: craft_1000_stone_shovel
+      DisplayName: '&6Herramienta: Pala de Piedra'
+      Reward:
+        Money: 3000
+  iron_shovel:
+    '1000':
+      Goal: '&dForja Mil Palas de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Palas de Hierro!'
+      Name: craft_1000_iron_shovel
+      DisplayName: '&6Herramienta: Pala de Hierro'
+      Reward:
+        Money: 5000
+  golden_shovel:
+    '1000':
+      Goal: '&dForja Mil Palas de Oro.'
+      Message: '&e¡Has fabricado 1.000 Palas de Oro!'
+      Name: craft_1000_golden_shovel
+      DisplayName: '&6Herramienta: Pala de Oro'
+      Reward:
+        Money: 6000
+  diamond_shovel:
+    '1000':
+      Goal: '&dForja Mil Palas de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Palas de Diamante!'
+      Name: craft_1000_diamond_shovel
+      DisplayName: '&6Herramienta: Pala de Diamante'
+      Reward:
+        Money: 7000
+  wooden_axe:
+    '1000':
+      Goal: '&dFabrica Mil Hachas de Madera.'
+      Message: '&e¡Has fabricado 1.000 Hachas de Madera!'
+      Name: craft_1000_wooden_axe
+      DisplayName: '&6Herramienta: Hacha de Madera'
+      Reward:
+        Money: 1000
+  stone_axe:
+    '1000':
+      Goal: '&dFabrica Mil Hachas de Piedra.'
+      Message: '&e¡Has fabricado 1.000 Hachas de Piedra!'
+      Name: craft_1000_stone_axe
+      DisplayName: '&6Herramienta: Hacha de Piedra'
+      Reward:
+        Money: 3000
+  iron_axe:
+    '1000':
+      Goal: '&dForja Mil Hachas de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Hachas de Hierro!'
+      Name: craft_1000_iron_axe
+      DisplayName: '&6Herramienta: Hacha de Hierro'
+      Reward:
+        Money: 5000
+  golden_axe:
+    '1000':
+      Goal: '&dForja Mil Hachas de Oro.'
+      Message: '&e¡Has fabricado 1.000 Hachas de Oro!'
+      Name: craft_1000_golden_axe
+      DisplayName: '&6Herramienta: Hacha de Oro'
+      Reward:
+        Money: 6000
+  diamond_axe:
+    '1000':
+      Goal: '&dForja Mil Hachas de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Hachas de Diamante!'
+      Name: craft_1000_diamond_axe
+      DisplayName: '&6Herramienta: Hacha de Diamante'
+      Reward:
+        Money: 7000
+  wooden_pickaxe:
+    '1000':
+      Goal: '&dFabrica Mil Picos de Madera.'
+      Message: '&e¡Has fabricado 1.000 Picos de Madera!'
+      Name: craft_1000_wooden_pickaxe
+      DisplayName: '&6Herramienta: Pico de Madera'
+      Reward:
+        Money: 1000
+  stone_pickaxe:
+    '1000':
+      Goal: '&dFabrica Mil Picos de Piedra.'
+      Message: '&e¡Has fabricado 1.000 Picos de Piedra!'
+      Name: craft_1000_stone_pickaxe
+      DisplayName: '&6Herramienta: Pico de Piedra'
+      Reward:
+        Money: 3000
+  iron_pickaxe:
+    '1000':
+      Goal: '&dForja Mil Picos de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Picos de Hierro!'
+      Name: craft_1000_iron_pickaxe
+      DisplayName: '&6Herramienta: Pico de Hierro'
+      Reward:
+        Money: 5000
+  golden_pickaxe:
+    '1000':
+      Goal: '&dForja Mil Picos de Oro.'
+      Message: '&e¡Has fabricado 1.000 Picos de Oro!'
+      Name: craft_1000_golden_pickaxe
+      DisplayName: '&6Herramienta: Pico de Oro'
+      Reward:
+        Money: 6000
+  diamond_pickaxe:
+    '1000':
+      Goal: '&dForja Mil Picos de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Picos de Diamante!'
+      Name: craft_1000_diamond_pickaxe
+      DisplayName: '&6Herramienta: Pico de Diamante'
+      Reward:
+        Money: 7000
+  wooden_sword:
+    '1000':
+      Goal: '&dFabrica Mil Espadas de Madera.'
+      Message: '&e¡Has fabricado 1.000 Espadas de Madera!'
+      Name: craft_1000_wooden_blade
+      DisplayName: '&6Armería: Espada de Madera'
+      Reward:
+        Money: 1000
+  stone_sword:
+    '1000':
+      Goal: '&dFabrica Mil Espadas de Piedra.'
+      Message: '&e¡Has fabricado 1.000 Espadas de Piedra!'
+      Name: craft_1000_stone_blade
+      DisplayName: '&6Armería: Espada de Piedra'
+      Reward:
+        Money: 3000
+  iron_sword:
+    '1000':
+      Goal: '&dForja Mil Espadas de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Espadas de Hierro!'
+      Name: craft_1000_iron_blade
+      DisplayName: '&6Armería: Espada de Hierro'
+      Reward:
+        Money: 5000
+  golden_sword:
+    '1000':
+      Goal: '&dForja Mil Espadas de Oro.'
+      Message: '&e¡Has fabricado 1.000 Espadas de Oro!'
+      Name: craft_1000_golden_blade
+      DisplayName: '&6Armería: Espada de Oro'
+      Reward:
+        Money: 6000
+  diamond_sword:
+    '1000':
+      Goal: '&dForja Mil Espadas de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Espadas de Diamante!'
+      Name: craft_1000_diamond_blade
+      DisplayName: '&6Armería: Espada de Diamante'
+      Reward:
+        Money: 7000
+  bow:
+    '1000':
+      Goal: '&dFabrica Mil Arcos.'
+      Message: '&e¡Has fabricado 1.000 Arcos!'
+      Name: craft_1000_bow
+      DisplayName: '&6Armería: Arco'
+      Reward:
+        Money: 15000
+  leather_helmet:
+    '1000':
+      Goal: '&dElabora Mil Capas de Cuero.'
+      Message: '&e¡Has fabricado 1.000 Capas de Cuero!'
+      Name: craft_1000_leather_helmet
+      DisplayName: '&6Armería: Capa de Cuero'
+      Reward:
+        Money: 3000
+  leather_chestplate:
+    '1000':
+      Goal: '&dElabora Mil Petos de Cuero.'
+      Message: '&e¡Has fabricado 1.000 Petos de Cuero!'
+      Name: craft_1000_leather_chestplate
+      DisplayName: '&6Armería: Peto de Cuero'
+      Reward:
+        Money: 3000
+  leather_leggings:
+    '1000':
+      Goal: '&dElabora Mil Pantalones de Cuero.'
+      Message: '&e¡Has fabricado 1.000 Pantalones de Cuero!'
+      Name: craft_1000_leather_leggings
+      DisplayName: '&6Armería: Pantalón de Cuero'
+      Reward:
+        Money: 3000
+  leather_boots:
+    '1000':
+      Goal: '&dElabora Mil Botas de Cuero.'
+      Message: '&e¡Has fabricado 1.000 Botas de Cuero!'
+      Name: craft_1000_leather_boots
+      DisplayName: '&6Armería: Botas de Cuero'
+      Reward:
+        Money: 3000
+  iron_helmet:
+    '1000':
+      Goal: '&dElabora Mil Cascos de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Cascos de Hierro!'
+      Name: craft_1000_iron_helmet
+      DisplayName: '&6Armería: Casco de Hierro'
+      Reward:
+        Money: 5000
+  iron_chestplate:
+    '1000':
+      Goal: '&dElabora Mil Petos de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Petos de Hierro!'
+      Name: craft_1000_iron_chestplate
+      DisplayName: '&6Armería: Peto de Hierro'
+      Reward:
+        Money: 5000
+  iron_leggings:
+    '1000':
+      Goal: '&dElabora Mil Mallas de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Mallas de Hierro!'
+      Name: craft_1000_iron_leggings
+      DisplayName: '&6Armería: Malla de Hierro'
+      Reward:
+        Money: 5000
+  iron_boots:
+    '1000':
+      Goal: '&dElabora Mil Botas de Hierro.'
+      Message: '&e¡Has fabricado 1.000 Botas de Hierro!'
+      Name: craft_1000_iron_boots
+      DisplayName: '&6Armería: Botas de Hierro'
+      Reward:
+        Money: 5000
+  golden_helmet:
+    '1000':
+      Goal: '&dElabora Mil Cascos de Oro.'
+      Message: '&e¡Has fabricado 1.000 Cascos de Oro!'
+      Name: craft_1000_golden_helmet
+      DisplayName: '&6Armería: Casco de Oro'
+      Reward:
+        Money: 6000
+  golden_chestplate:
+    '1000':
+      Goal: '&dElabora Mil Petos de Oro.'
+      Message: '&e¡Has fabricado 1.000 Petos de Oro!'
+      Name: craft_1000_golden_chestplate
+      DisplayName: '&6Armería: Peto de Oro'
+      Reward:
+        Money: 6000
+  golden_leggings:
+    '1000':
+      Goal: '&dElabora Mil Mallas de Oro.'
+      Message: '&e¡Has fabricado 1.000 Mallas de Oro!'
+      Name: craft_1000_golden_leggings
+      DisplayName: '&6Armería: Malla de Oro'
+      Reward:
+        Money: 6000
+  golden_boots:
+    '1000':
+      Goal: '&dElabora Mil Botas de Oro.'
+      Message: '&e¡Has fabricado 1.000 Botas de Oro!'
+      Name: craft_1000_golden_boots
+      DisplayName: '&6Armería: Botas de Oro'
+      Reward:
+        Money: 6000
+  diamond_helmet:
+    '1000':
+      Goal: '&dElabora Mil Cascos de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Cascos de Diamante!'
+      Name: craft_1000_diamond_helmet
+      DisplayName: '&6Armería: Casco de Diamante'
+      Reward:
+        Money: 7000
+  diamond_chestplate:
+    '1000':
+      Goal: '&dElabora Mil Petos de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Petos de Diamante!'
+      Name: craft_1000_diamond_chestplate
+      DisplayName: '&6Armería: Peto de Diamante'
+      Reward:
+        Money: 7000
+  diamond_leggings:
+    '1000':
+      Goal: '&dElabora Mil Mallas de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Mallas de Diamante!'
+      Name: craft_1000_diamond_leggings
+      DisplayName: '&6Armería: Malla de Diamante'
+      Reward:
+        Money: 7000
+  diamond_boots:
+    '1000':
+      Goal: '&dElabora Mil Botas de Diamante.'
+      Message: '&e¡Has fabricado 1.000 Botas de Diamante!'
+      Name: craft_1000_diamond_boots
+      DisplayName: '&6Armería: Botas de Diamante'
+      Reward:
+        Money: 7000
+  bread:
+    '1000':
+      Goal: '&dAmasa Mil barras de Pan.'
+      Message: '&e¡Has fabricado 1.000 Barras de Pan!'
+      Name: craft_1000_bread
+      DisplayName: '&6Víveres: Pan'
+      Reward:
+        Money: 15000
+  mushroom_stew:
+    '1000':
+      Goal: '&dCocina Mil Estofados de Setas.'
+      Message: '&e¡Has Cocinado 1.000 Estofados de Setas!'
+      Name: craft_1000_mushroom_stew
+      DisplayName: '&6Víveres: Estofado de Setas'
+      Reward:
+        Money: 7000
+  beetroot_soup:
+    '1000':
+      Goal: '&dCocina Mil Estofados de Remolacha.'
+      Message: '&e¡Has Cocinado 1.000 Estofados de Remolacha!'
+      Name: craft_1000_beetroot_stew
+      DisplayName: '&6Víveres: Estofado de Remolacha'
+      Reward:
+        Money: 7000
+  rabbit_stew:
+    '1000':
+      Goal: '&dCocina Mil Estofados de Conejo.'
+      Message: '&e¡Has Cocinado 1.000 Estofados de Conejo!'
+      Name: craft_1000_rabbit_stew
+      DisplayName: '&6Víveres: Estofado de Conejo'
+      Reward:
+        Money: 7000
+  cookie:
+    '1000':
+      Goal: '&dElabora Mil Galletas.'
+      Message: '&e¡Has Elaborado 1.000 Galletas!'
+      Name: craft_1000_cokies
+      DisplayName: '&6Víveres: Galleta'
+      Reward:
+        Money: 7000
+  cake:
+    '1000':
+      Goal: '&dElabora Mil Tartas.'
+      Message: '&e¡Has Elaborado 1.000 Tartas!'
+      Name: craft_1000_cake
+      DisplayName: '&6Víveres: Tarta'
+      Reward:
+        Money: 7000
+        
+# When a player enters a specific command (specify command prefixes in lower case without initial slash).
+# For instance a command /awf add world from the AntiWorldFly plugin matches with subcategory 'awf add'.
+# Aliases of a given command will also be taken into account.
+PlayerCommands:
+  conjuros:
+    '10':
+      Goal: '&dUsa el Conjuro ''Conjuros'' Una Decena de veces.'
+      Message: '&b¡Has recibido una nueva guía de Conjuros usado el Conjuro ''Conjuros''
+        10 veces!'
+      Name: playercommand_conjuros_10
+      DisplayName: '&3Ahora me queda claro'
+  logros:
+    '50':
+      Goal: '&dUsa el Conjuro ''Logros'' una Cincuentena de veces.'
+      Message: '&b¡Has comprobado todos los logros usado el Conjuro ''Logros'' 50
+        veces!'
+      Name: playercommand_logros_10
+      DisplayName: '&3Más Logros!'
+  suicidar:
+    '50':
+      Goal: '&dUsa el Conjuro ''Suicidar'' una Cincuentena de veces.'
+      Message: '&b¡Has terminado con tu miseria usado el Conjuro ''Suicidar'' 50 veces!'
+      Name: playercommand_suicidar_10
+      DisplayName: '&3La última salida...'
+  pagar:
+    '100':
+      Goal: '&dUsa el Conjuro ''Pagar'' un Centenar de veces.'
+      Message: '&b¡Has pagado tus deudas usando el Conjuro ''Pagar'' &7100 veces!'
+      Name: playercommand_pagar_100
+      DisplayName: '&3Deuda Saldada'
+  estatus:
+    '100':
+      Goal: '&dUsa el Conjuro ''Estatus'' un Centenar de veces.'
+      Message: '&b¡Has comprobado tus requisitos para ascender Socialmente usando
+        el Conjuro ''Estatus'' &7100 veces!'
+      Name: playercommand_estatus_100
+      DisplayName: '&3Necesidad Social'
+  hogar:
+    '500':
+      Goal: '&dUsa el Conjuro ''Hogar'' Cinco Centenares de veces.'
+      Message: '&b¡Has regresado a casa usando el Conjuro ''Hogar'' 500 veces!'
+      Name: playercommand_hogar_500
+      DisplayName: '&3De vuelta a Casa'
+  decoracion:
+    '500':
+      Goal: '&dUsa el Conjuro ''Decoracion'' Cinco Centenares de veces.'
+      Message: '&b¡Has abierto la tienda de decoraciones usando el Conjuro ''Decoracion''
+        &7500 veces!'
+      Name: playercommand_decoracion_500
+      DisplayName: '&3Quedará Genial!'
+  profesiones:
+    '500':
+      Goal: '&dUsa el Conjuro ''Profesiones'' Cinco Centenares de veces.'
+      Message: '&b¡Has comprobado tu avance laboral usando el Conjuro ''Profesiones''
+        &7500 veces!'
+      Name: playercommand_trabajos_500
+      DisplayName: '&3ímpetu Laboral'
+  fortin:
+    '1000':
+      Goal: '&dUsa el Conjuro ''Abdullah'' Un Millar de veces.'
+      Message: '&e¡Has vuelto al Fortín VillaCabra usando el Conjuro ''Abdullah''
+        &71.000 veces!'
+      Name: playercommand_abdullah_1000
+      DisplayName: '&6De vuelta al Inicio'
+  prisa:
+    '1000':
+      Goal: '&dAprende y usa el Conjuro para correr más deprisa Un Millar de veces.'
+      Message: '&e¡Te has dado Prisa usando el Conjuro ''Prisa'' &71.000 veces!'
+      Name: playercommand_prisa_1000
+      DisplayName: '&6Más Deprisa'
+  buceo:
+    '1000':
+      Goal: '&dAprende y usa el Conjuro para respirar más tiempo bajo el agua.'
+      Message: '&e¡Has recuperado aire usando el Conjuro ''Buceo'' &71.000 veces!'
+      Name: playercommand_buceo_1000
+      DisplayName: '&6Sumergido'
+          
+# When animals breed (available names: github.com/PyvesB/AdvancedAchievements/wiki/Entity-names).
+Breeding:
+  sheep:
+    1:
+      Goal: Breed a sheep.
+      Message: You bred your first sheep!
+      Name: breeding_1_sheep
+      DisplayName: Breeder
+      
+#===========================OOO=OOO===========================#
+# VI-------------------------------------------------------VI #
+# |               Normal action achievements                | #
+# |           These are based on thresholds only            | #
+# 6---------------------------------------------------------6 #
+#===========================ooo=ooo===========================#
+
+# When a player connects during the day; statistic increases at most once per day.
+Connections:
+  '1':
+    Goal: '&dConéctate por Primera vez a NeoMedieval.'
+    Message: '&8¡Te has conectado a NeoMedieval por primera vez!'
+    Name: connect_1
+    DisplayName: Bienvenidos seáis
+  '100':
+    Goal: '&dConéctate Cien veces a NeoMedieval.'
+    Message: '&b¡Te has conectado a NeoMedieval 100 veces!'
+    Name: connect_100
+    DisplayName: '&3Cogiendo el Hábito'
+    Reward:
+      Money: 1000
+      command: ex give CartaCARHUGO
+  '500':
+    Goal: '&dConéctate Quinientas veces a NeoMedieval.'
+    Message: '&a¡Te has conectado a NeoMedieval 500 veces!'
+    Name: connect_500
+    DisplayName: '&2Persona de Costumbres'
+    Reward:
+      Money: 5000
+      command: ex give CartaCARHUGO
+  '5000':
+    Goal: '&dConéctate un total de Cinco Mil veces a NeoMedieval.'
+    Message: '&e¡Te has conectado a NeoMedieval 5000 veces!'
+    Name: connect_5000
+    DisplayName: '&6Maestro de la Adicción'
+    Reward:
+      Money: 7000
+      command: ex give CartaC4BR3R4
+
+# When the player dies.
+Deaths:
+  '1':
+    Goal: '&dMuere por Primera Vez.'
+    Message: '&7¡La primera vez que mueres!'
+    Name: deaths_1
+    DisplayName: Descansa en Paz
+  '25':
+    Goal: '&dMuere Veinticinco Veces.'
+    Message: '&b¡Has muerto 25 veces!'
+    Name: deaths_25
+    DisplayName: '&3Adicción al Dolor'
+  '125':
+    Goal: '&dMuere Ciento Veinticinco Veces.'
+    Message: '&a¡Has muerto 125 veces!'
+    Name: deaths_125
+    DisplayName: '&2Sadista'
+  '500':
+    Goal: '&dMuere un total de Quinientas Veces.'
+    Message: '&e¡Has muerto 500 veces!'
+    Name: deaths_500
+    DisplayName: '&6Maestro del más allá'
+    Reward:
+      Command: warp 500muertes
+    
+# When an arrow is shot.
+Arrows:
+  '50':
+    Goal: '&dDispara Cincuenta Flechas.'
+    Message: '&7¡50 flechas lanzadas!'
+    Name: arrows_50
+    DisplayName: Práctica de tiro
+    Reward:
+      Money: 500
+  '500':
+    Goal: '&dDispara Quinientas Flechas.'
+    Message: '&7¡500 flechas lanzadas!'
+    Name: arrows_500
+    DisplayName: '&3Disparo certero'
+    Reward:
+      Money: 1000
+  '2000':
+    Goal: '&dDispara Dos Mil Flechas.'
+    Message: '&a¡2.000 flechas lanzadas!'
+    Name: arrows_2000
+    DisplayName: '&2Francotirador'
+    Reward:
+      Money: 3000
+  '20000':
+    Goal: '&dDispara un total de Veinte Mil Flechas.'
+    Message: '&e¡20.000 flechas lanzadas!'
+    Name: arrows_20000
+    DisplayName: '&6Maestro del Arco'
+    Reward:
+      Money: 6000
+    
+# When a snowball is thrown.  
+Snowballs:
+  '1000':
+    Goal: '&dLanza Mil Bolas de nieve Desalmadamente.'
+    Message: '&a¡Has lanzado 1.000 Bolas de nieve!'
+    Name: snowballs_1000
+    DisplayName: '&2Locura Invernal'
+    Reward:
+        # 30 corresponds to one bubble in the oxygen bar.
+        IncreaseMaxOxygen: 30
+    
+# When an egg is thrown.  
+Eggs:
+  '1000':
+    Goal: '&dLanza Mil Huevos Despiadadamente.'
+    Message: '&a¡Haz lanzado 1.000 Huevos!'
+    Name: eggs_1000
+    DisplayName: '&2Me gustan los Huevos'
+    
+# When a fish is caught. 
+Fish:
+  '10':
+    Goal: '&dPesca tus Diez primeros Peces.'
+    Message: '&7¡¡Te has familiarizado con la caña!'
+    Name: fish_10
+    DisplayName: Han Picado!
+    Reward:
+      Money: 1000
+  '100':
+    Goal: '&dPesca Cien Peces.'
+    Message: '&b¡Has capturado 100 Pescados!'
+    Name: fish_100
+    DisplayName: '&3Iniciado a la Pesca'
+    Reward:
+      Money: 1000
+  '800':
+    Goal: '&dPesca Ochocientos Peces.'
+    Message: '&a¡Has capturado 800 Pescados!'
+    Name: fish_800
+    DisplayName: '&2Pescador Dedicado'
+    Reward:
+      Money: 18000
+  '2000':
+    Goal: '&dPesca un total de Dos Mil Peces.'
+    Message: '&e¡Has capturado 2.000 Pescados!'
+    Name: fish_2000
+    DisplayName: '&6Maestro del Sedal'
+    Reward:
+      Money: 30000
+    
+# When a treasure is caught with a fishing rod.
+Treasures:
+  '1':
+    Goal: '&dObten algún Tesoro del fondo del agua.'
+    Message: '&7¡Has pescado tu primer tesoro acuático!'
+    Name: treasure_1
+    DisplayName: Cazador de Tesoros
+    Reward:
+      Money: 1000
+  '100':
+    Goal: '&dObten Cien Tesoros Pescando.'
+    Message: '&b¡Has pescado 100 tesoros acuáticos!'
+    Name: treasure_100
+    DisplayName: '&3Prefería el Pescado'
+    Reward:
+      Money: 1000
+  '700':
+    Goal: '&dObten Setecientos Tesoros Pescando.'
+    Message: '&a¡Has pescado 700 tesoros acuáticos!'
+    Name: treasure_700
+    DisplayName: '&2Limpiador de Océanos'
+    Reward:
+      Money: 18000
+  '1500':
+    Goal: '&dObten un total de Mil Quinientos Tesoros Pescando.'
+    Message: '&e¡Has pescado 1.500 tesoros acuáticos!'
+    Name: treasure_1500
+    DisplayName: '&6Maestro Depurador'
+    Reward:
+      Money: 30000
+
+# When a tool/armor/weapon is broken.  
+ItemBreaks:
+  '1':
+    Goal: '&dRompe tu primera herramienta.'
+    Message: '&7¡Has roto tu primera herramienta!'
+    Name: itembreaks_1
+    DisplayName: Desgastado
+    Reward:
+      Money: 200
+  '50':
+    Goal: '&dRompe Cincuenta herramientas.'
+    Message: '&b¡Has roto 50 herramientas!'
+    Name: itembreaks_50
+    DisplayName: '&3Mala calidad'
+    Reward:
+      Money: 1000
+  '500':
+    Goal: '&dRompe Quinientas herramientas.'
+    Message: '&a¡Has roto 500 herramientas!'
+    Name: itembreaks_500
+    DisplayName: '&2Destructor'
+    Reward:
+      Money: 1000
+  '10000':
+    Goal: '&dRompe un total de Diez Mil herramientas.'
+    Message: '&e¡Has roto 10.000 herramientas!'
+    Name: itembreaks_10000
+    DisplayName: '&6Maestro Quebrantador'
+    Reward:
+      Money: 6000
+
+# When an item is eaten (excludes potions and milk).
+EatenItems:
+  '10':
+    Goal: '&dConsume tus diez primeras porciones de Comida.'
+    Message: '&7¡Has pegado unos bocados!'
+    Name: eatenitems_10
+    DisplayName: Aperitivo
+    Reward:
+      Money: 200
+  '100':
+    Goal: '&dCome Cien piezas de Comida.'
+    Message: '&b¡Consume 100 piezas de comida!'
+    Name: eatenitems_100
+    DisplayName: '&3Plato Fuerte'
+    Reward:
+      Money: 1000
+  '1000':
+    Goal: '&dEngulle Mil Piezas de Comida.'
+    Message: '&a¡Consume 1.000 piezas de comida!'
+    Name: eatenitems_1000
+    DisplayName: '&2Postres'
+    Reward:
+      Money: 1000
+  '10000':
+    Goal: '&dDevora un total de Diez Mil piezas de Comida.'
+    Message: '&e¡Has devorado 10.000 piezas de comida!'
+    Name: eatenitems_10000
+    DisplayName: '&4Pecado de la Gula'
+    Reward:
+      Money: 15000 
+    
+# When a sheep is sheared.
+Shear:
+  '20':
+    Goal: '&dEsquila tus primeras Veinte Ovejas.'
+    Message: '&7¡Has esquilado 20 Ovejas!'
+    Name: shear_20
+    DisplayName: Cizallas
+    Reward:
+      Money: 200
+  '500':
+    Goal: '&dEsquila Quinientas Ovejas.'
+    Message: '&b¡Has esquilado 500 Ovejas!'
+    Name: shear_500
+    DisplayName: '&3Esquilador'
+    Reward:
+      Money: 1000
+  '5000':
+    Goal: '&dEsquila Cinco Mil Ovejas.'
+    Message: '&a¡Has esquilado 5.000 Ovejas!'
+    Name: shear_5000
+    DisplayName: '&2Calcetines de Lana'
+    Reward:
+      Money: 1000
+  '25000':
+    Goal: '&dEsquila Veinticinco Mil Ovejas.'
+    Message: '&e¡Has esquilado 25.000 Ovejas!'
+    Name: shear_25000
+    DisplayName: '&6Maestro Pastor'
+    Reward:
+      Money: 6000
+
+# When a cow is milked.
+Milk:
+  '10':
+    Goal: '&dOrdeña tus primeras Diez vacas.'
+    Message: '&7¡Has Ordeñado 10 Vacas!'
+    Name: milk_10
+    DisplayName: Desayuno Lácteo
+    Reward:
+      Money: 200
+  '100':
+    Goal: '&dOrdeña Cien vacas.'
+    Message: '&b¡Has Ordeñado 100 Vacas!'
+    Name: milk_100
+    DisplayName: '&3Manos a las Ubres'
+    Reward:
+      Money: 1000
+  '1000':
+    Goal: '&dOrdeña Mil vacas.'
+    Message: '&a¡Has Ordeñado 1.000 Vacas!'
+    Name: milk_1000
+    DisplayName: '&2Adicto al Calostro'
+    Reward:
+      Money: 1000
+  '10000':
+    Goal: '&dOrdeña un total de Diez Mil vacas.'
+    Message: '&e¡Has Ordeñado 10.000 Vacas!'
+    Name: milk_10000
+    DisplayName: '&6Maestro Lechero'
+    Reward:
+      Money: 6000
+    
+# When a bucket is filled with lava.
+LavaBuckets:
+  '10':
+    Goal: '&dLlena tus Primeros Diez Cubos con Lava.'
+    Message: '&7¡Has llenado 10 Cubos con Lava!'
+    Name: lavabuckets_10
+    DisplayName: Quema!
+    Reward:
+      Money: 200
+  '120':
+    Goal: '&dLlena Ciento Veinte Cubos con Lava.'
+    Message: '&b¡Has llenado 120 Cubos con Lava!'
+    Name: lavabuckets_120
+    DisplayName: '&3Manos Ardientes'
+    Reward:
+      Money: 1000
+  '1200':
+    Goal: '&dLlena Mil Doscientos Cubos con Lava.'
+    Message: '&a¡Has llenado 1.200 Cubos con Lava!'
+    Name: lavabuckets_1200
+    DisplayName: '&2Incendiario'
+    Reward:
+      Money: 1000
+  '10000':
+    Goal: '&dLlena un total de Diez Mil Cubos con Lava.'
+    Message: '&e¡Has llenado 10.000 Cubos con Lava!'
+    Name: lavabuckets_10000
+    DisplayName: '&6Maestro Pirómano'
+    Reward:
+      Money: 5000
+    
+# When a bucket is filled with water.
+WaterBuckets:
+  '15':
+    Goal: '&dLlena tus Primeros Quince Cubos con Agua.'
+    Message: '&7¡Has llenado 15 Cubos con Agua!'
+    Name: waterbuckets_15
+    DisplayName: Al Pozo
+    Reward:
+      Money: 100
+  '150':
+    Goal: '&dLlena Ciento Cincuenta Cubos con Agua.'
+    Message: '&b¡Has llenado 150 Cubos con Agua!'
+    Name: waterbuckets_150
+    DisplayName: '&3Regadera'
+    Reward:
+      Money: 1000
+  '1500':
+    Goal: '&dLlena Mil Quinientos Cubos con Agua.'
+    Message: '&a¡Has llenado 1.500 Cubos con Agua!'
+    Name: waterbuckets_1500
+    DisplayName: '&2Bombero'
+    Reward:
+      Money: 1000
+  '25000':
+    Goal: '&dLlena un total de Veinticinco Mil Cubos con Agua.'
+    Message: '&e¡Has llenado 25.000 Cubos con Agua!'
+    Name: waterbuckets_25000
+    DisplayName: '&6Maestro Irrigador'
+    Reward:
+      Money: 5000 
+    
+# When a trade with a villager is made.
+Trades:
+  '1':
+    Goal: '&dHaz tu Primer Trato con un habitante de NeoMedieval.'
+    Message: '&7¡Has hecho 1 trato con un Habitante de NeoMedieval!'
+    Name: trades_1
+    DisplayName: Primer Trato
+    Reward:
+      Money: 100
+      item: emerald 1
+  '100':
+    Goal: '&dHaz Cien Tratos con habitantes de NeoMedieval.'
+    Message: '&b¡Has hecho 100 tratos con Habitantes de NeoMedieval!'
+    Name: trades_100
+    DisplayName: '&3Mercader'
+    Reward:
+      Money: 1000
+      item: emerald 10
+  '1000':
+    Goal: '&dHaz Mil Tratos con habitantes de NeoMedieval.'
+    Message: '&a¡Has hecho 1000 tratos con Habitantes de NeoMedieval!'
+    Name: trades_1000
+    DisplayName: '&2Comerciante'
+    Reward:
+      Money: 1000
+      item: emerald 64
+  '25000':
+    Goal: '&dHaz un total de Veinticinco Mil Tratos con habitantes de NeoMedieval.'
+    Message: '&e¡Has hecho 25.000 tratos con Habitantes de NeoMedieval!'
+    Name: trades_25000
+    DisplayName: '&6Maestro del Negocio'
+    Reward:
+      Money: 15000
+      item: emerald_block 64
+
+# When an anvil is used.
+AnvilsUsed:
+  '5':
+    Goal: '&dRepara tus primeros Cinco Objetos.'
+    Message: '&7¡Has reparado 5 Objetos!'
+    Name: anvilsused_5
+    DisplayName: Prácticas de Martillo
+    Reward:
+      Money: 300
+  '50':
+    Goal: '&dRepara Cincuenta Objetos.'
+    Message: '&b¡Has reparado 50 Objetos!'
+    Name: anvilsused_50
+    DisplayName: '&3Reparador'
+    Reward:
+      Money: 1200
+  '500':
+    Goal: '&dRepara Quinientos Objetos.'
+    Message: '&a¡Has reparado 500 Objetos!'
+    Name: anvilsused_500
+    DisplayName: '&2Yunque al Rojo Vivo'
+    Reward:
+      Money: 5500
+  '5000':
+    Goal: '&dRepara un total de Cinco Mil Objetos.'
+    Message: '&e¡Has reparado 5.000 Objetos!'
+    Name: anvilsused_5000
+    DisplayName: '&6Maestro de Fragua'
+    Reward:
+      Money: 21000
+
+# When an enchantment is performed.
+Enchantments:
+  '5':
+    Goal: '&dEncanta tus primeros Cinco Objetos.'
+    Message: '&7¡Has encantado 5 objectos!'
+    Name: enchantments_5
+    DisplayName: Aprendiz de Mago
+    Reward:
+      Money: 300
+  '50':
+    Goal: '&dEncanta Cincuenta Objetos.'
+    Message: '&b¡Has encantado 50 objectos!'
+    Name: enchantments_50
+    DisplayName: '&3Encantador'
+    Reward:
+      Money: 1200
+  '500':
+    Goal: '&dEncanta Quinientos Objetos.'
+    Message: '&a¡Has encantado 500 objectos!'
+    Name: enchantments_500
+    DisplayName: '&2Ilusionista'
+    Reward:
+      Money: 5500
+  '5000':
+    Goal: '&dEncanta Cinco Mil Objetos.'
+    Message: '&e¡Has encantado 5.000 objectos!'
+    Name: enchantments_5000
+    DisplayName: '&6Maestro Prestidigitador'
+    Reward:
+      Money: 21000
+
+# When a bed is entered.
+Beds:
+  '5':
+    Goal: '&dDescansa tus primeras Cinco veces.'
+    Message: '&7¡Te has acostado 5 Veces!'
+    Name: bed_5
+    DisplayName: Toca Descansar
+    Reward:
+      Money: 100
+  '50':
+    Goal: '&dDuerme Cincuenta veces.'
+    Message: '&b¡Te has acostado 50 Veces!'
+    Name: bed_50
+    DisplayName: '&3Reposo'
+    Reward:
+      Money: 1000
+  '500':
+    Goal: '&dAcuéstate Quinientas veces.'
+    Message: '&a¡Te has acostado 500 Veces!'
+    Name: bed_500
+    DisplayName: '&2Adicto al Sueño'
+    Reward:
+      Money: 1000
+  '15000':
+    Goal: '&dAcuéstate un total de Quince Mil veces.'
+    Message: '&e¡Te has acostado 15.000 Veces!'
+    Name: bed_15000
+    DisplayName: '&4Pecado de la Pereza'
+    Reward:
+      Money: 7000
+
+# Maximum level reached.
+MaxLevel:
+  '10':
+    Goal: '&dAdquiere tus Primeros Diez Niveles.'
+    Message: '&7¡Adquiridos 10 Niveles!'
+    Name: maxlevel_10
+    DisplayName: Iniciado
+  '30':
+    Goal: '&dAdquiere Treinta Niveles.'
+    Message: '&b¡Adquiridos 30 Niveles!'
+    Name: maxlevel_30
+    DisplayName: '&3Hora del Encantamiento'
+  '150':
+    Goal: '&dAdquiere de Ciento Cincuenta Niveles.'
+    Message: '&a¡Adquiridos 150 Niveles!'
+    Name: maxlevel_150
+    DisplayName: '&2Me Sobra'
+  '300':
+    Goal: '&dAdquiere un total de Trescientos Niveles.'
+    Message: '&e¡Adquiridos 300 Niveles!'
+    Name: maxlevel_300
+    DisplayName: '&6Maestro de la Sabiduría'
+
+# When a potion is consumed.
+ConsumedPotions:
+  '50':
+    Goal: '&dConsume tus primeros Cincuenta extraños Brebajes.'
+    Message: '&7¡Has bebido 50 brebajes!'
+    Name: consumedpotions_50
+    DisplayName: Catador
+    Reward:
+      Money: 200
+  '500':
+    Goal: '&dConsume Quinientos extraños Brebajes.'
+    Message: '&b¡Has bebido 500 brebajes!'
+    Name: consumedpotions_500
+    DisplayName: '&3La Esponja'
+    Reward:
+      Money: 1000
+  '2500':
+    Goal: '&dConsume Dos Mil Quinientos extraños Brebajes.'
+    Message: '&a¡Has bebido 2.500 brebajes!'
+    Name: consumedpotions_2500
+    DisplayName: '&2Alcohólico'
+    Reward:
+      Money: 1000
+  '25000':
+    Goal: '&dConsume un total de Veinticinco Mil extraños Brebajes.'
+    Message: '&e¡Has bebido 25.000 brebajes!'
+    Name: consumedpotions_25000
+    DisplayName: '&6Maestro Somelier'
+    Reward:
+      Money: 18000
+
+# Amount of time played on the server (in hours, use integers).
+PlayedTime:
+  '1':
+    Goal: '&dJuega tu primera Hora en NeoMedieval.'
+    Message: '&7¡Has estado en NeoMedieval durante 1 Hora!'
+    Name: playedtime_1
+    DisplayName: Ansias de Libertad
+    Reward:
+      Money: 100
+  '24':
+    Goal: '&dJuega un total de Un Día en NeoMedieval.'
+    Message: '&b¡Has estado en NeoMedieval durante 1 Día!'
+    Name: playedtime_24
+    DisplayName: '&3De la Noche a la Mañana'
+    Reward:
+      Money: 1000
+  '168':
+    Goal: '&dJuega un total de Una Semana en NeoMedieval.'
+    Message: '&a¡Has estado en NeoMedieval durante 1 Semana!'
+    Name: playedtime_168
+    DisplayName: '&2Aldeano'
+    Reward:
+      Money: 1000
+  '960':
+    Goal: '&dJuega un total de Un Mes y Diez Días en NeoMedieval.'
+    Message: '&e¡Has estado en NeoMedieval durante 1 Mes y 10 Días!'
+    Name: playedtime_960
+    DisplayName: '&6Noble del Medievo'
+    Reward:
+      Money: 5000
+
+# When a distance is traveled by foot.
+DistanceFoot:
+  '1000':
+    Goal: '&dRecorre Mil pasos a Pie.'
+    Message: '&7¡Has dado 1.000 pasos a Pie!'
+    Name: distancefoot_1000
+    DisplayName: Caminante
+    Reward:
+      Money: 200
+      Item: leather_boots 1
+  '10000':
+    Goal: '&dRecorre Diez Mil pasos a Pie.'
+    Message: '&b¡Has dado 10.000 pasos a Pie!'
+    Name: distancefoot_10000
+    DisplayName: '&3Peregrinaje'
+    Reward:
+      Money: 1000
+      Item: chainmail_boots 1
+  '100000':
+    Goal: '&dRecorre Cien Mil pasos a Pie.'
+    Message: '&a¡Has dado 100.000 pasos a Pie!'
+    Name: distancefoot_100000
+    DisplayName: '&2Trotamundos'
+    Reward:
+      Money: 5000
+      Item: iron_boots 1
+  '1000000':
+    Goal: '&dRecorre un total de Un Millón de pasos a Pie.'
+    Message: '&e¡Has dado 1.000.000 de pasos a Pie!'
+    Name: distancefoot_1000000
+    DisplayName: '&6Maestro del Andar'
+    Reward:
+      Money: 7000
+      Item: diamond_boots 1
+
+# When a distance is traveled on a pig.
+DistancePig:
+  '50':
+    Goal: '&dMuevete Cincuenta pasos sobre un porcino.'
+    Message: '&7¡Has viajado 50 pasos sobre un Cerdo!'
+    Name: distancepig_50
+    DisplayName: Montura Asequible
+  '250':
+    Goal: '&dMuevete Docientos Cincuenta pasos sobre un porcino.'
+    Message: '&b¡Has viajado 250 pasos sobre un Cerdo!'
+    Name: distancepig_250
+    DisplayName: '&3El Paciente'
+  '1000':
+    Goal: '&dMuevete Mil pasos sobre un porcino.'
+    Message: '&a¡Has viajado 1.000 pasos sobre un Cerdo!'
+    Name: distancepig_1000
+    DisplayName: '&2Viajero sin Prisa'
+  '5000':
+    Goal: '&dMuevete un total de Cinco Mil pasos sobre un porcino.'
+    Message: '&e¡Has viajado 5.000 pasos sobre un Cerdo!'
+    Name: distancepig_5000
+    DisplayName: '&6Maestro de los Porcinos'
+
+# When a distance is traveled on a horse.
+DistanceHorse:
+  '500':
+    Goal: '&dCabalga Quinientos pasos.'
+    Message: '&7¡Has cabalgado 500 pasos!'
+    Name: distancehorse_500
+    DisplayName: Rastreador
+  '5000':
+    Goal: '&dCabalga Cinco Mil pasos.'
+    Message: '&b¡Has cabalgado 5.000 pasos!'
+    Name: distancehorse_5000
+    DisplayName: '&3Explorador'
+  '50000':
+    Goal: '&dCabalga Cincuenta Mil pasos.'
+    Message: '&a¡Has cabalgado 50.000 pasos!'
+    Name: distancehorse_50000
+    DisplayName: '&2Viajero a Caballo'
+  '500000':
+    Goal: '&dCabalga un total de Quinientos Mil pasos.'
+    Message: '&e¡Has cabalgado 500.000 pasos!'
+    Name: distancehorse_500000
+    DisplayName: '&6Maestro de Equitación'
+
+# When a distance is traveled in a minecart.
+DistanceMinecart:
+  '100':
+    Goal: '&dRueda tus primeros Cien metros en una Vagoneta.'
+    Message: '&7¡Has rodado 100 metros en una Vagoneta!'
+    Name: distanceminecart_100
+    DisplayName: Sobre ruedas
+  '1000':
+    Goal: '&dRueda Mil metros en una Vagoneta.'
+    Message: '&b¡Has rodado 1.000 metros en una Vagoneta!'
+    Name: distanceminecart_1000
+    DisplayName: '&3Echando Chispas'
+  '10000':
+    Goal: '&dRueda Diez Mil metros en una Vagoneta.'
+    Message: '&a¡Has rodado 10.000 metros en una Vagoneta!'
+    Name: distanceminecart_10000
+    DisplayName: '&2Adicto a los Railes'
+  '100000':
+    Goal: '&dRueda un total de Cien Mil metros en una Vagoneta.'
+    Message: '&e¡Has rodado 100.000 metros en una Vagoneta!'
+    Name: distanceminecart_100000
+    DisplayName: '&6Maestro del Vagón'
+
+# When a distance is traveled in a boat.
+DistanceBoat:
+  '740':
+    Goal: '&dNavega tu primera Media Milla en un Bote.'
+    Message: '&7¡Has navegado Media Milla en un Bote!'
+    Name: distanceboat_740
+    DisplayName: A flote
+  '2960':
+    Goal: '&dNavega Dos Millas en un Bote.'
+    Message: '&b¡Has navegado 2 Millas en un Bote!'
+    Name: distanceboat_2960
+    DisplayName: '&3Aficionado al Remo'
+  '29600':
+    Goal: '&dNavega Veinte Millas en un Bote.'
+    Message: '&a¡Has navegado 20 Millas en un Bote!'
+    Name: distanceboat_29600
+    DisplayName: '&2El Navegante'
+  '399600':
+    Goal: '&dNavega un total de Docientas Setenta Millas en un Bote.'
+    Message: '&e¡Has navegado 270 Millas en un Bote!'
+    Name: distanceboat_399600
+    DisplayName: '&6Maestro de Vela'
+
+# When a distance is traveled with elytra.
+# (ignored on Minecraft versions prior to 1.9, should be added to DisabledCategories)
+DistanceGliding:
+  '300':
+    Goal: '&dAvanza tus primeros Trescientos pasos volando con Elytras.'
+    Message: '&7¡Has volado 300 pasos con Elytras!'
+    Name: distancegliding_300
+    DisplayName: Prácticas de Planeo
+  '2500':
+    Goal: '&dViaja Dos Mil Quinientos pasos volando con Elytras.'
+    Message: '&b¡Has volado 2.500 pasos con Elytras!'
+    Name: distancegliding_2500
+    DisplayName: '&3Viaje Alado'
+  '20000':
+    Goal: '&dPlanea Veinte Mil pasos con Elytras.'
+    Message: '&a¡Has volado 20.000 pasos con Elytras!'
+    Name: distancegliding_20000
+    DisplayName: '&2Profesional del Aterrizaje'
+  '100000':
+    Goal: '&dVuela un total de Cien Mil pasos con Elytras.'
+    Message: '&e¡Has volado 100.000 pasos con Elytras!'
+    Name: distancegliding_100000
+    DisplayName: '&6Maestro del Vuelo'
+
+# When a distance is traveled on a llama.
+# (ignored on Minecraft versions prior to 1.11, should be added to DisabledCategories)
+DistanceLlama:
+  '50':
+    Goal: '&dViaja tus primeros Cincuenta pasos sobre una Llama.'
+    Message: '&7¡Has viajado 50 pasos en Llama!'
+    Name: distancellama_50
+    DisplayName: Montura Alternativa
+  '500':
+    Goal: '&dViaja Quinientos pasos sobre una Llama.'
+    Message: '&b¡Has viajado 500 pasos en Llama!'
+    Name: distancellama_500
+    DisplayName: '&3Vengo del este'
+  '5000':
+    Goal: '&dViaja Cinco Mil pasos sobre una Llama.'
+    Message: '&a¡Has viajado 5.000 pasos en Llama!'
+    Name: distancellama_5000
+    DisplayName: '&2Odisea del Desierto'
+  '50000':
+    Goal: '&dViaja un total de Cincuenta Mil pasos sobre una Llama.'
+    Message: '&e¡Has viajado 50.000 pasos en Llama!'
+    Name: distancellama_50000
+    DisplayName: '&6Maestro del Esputo'
+
+# When an item is dropped on the ground.
+ItemDrops:
+  '15':
+    Goal: '&dDeshazte de tus primeros Quince objetos.'
+    Message: '&7¡Te has deshecho de 15 objetos!'
+    Name: itemdrops_15
+    DisplayName: Manos Escurridizas
+  '500':
+    Goal: '&dDeshazte de Quinientos objetos.'
+    Message: '&b¡Te has deshecho de 500 objetos!'
+    Name: itemdrops_500
+    DisplayName: '&3Basurero'
+  '5000':
+    Goal: '&dDeshazte de Cinco Mil objetos.'
+    Message: '&a¡Te has deshecho de 5.000 objetos!'
+    Name: itemdrops_5000
+    DisplayName: '&2Vertedero'
+  '100000':
+    Goal: '&dDeshazte de Cien Mil objetos.'
+    Message: '&e¡Te has deshecho de un total de 100.000 objetos!'
+    Name: itemdrops_100000
+    DisplayName: '&6Maestro Estercolero'
+
+# When an item is picked up from the ground.
+ItemPickups:
+  '50':
+    Goal: '&dRecoge tus primeros Cincuenta Objetos!.'
+    Message: '&7¡Ha recogido 50 Objetos del Suelo!'
+    Name: itempickups_50
+    DisplayName: Me lo llevo
+  '500':
+    Goal: '&dRecoge Quinientos Objetos!.'
+    Message: '&b¡Ha recogido 500 Objetos del Suelo!'
+    Name: itempickups_500
+    DisplayName: '&3Ambientalista'
+  '5000':
+    Goal: '&dRecoge Cinco Mil Objetos!.'
+    Message: '&a¡Ha recogido 5.000 Objetos del Suelo!'
+    Name: itempickups_5000
+    DisplayName: '&2Mochilero'
+  '500000':
+    Goal: '&dRecoge un total de Quinientos Mil Objetos!.'
+    Message: '&e¡Ha recogido 500.000 Objetos del Suelo!'
+    Name: itempickups_500000
+    DisplayName: '&4Pecado de la Avaricia'
+
+# When soil is plowed with a hoe.
+HoePlowings:
+  '10':
+    Goal: '&dLabra el terreno tus primeras Diez veces.'
+    Message: '&7¡Has arado la tierra 10 Veces!'
+    Name: hoeplowings_10
+    DisplayName: Removiendo la tierra
+  '250':
+    Goal: '&dLabra el terreno Doscientas Cincuenta veces.'
+    Message: '&b¡Has arado la tierra 250 Veces!'
+    Name: hoeplowings_250
+    DisplayName: '&3Labrador'
+  '5000':
+    Goal: '&dLabra el terreno Cinco Mil veces.'
+    Message: '&a¡Has arado la tierra 5.000 Veces!'
+    Name: hoeplowings_5000
+    DisplayName: '&2Cultivador'
+  '50000':
+    Goal: '&dLabra el terreno un total de 50000.'
+    Message: '&e¡Has arado la tierra 50.000 Veces!'
+    Name: hoeplowings_50000
+    DisplayName: '&6Maestro del Arado'
+
+# When bone meal is used to fertilise plants.
+Fertilising:
+  '15':
+    Goal: '&dFertiliza tus primeras Quince Plantas.'
+    Message: '&7¡Has Fertilizado 15 Plantas!'
+    Name: fertilising_15
+    DisplayName: Floricultor
+  '250':
+    Goal: '&dFertiliza Doscientas Cincuenta Plantas.'
+    Message: '&b¡Has Fertilizado 250 Plantas!'
+    Name: fertilising_250
+    DisplayName: '&3Jardinero'
+  '2500':
+    Goal: '&dFertiliza Dos Mil Quinientas Plantas.'
+    Message: '&a¡Has Fertilizado 2.500 Plantas!'
+    Name: fertilising_2500
+    DisplayName: '&2Fertilizador'
+  '50000':
+    Goal: '&dFertiliza un total de Cincuenta Mil Plantas.'
+    Message: '&e¡Has Fertilizado 50.000 Plantas!'
+    Name: fertilising_50000
+    DisplayName: '&6Maestro Botánico'
+
+# When an animal is tamed.
+Taming:
+  '1':
+    Goal: '&dDoma tu primer animal.'
+    Message: '&7¡Has domesticado tu primera mascota!'
+    Name: taming_1
+    DisplayName: Amaestrador
+  '50':
+    Goal: '&dDoma Cincuenta animales.'
+    Message: '&b¡Has domesticado 50 mascotas!'
+    Name: taming_50
+    DisplayName: '&3Domador'
+  '500':
+    Goal: '&dDoma Quinientos animales.'
+    Message: '&a¡Has domesticado 500 mascotas!'
+    Name: taming_500
+    DisplayName: '&2Sometedor'
+  '5000':
+    Goal: '&dDoma un total de Cinco Mil animales.'
+    Message: '&e¡Has domesticado 5.000 mascotas!'
+    Name: taming_5000
+    DisplayName: '&6Maestro Dominador'
+
+# When a potion is brewed.
+Brewing:
+  '10':
+    Goal: '&dDestila Diez Brebajes.'
+    Message: '&7¡Has destilado tus 10 primeras pociones!'
+    Name: brewing_10
+    DisplayName: Pociones!
+  '100':
+    Goal: '&dDestila Cien Brebajes.'
+    Message: '&b¡Has destilado 100 pociones!'
+    Name: brewing_100
+    DisplayName: '&3Al Alambique!'
+  '500':
+    Goal: '&dDestila Quinientos Brebajes.'
+    Message: '&a¡Has destilado 500 pociones!'
+    Name: brewing_500
+    DisplayName: '&2Destilado Avanzado'
+  '5000':
+    Goal: '&dDestila Cinco Mil Brebajes.'
+    Message: '&e¡Has destilado 5.000 pociones!'
+    Name: brewing_5000
+    DisplayName: '&6Maestro Alquimista'
+
+# When a firework is launched.
+Fireworks:
+  '10':
+    Goal: '&dLanza Diez Fuegos Artificiales.'
+    Message: '&7¡Has lanzado tus 10 primeros fuegos de artificio!'
+    Name: fireworks_10
+    DisplayName: Fiiiuu...¡Boom!
+  '50':
+    Goal: '&dLanza Cien Fuegos Artificiales.'
+    Message: '&b¡Has lanzado 100 fuegos de artificio!'
+    Name: fireworks_100
+    DisplayName: '&3Más Pólvora!'
+  '250':
+    Goal: '&dLanza Quinientos Fuegos Artificiales.'
+    Message: '&a¡Has lanzado 500 fuegos de artificio!'
+    Name: fireworks_500
+    DisplayName: '&2Adicto a las Explosiones'
+  '1000':
+    Goal: '&dLanza Cinco Mil Fuegos Artificiales.'
+    Message: '&e¡Has lanzado un total de 5.000 fuegos de artificio!'
+    Name: fireworks_5000
+    DisplayName: '&6Maestro Pyrotécnico'
+
+# When a music disc is played.
+MusicDiscs:
+  '1':
+    Goal: '&dReproduce tu primer Disco de Música.'
+    Message: '&7¡Has usado tu primer CD musical!'
+    Name: musicdiscs_1
+    DisplayName: Dulce Melodía
+  '50':
+    Goal: '&dReproduce Cincuenta Discos de Música.'
+    Message: '&b¡Has hecho sonar 50 discos de música!'
+    Name: musicdiscs_50
+    DisplayName: '&3Oído Musical'
+  '500':
+    Goal: '&dReproduce Quinientos Discos de Música.'
+    Message: '&a¡Has hecho sonar 500 discos de música!'
+    Name: musicdiscs_500
+    DisplayName: '&2Adicto a la Música'
+  '2500':
+    Goal: '&dReproduce Dos Mil Quinientos Discos de Música.'
+    Message: '&e¡Has hecho sonar un total de 2.500 discos de música!'
+    Name: musicdiscs_2500
+    DisplayName: '&6Maestro de Orquesta'
+
+# When a player teleports with an enderpearl.
+EnderPearls:
+  '10':
+    Goal: '&dTeletranspórtate Diez veces.'
+    Message: '&7¡Te has transportado 10 veces con Perlas de Ender!'
+    Name: enderpearls_10
+    DisplayName: Saltador
+  '100':
+    Goal: '&dTeletranspórtate Cien veces.'
+    Message: '&b¡Te has transportado 100 veces con Perlas de Ender!'
+    Name: enderpearls_100
+    DisplayName: '&3Atajista'
+  '1000':
+    Goal: '&dTeletranspórtate Mil veces.'
+    Message: '&a¡Te has transportado 1.000 veces con Perlas de Ender!'
+    Name: enderpearls_1000
+    DisplayName: '&2Pies Cayosos'
+  '5000':
+    Goal: '&dTeletranspórtate Cinco Mil veces.'
+    Message: '&e¡Te has transportado un total de 5.000 veces con Perlas de Ender!'
+    Name: enderpearls_5000
+    DisplayName: '&6Maestro del Teletransporte'
+
+# When a player gives a pet to another player (requires Pet Master plugin version 1.4 or above).
+PetMasterGive:
+  '3':
+    Goal: '&dRegala tres mascotas.'
+    Message: '&e¡Has entregado tres mascotas a tus amigos!'
+    Name: petmastergive_3
+    DisplayName: Donante
+
+# When a player receives a pet from another player (requires Pet Master plugin version 1.4 or above).
+PetMasterReceive:
+  '10':
+    Goal: '&dRecibe diez mascotas.'
+    Message: '&e¡Has recibido 10 mascotas de tus amigos!'
+    Name: petmasterreceive_10
+    DisplayName: Receptor
+
+# When an item is smelt in a furnace.
+Smelting:
+  '250':
+    Goal: '&dHornea Doscientoscincuenta Objetos.'
+    Message: '&7¡Has cocinado 250 objetos en un horno!'
+    Name: smeltitems_250
+    DisplayName: Fundidor
+  '1000':
+    Goal: '&dHornea Mil Objetos.'
+    Message: '&b¡Has cocinado 1.000 objetos en un horno!'
+    Name: smeltitems_1000
+    DisplayName: '&3Aficionado a la Cocina'
+  '10000':
+    Goal: '&dHornea Diez Mil Objetos.'
+    Message: '&a¡Has cocinado 10.000 objetos en un horno!'
+    Name: smeltitems_10000
+    DisplayName: '&2Bien cocido'
+  '100000':
+    Goal: '&dHornea Cien Mil Objetos.'
+    Message: '&e¡Has cocinado un total de 100.000 objetos en un horno!'
+    Name: smeltitems_100000
+    DisplayName: '&6Maestro del Horneado'
+
+# When a raid is won.
+RaidsWon:
+  1:
+    Goal: '&dGana una Asalto.'
+    Message: '&aHas ganado el asalto.'
+    Name: raidswon_1
+    DisplayName: '&6¿Accidental o intencionado?'
+    Reward:
+      Item: emerald 8
+  10:
+    Goal: '&dGana diez Asaltos.'
+    Message: '&e¡10 Asaltos!'
+    Name: raidswon_10
+    DisplayName: '&6Protector de la Villa'
+    Reward:
+      Item: totem_of_undying 1
+
+# When riptide is used with a trident.
+Riptides:
+  1:
+    Goal: '&dUsa un Tridente.'
+    Message: '&e¡Has dominado el poder del mar!'
+    Name: riptides_1
+    DisplayName: '&6Poseidon'
+# When an a certain amount of advancements are completed.
+AdvancementsCompleted:
+  20:
+    Goal: '&dCompleta veinte logros.'
+    Message: '&e20 logros completados!'
+    Name: advancements_20
+    DisplayName: '&6Logro de Logros'
+  
+#===========================OOOOOOO===========================#
+# VII-----------------------------------------------------VII #
+# |               Command-based achievements                | #
+# 7---------------------------------------------------------7 #
+#===========================ooooooo===========================#
+    
+# Allow Commands achievement to be awarded several times.
+MultiCommand: true
+    
+# A player with achievement.give (or the console) can use /aach give yourAch1 PLAYER to give
+# yourAch1 achievement to PLAYER. The /aach give command does NOT work with other achievements.
+Commands:
+  logro_golpear_cartel:
+    Goal: '&dGolpea el cartel de la torre del fortín que indica ser golpeado.'
+    Message: '&eEnhorabuena, has golpeado el cartel indicado!'
+    Name: logro_golpear_cartel
+    DisplayName: '&6Golpea el Cartel'
+  El_Mensajero_VC:
+    Goal: '&dReparte un total de 50 Cartas en la misión "El Mensajero" de VillaCabra.'
+    Message: '&e¡Has logrado repartir un total de 50 Cartas a los residentes!'
+    Name: el_mensajero
+    DisplayName: '&6El Mensajero'
+  Trueques_con_la_tabernera:
+    Goal: '&dHaz un total de 50 Trueques con la Tabernera de VillaCabra.'
+    Message: '&e¡Has hecho un total de 50 Trueques con la Tabernera!'
+    Name: Trueques_con_la_tabernera
+    DisplayName: '&6El Trueque'
+  Maestría_del_Gremio:
+    Goal: '&dCompleta cualquier Misión de Ascenso a Rango 4.'
+    Message: '&e¡Has logrado alcanzar un &1Rango 4 &een una profesión!'
+    Name: Maestria_del_Gremio
+    DisplayName: '&6Maestría del Gremio'
+  Fortin_VillaCabra:
+    Goal: '&dEncuentra el cartel de NeoMedieval escondido en el Fortín de VillaCabra..'
+    Message: '&e¡Has logrado encontrar el cartel de Neomedieval en el Fortín!'
+    Name: Fortin_VillaCabra
+    DisplayName: '&6Fortín de VillaCabra'
+    Reward:
+      Money: 1000
+  La_Vía_Blanca:
+    Goal: '&dDescubre la senda secreta para ascender a la cima de la Vía Blanca.'
+    Message: '&e¡Has logrado encontrar la senda para ascender en la Vía Blanca!'
+    Name: senda_cardenal
+    DisplayName: '&6Senda a la Vía Blanca'
+  sima_sombra:
+    Goal: '&dDescubre la senda secreta para acceder a la Ciudad Oculta de Ibelín.'
+    Message: '&e¡Has logrado encontrar la senda para acceder a Sima Sombra!'
+    Name: sima_sombra
+    DisplayName: '&6Entrada a la Ciudad Oculta'
+  El_Monumento_de_Vortix:
+    Goal: '&dViaja hasta el monumento de Vortix y llega a su cima..'
+    Message: '&e¡Has llegado a la cima del monumento de Vortix!'
+    Name: El_Monumento_de_Vortix
+    DisplayName: '&6Monumento de Vortix'
+    Reward:
+      Money: 5000
+  logro_boss_rey_de_las_almas:
+    Goal: '&dMata al Rey de las Almas, jefe de la Mazmorra "Vortix"..'
+    Message: '&e¡Has matado al jefe de Vortix, la Torre de las Almas!'
+    Name: logro_boss_rey_de_las_almas
+    DisplayName: '&6El Nuevo Rey de las Almas'
+    Reward:
+      Money: 5000
+  El_Monumento_de_aria:
+    Goal: '&dViaja hasta el monumento de Aria y visítalo..'
+    Message: '&e¡Has entrado en el monumento de Aria!'
+    Name: El_Monumento_de_aria
+    DisplayName: '&6Monumento de Aria'
+    Reward:
+      Money: 5000
+  La_gran_fragata:
+    Goal: '&dViaja hasta la Gran Fragata y alcanza lo más alto del mástil central..'
+    Message: '&e¡Has llegado a lo más alto del mástil de la Gran Fragata!'
+    Name: La_gran_fragata
+    DisplayName: '&6La Gran Fragata'
+    Reward:
+      Money: 5000
+  sub_dungeon:
+    Goal: '&dLlega a la cúpula central de la Mazmorra "Gheolia"..'
+    Message: '&e¡Has llegado a la cúpula central del Palacio Sumergido!'
+    Name: sub_dungeon
+    DisplayName: '&6El Fondo del Mar'
+    Reward:
+      Money: 5000
+  torre_dragon:
+    Goal: '&dEscala hasta la cabeza del Gran Dragón de Jade en la Aguja de Marfil..'
+    Message: '&e¡Has escalado el gran Dragón de Jade!'
+    Name: torre_dragon
+    DisplayName: '&6Gran Dragón de Jade'
+    Reward:
+      Money: 5000
+  logro_boss_triton_asesino:
+    Goal: '&dMata el guardián jefe de la Mazmorra "Gheolia"..'
+    Message: '&e¡Has matado al jefe del Palacio Sumergido!'
+    Name: logro_boss_triton_asesino
+    DisplayName: '&6El Asesino de las profundidades'
+    Reward:
+      Money: 5000
+  logro_completar_torre_caos:
+    Goal: '&dCompleta los 10 pisos de la Mazmorra "Torre del Caos"..'
+    Message: '&e¡Has completado los 10 pisos de la Torre del Caos!'
+    Name: logro_completar_torre_caos
+    DisplayName: '&6Hasta lo más alto'
+    Reward:
+      Money: 5000
+  logro_boss_torre_caos:
+    Goal: '&dMata el mago jefe de la Mazmorra "Sígridur"..'
+    Message: '&e¡Has matado al jefe de la Torre del Caos!'
+    Name: logro_boss_torre_caos
+    DisplayName: '&6El Invocador de las Alturas'
+    Reward:
+      Money: 5000
+  logro_boss_golem_magma:
+    Goal: '&dMata el golem jefe de la Mazmorra "Ragnor"..'
+    Message: '&e¡Has matado al jefe de la Montaña Infernal!'
+    Name: logro_boss_golem_magma
+    DisplayName: '&6El tanque de Magma'
+    Reward:
+      Money: 5000
+  logro_cazar_animales_dorados:
+    Goal: '&dEncuentra y caza los 4 legendarios animales dorados..'
+    Message: '&e¡Has cazado los 4 animales dorados!'
+    Name: logro_cazar_animales_dorados
+    DisplayName: '&6Bañado en oro'
+    Reward:
+      Money: 50000
+  logro_pelatrabacanyes:
+    Goal: '&dSube las Pelaescaleras, encuentra el Pelaredentor y recítale el Pelatrabacanyes..'
+    Message: '&e¡Has recibido Pelaredención al encontrar el Pelaredentor y recitarle
+      el Pelatrabacanyes!'
+    Name: logro_pelatrabacanyes
+    DisplayName: '&6El Pelatrabacanyes'
+    Reward:
+      Money: 5000
+    
+# When the command /aach add is called for this category.
+Custom:
+  votes:
+    10:
+      Message: '&dVota 10 veces el servidor!'
+      Name: customs_votes_10
+      DisplayName: '&6Yupiii'
+      Reward:
+        Money: 5
+    
+#==========================OOOO=OOOO==========================#
+# VIII-------------------------0-------------------------VIII #
+# |  Parameters in future plugin versions will appear here  | #
+# 8----------------------------0----------------------------8 #
+#==========================oooo=oooo==========================#
