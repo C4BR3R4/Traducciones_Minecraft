@@ -1,0 +1,27 @@
+# Action bar Configuration
+#  
+# You can configure everything regarding the action bar here
+
+# Enables / Disables the action bar
+enabled: true
+colors:
+  # Set the colorcode which will be displayed for all not done bars
+  not-done: '7'
+  # Set the colorcode which will be displayed for all done bars
+  done: '6'
+  # Set the colorcode which will be displayed for all lag bars
+  lag: c
+formats:
+  # Sets the bar's format
+  #  
+  # Placeholders:
+  # {prefix} - bar's prefix
+  # {bar} - formatted percentage bar
+  # {percentage} - current percentage
+  bar: '&6Copiando Archivos ➟ &r{bar} &7{percentage}%'
+# Sets the bar's message format
+#  
+# Placeholders:
+# {prefix} - bar's prefix
+# {message} - message
+formats-message: '&4{prefix}&c: {message}'
