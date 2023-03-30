@@ -1,0 +1,38 @@
+sbackpack: '&3Mochila de {player}'
+itembackpack: '&3ItemBackPack&f, ID:'
+backpack: '&3Mochila'
+recipes: '&3Recetas de Mochilas'
+recipe: '&3Receta'
+backpackCrafted: '&a&lBackPack Crafted Result'
+noPermission: '&cNo permission: '
+bpGetWrongUsage: '&cWrong usage: &a/ebpget <name>'
+bpGiveWrongUsage: '&cWrong usage: &a/ebpgive <player> <backpack name>'
+bpSaveWrongUsage: '&cWrong usage: &a/ebpsave <new or any backpack name>'
+bpDeleteWrongUsage: '&cWrong usage: &a/ebpdelete <backpack name>'
+obtained: '&bHas obtenido: &3'
+given: '&6Entregado {name} a {player}'
+craftShiftClick: '&cEs necesario arrastrar y soltar'
+back: '&7Volver'
+offline-player: '&c¡El jugador no está conectado!'
+backpack-doesnt-exists: '&cBackpack doesn''t exists'
+auto-pickup-enable: '&7Recogida automática &aactivada&7.'
+auto-pickup-disable: '&7Recogida automática &cdesactivada&7.'
+backpack-loading: '&6Abriendo la mochila...'
+slow-down: '&cYou''re opening backpacks too fast! Please slow down.'
+ingame-only-cmd: '&cThis command can be used only ingame.'
+not-backpack: '&cPlease hold a backpack in your hand.'
+unkwnown-backpack-save: '&cThe backpack in your hand doesn''t exist in backpack.yml
+  anymore! You probably deleted or renamed it: {name}'
+unkwnown-backpack-delete: '&cThe backpack doesn''t exist in backpack.yml anymore!
+  You probably already deleted it or renamed it: {name}'
+inventory-overload: '&c&lYou put too many BackPacks one inside another and/or added
+  too many items inside these BackPacks. Please remove some BackPacks from your BackPack!'
+already-exist-overwrite: '&6The backpack &b{name} &6already exists. Send the command
+  again to confirm in 10 seconds or change the name.'
+delete-confirm: Are you sure you want to delete the backpack &b{name}&6? Send the
+  command again to confirm in 10 seconds or change the name.
+empty-backpack: '&6This backpack is empty! Put some items inside to save it.'
+saved: '&aBackpack saved successfully as &6{name}'
+deleted: '&aBackpack &6{name}&a deleted successfully'
+open-delay: '&eAbriendo {name} en {delay}...'
+open-delay-cancel: '&7Apertura de la Mochila &ccancelada&7.'
