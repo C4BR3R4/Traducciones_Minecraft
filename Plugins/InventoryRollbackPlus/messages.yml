@@ -1,0 +1,64 @@
+general:
+  prefix: '&7[&bInventoryRollbackPlus&7]&r '
+
+commands:
+  no-permission: '&c¡No tienes permiso!'
+  error: '&cComando no válido.'
+  enable: '&7Se ha &aactivado &7el plugin.'
+  disable: '&7Se ha &cdesactivado &7el plugin.'
+  reload: '&7El plugin se ha &6recargado &7satisfactoriamente.'
+  player-only: '&cEste comando solo puede ser usado como un jugador.'
+  import: '&aSe han importado satisfactoriamente todas las copias de seguridad del antiguo plugin.'
+
+backup:
+  no-backup: 'No exsisten copias de seguridad de %NAME%.'
+  not-online: '%NAME% no está conectado.'
+  force-saved-player: 'Se ha guardado el inventario de %NAME%.'
+  force-saved-all: 'Se han guardado todos los inventarios de los jugadores.'
+  not-forced-saved: 'Ha surgido un problema al intentar guardar el inventario de %NAME%.'
+
+attribute-restore:
+  main-inventory:
+    restored: 'Se ha restaurado el Inventario de %NAME%.'
+    restored-player: '%NAME% ha restaurado tu Inventario desde una copia de seguridad.'
+    not-online: 'No puedes restaurar el Inventario de %NAME% si el está desconectado.'
+    button-name: '&cRestaurar el Inventario desde una Copia de Seguridad.'
+    button-disabled: '&c¡No está activada la restauración\n&ccon una sola pulsación en el\n&carchivo config.yml!'
+  ender-chest:
+    restored: 'Se ha restaurado el Cofre de Ender de %NAME%.'
+    restored-player: '%NAME% ha restaurado tu Cofre de Ender desde una copia de seguridad.'
+    not-online: 'No puedes restaurar el Cofre de Ender de %NAME% si el está desconectado.'
+    button-name: '&dRestaurar el Cofre de Ender'
+  health:
+    restored: 'Se ha restaurado la Salud de %NAME%.'
+    restored-player: '%NAME% ha restaurado tu Salud desde una copia de seguridad.'
+    not-online: 'No puedes restaurar la Salud de %NAME% si el está desconectado.'
+    button-name: '&aRestaurar la Salud'
+  hunger:
+    restored: 'Se ha restaurado el Hambre de %NAME%.'
+    restored-player: '%NAME% te ha restaurado el Hambre desde una copia de seguridad.'
+    not-online: 'No puedes restaurar el Hambre de %NAME% si el está desconectado.'
+    button-name: '&cRestaurar el Hambre'
+  experience:
+    restored: 'Se ha restaurado el nivel %XP% de Experiencia de %NAME%.'
+    restored-player: '%NAME% te ha restaurado el nivel %XP% de Experiencia desde una copia de seguridad.'
+    not-online: 'No puedes restaurar la Experiencia de %NAME% si el está desconectado.'
+    button-name: '&2Restaurar la Experiencia'
+    button-lore: '&rNivel %XP%'
+
+death-location:  
+  world: '&6Mundo: &7%WORLD%'
+  x: '&6X: &7%X%'
+  y: '&6Y: &7%Y%'
+  z: '&6Z: &7%Z%'
+  reason: '&6Razón de la Muerte: &7%REASON%'
+  time: '&6Tiempo: &7%TIME%'
+  teleport-to: '&3Aparece en el lugar donde se ha registrado este evento.'
+  teleport: 'Has apareciado en %LOCATION%'
+  invalid-world: 'El Mundo llamado %WORLD% no está cargado actualmente en el servidor.'
+
+menu-buttons:
+  main-menu: '&3Menú Principal'
+  next-page: '&7⇨ Página Siguiente'
+  previous-page: '&7⇦ Página Anterior'
+  back-page: '&cVolver'
