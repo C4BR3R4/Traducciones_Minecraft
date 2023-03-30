@@ -1,0 +1,222 @@
+
+#=================== Advanced Achievements ===================#
+# +---------------------------------------------------------+ #
+# |       Traducido en Español (España) por C4BR3R4         | #
+# |           ~ Válido para la versión 6.1.0 ~              | #
+# |          Al actualizar el plugin, se añadiran           | #
+# |        las nuevas strings al final del archivo.         | #
+# +---------------------------------------------------------+ #
+#=============================================================#
+no-permissions: No tienes permiso para hacer esto.
+statistic-cooldown: 'Enfriamiento de Logros: espera TIME segundos antes de que la acción cuente de nuevo.'
+category-does-not-exist: La categoría y/o sub-categoría CAT no existe.
+all-achievements-received: Enhorabuena ¡has conseguido todos los logros!
+invalid-command: No se reconoce el Conjuro. Por favor, introduce /aach para mostrar la lista de conjuros.
+
+# Related to /aach reload.
+configuration-successfully-reloaded: Configuración recargada correctamente.
+configuration-reload-failed: Se han producido errores al recargar la configuración. Por favor, mira en la consola para obtener más información.
+
+# Related to /aach top week and month.
+top-achievement: 'Top de logros adquiridos:'
+player-rank: 'Rango actual:'
+week-achievement: 'Clasificación semanal:'
+month-achievement: 'Clasificación mensual:'
+not-ranked: No has obtenidos logros en este periodo.
+pagination-header: '&7► &dPágina &5PAGE/MAX'
+pagination-footer: '&7►'
+
+# Related to /aach stats.
+number-achievements: 'Logros adquiridos:'
+
+# Related to /aach book.
+book-received: Has recibido tu libro de logros!
+book-delay: Debes esperar TIME segundos para volver a recibir otro libro!
+book-name: Libro de Logros
+book-date: Libro creado el DATE.
+book-not-received: No has conseguido ningún logro.
+
+# Related to /aach give.
+player-offline: ¡PLAYER está Desconectado!
+not-a-player: '¡No puedes obtener los logros de ENTITY, porque no es un jugador!'
+achievement-already-received: ¡PLAYER ya ha recibido este logro!
+achievement-not-found: El logro especificado no se ha encontrado en la categoría de comandos.
+achievement-given: ¡Logro adquirido!
+
+# Related to /aach add.
+error-value: ¡El valor VALUE debe ser un entero!
+statistic-increased: Se ha incrementado a PLAYER la cantidad de AMOUNT la estadística ACH!
+
+# Related to achievement reception.
+achievement-received: 'PLAYER ha recibido el logro:'
+achievement-new: 'Nuevo Logro:'
+
+# Related to /aach check.
+check-achievement-true: PLAYER ha recibido el logro ACH!
+check-achievements-false: PLAYER no ha recibido el logro ACH!
+
+# Related to /aach delete.
+delete-achievements: Se ha eliminado el logro ACH a PLAYER.
+delete-all-achievements: Se han eliminado todos los logros de PLAYER.
+
+# Related to achievement rewards.
+item-reward-received: 'Has recibido un objeto como recompensa:'
+money-reward-received: '¡Has recibido: AMOUNT!'
+command-reward: ¡La Recompensa ha sido entregada!
+custom-command-reward: 'Has recibido la recompensa: MESSAGE'
+experience-reward-received: '¡Has recibido: AMOUNT puntos de experiencia!'
+increase-max-health-reward-received: ¡Se ha incrementado AMOUNT corazones tu salud máxima!
+increase-max-oxygen-reward-received: ¡Se ha incrementado AMOUNT unidades tu oxígeno!
+
+# Related to /aach help.
+aach-command-book: Recibe tu libro de logros.
+aach-command-book-hover: Objetos RP que puedes coleccionar y cambiar por otros! Listado basado en tiempo.
+aach-command-stats: Muestra el número de logros adquiridos.
+aach-command-stats-hover: Barra de progreso. Consíguelos todos!
+aach-command-list: Muestra los logros adquiridos y sin adquirir.
+aach-command-list-hover: Bonita Guía para una visión general de todos los logros y de tu progreso!
+aach-command-top: Muestra la clasificación personal y global.
+aach-command-top-hover: Muestra quienes son los líderes en logros del servidor y como te comparas a ellos.
+aach-command-give: Dar el logro ACH a NAME.
+aach-command-give-hover: El jugador debe estar conectado; Sólo pueden ser usados comandos de logros.
+aach-command-add: Se ha incrementado una estadística.
+aach-command-add-hover: El jugador debe estar conectado; usado principalmente para Categorías Personalizadas.
+aach-command-reload: Recarga la configuración del plugin.
+aach-command-reload-hover: Recarga la mayoría de los archivos de configuración (config.yml, gui.yml y lang.yml).
+aach-command-info: Muestra información sobre el plugin.
+aach-command-info-hover: Información extra sobre el plugin.
+aach-command-check: Comprueba si NAME tiene el logro ACH.
+aach-command-check-hover: Usa el parámetro name especificado en la configuración.
+aach-command-delete: Borra el logro ACH de NAME.
+aach-command-delete-hover: El jugador debe estar conectado; no se reinician estadísticas asociadas.
+aach-command-week: Muestra la clasificación semanal.
+aach-command-week-hover: Los mejores Cazadores de Logros de esta semana!
+aach-command-month: Muestra la clasificación mensual.
+aach-command-month-hover: Los mejores cazadores de Logros de este mes!
+aach-command-toggle: Muestra/Oculta los logros de otros jugadores.
+aach-command-toggle-hover: Tu elección se guardará hasta que el servidor sea reiniciado!
+aach-command-reset: Reinicia la estadística de la categoría CAT.
+aach-command-reset-hover: 'El jugador debe estar conectado; ejemplo: reset Places.stone Darmix'
+aach-command-generate: Generar Logros.
+aach-command-generate-hover: ¡Comando potencialmente lento; usar con moderación!
+aach-command-inspect: Inspect recipients of ACH.
+aach-command-inspect-hover: Lists most recent recipients of an achievement, max 1000.
+aach-tip: '¡&7&lCONSEJO: &7Puedes &n&opasar por encima de los comandos &7o &n&oclicar &7sobre ellos!'
+
+# Related to /aach info.
+version-command-version: 'Versión:'
+version-command-website: 'Web:'
+version-command-author: 'Autor:'
+version-command-description: 'Descripción:'
+version-command-description-details: Advanced Achievements permite obtener logros únicos y desafiantes. Intenta conseguir tantos logros como puedas, gana recompensas, sube hasta lo más alto del ranking y recibe libros RP!
+version-command-vault: 'Integración con Vault:'
+version-command-petmaster: 'Integración con Pet Master:'
+version-command-btlp: 'Integración con BungeeTabListPlus:'
+version-command-essentials: 'Integración con Essentials:'
+version-command-placeholderapi: 'Integración con PlaceholderAPI:'
+version-command-database: 'Tipo de Base de Datos:'
+
+# Related to /aach list.
+list-gui-title: '&5&lLista de Logros'
+list-delay: '&d¡Debes esperar &5TIME &dsegundos para volver a ver la Lista de Logros!'
+list-description: '&dDescripción:'
+list-goal: '&dObjetivo:'
+list-reception: '&dConseguido:'
+list-progress: '&dProgreso:'
+list-reward: '&dRecompensa:'
+list-rewards: '&dRecompensas:'
+list-reward-money: '&eRecibe &6AMOUNT&e.'
+list-reward-item: '&eRecibe &6AMOUNT ITEM&e.'
+list-reward-command: '&eSorpresa &6! &e'
+list-reward-experience: '&eRecibe &6AMOUNT &epuntos de experiencia.'
+list-reward-increase-max-health: '&eAumenta el nivel de salud máxima hasta &6AMOUNT &ecorazones.'
+list-reward-increase-max-oxygen: '&eAumenta el nivel de oxígeno máximo hasta &6AMOUNT &eunidades.'
+list-achievement-received: '&a✔ &3'
+list-achievement-not-received: '&c✘ &3'
+list-category-not-unlocked: '&cTodavía no has desbloqueado esta categoría.'
+list-achievement-not-unlocked: 'Aún no has desbloqueado este logro.'
+list-back-message: '&7Atrás'
+list-back-lore: ''
+list-previous-message: '&7Anterior'
+list-previous-lore: ''
+list-next-message: '&7Siguiente'
+list-next-lore: ''
+list-achievements-in-category-singular: '&6AMOUNT &elogro'
+list-achievements-in-category-plural: '&6AMOUNT &elogros'
+list-unavailable-whilst-sleeping: '&c&lNo puedes abrir la lista de logros mientras duermes.'
+
+# Related to category names in /aach list.
+# Set a parameter to "" to hide it from /aach list (but not disable the category).
+list-connections: Conexiones
+list-places: Bloques Colocados
+list-breaks: Bloques Rotos
+list-kills: Entidades Asesinadas
+list-crafts: Objetos Producidos
+list-playercommands: Conjuros Recitados
+list-deaths: Número de Muertes
+list-arrows: Flechas Disparadas
+list-snowballs: Bolas de nieve Lanzadas
+list-eggs: Huevos Lanzados
+list-fish: Pescado Capturado
+list-treasure: Tesoro Pescado
+list-itembreaks: Objetos Rotos
+list-eatenitems: Comida Consumida
+list-shear: Ovejas Esquiladas
+list-milk: Vacas Ordeñadas
+list-lavabuckets: Cubos llenados de Lava
+list-waterbuckets: Cubos llenados de Agua
+list-trades: Número de Tratos
+list-anvils: Yunkes usados
+list-enchantments: Objetos Encantados
+list-beds: Veces Acostado
+list-maxlevel: Máximo nivel adquirido
+list-potions: Pociones consumidas
+list-playedtime: Tiempo jugado
+list-distance-foot: Distancia viajada a pié
+list-distance-pig: Distancia viajada en Cerdo
+list-distance-horse: Distancia viajada a Caballo
+list-distance-minecart: Distancia viajada en Vagoneta
+list-distance-boat: Distancia viajada en Bote
+list-distance-gliding: Distancia viajada en Élitros
+list-distance-llama: Distancia viajada en Llama
+list-itemdrops: Objetos soltados
+list-itempickups: Objetos recogidos
+list-hoeplowings: Tierra arada
+list-fertilising: Plantas fertilizadas
+list-taming: Animales domesticados
+list-breeding: Animales Alimentados
+list-brewing: Pociones destiladas
+list-fireworks: Fuegos artificiales lanzados
+list-musicdiscs: Discos de música escuchados
+list-enderpearls: Transportaciones con Perlas de Ender
+list-petmastergive: Mascotas entregadas a otros habitantes
+list-petmasterreceive: Mascotas recibidas de otros habitantes
+list-smelting: Objetos fundidos
+list-commands: Otros Logros
+list-custom: Categorías Personalizadas
+list-targetsshot: Objetivos Disparados
+list-raids-won: Redada Ganadas
+list-riptides: Riptides Used
+list-advancements-completed: Logros Completados
+
+# Related to /aach toggle.
+toggle-displayed: Ahora recibirás notificaciones cuando otros jugadores consigan logros.
+toggle-hidden: Ahora ya no recibirás notificaciones cuando otros jugadores consigan logros.
+
+# Related to /aach reset.
+reset-successful: '&cSe han eliminado las estadísticas de &4PLAYER&c.'
+reset-all-successful: Se han vaciado las estadísticas del PLAYER.
+
+# Related to /aach generate.
+advancements-generated: Se han generado los logros correctamente.
+minecraft-not-supported: Tu versión de Minecraft no es compatible con Logros. Por favor actualiza a una versión posterior de 1.12+
+
+# Related to /aach inspect
+achievement-not-recognized: 'No se reconoce el logro llamado ''NAME''. ¡Quieres decir CLOSEST_MATCH?'
+
+#============================================================#
+# +--------------------------------------------------------+ #
+# |    Las nuevas strings aparecerán a partir de aquí.     | #
+# +--------------------------------------------------------+ #
+#============================================================#
+
