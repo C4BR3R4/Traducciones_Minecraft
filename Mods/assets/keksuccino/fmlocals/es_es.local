@@ -1,0 +1,1379 @@
+
+helper.button.buttoninfo = Información del Botón
+
+helper.menuinfo.identifier = Identificador del Menú
+
+helper.buttoninfo.idnotfound = <id no encontrado>
+helper.buttoninfo.keynotfound = <el botón no es una tecla>
+helper.buttoninfo
+helper.buttoninfo.id = ID
+helper.buttoninfo.key = Tecla
+helper.buttoninfo.labelwidth = Ancho de la Etiqueta
+
+
+helper.creator.messages.sure = §6⚠
+helper.creator.empty = §7Sin elementos
+
+
+helper.creator.audioalreadyloaded.title = ¡El Sonido ya está cargado!
+helper.creator.audioalreadyloaded.desc = ¡El sonido que quieres añadir ya forma parte de este diseño!%n%%n%No puedes añadir el mismo sonido varias veces.
+
+helper.creator.invalidaudio.title = ¡Archivo de sonido no válido!
+helper.creator.invalidaudio.desc = El archivo que quieres cargar no existe o es un tipo de archivo incompatible.%n%%n%¡Comprueba la ruta del archivo y asegúrate de que es un archivo de sonido WAV!
+
+helper.creator.invalidimage.title = ¡Archivo de imagen no válido!
+helper.creator.invalidimage.desc = La imagen que quieres cargar no existe o es un tipo de archivo incompatible.%n%%n%Los tipos de archivo admitidos son JPG/JPEG, PNG y GIF.
+
+
+helper.creator.animationnotfound.title = ¡Animación no encontrada!
+helper.creator.animationnotfound.desc = La animación que quieres añadir no existe.%n%%n%¿Quizás has olvidado añadir todas las variables necesarias?%n%%n%Ten siempre en cuenta que tienes que reiniciar el juego%n%después de añadir una nueva animación en la carpeta de animaciones.
+
+helper.creator.texttooshort.title = Texto demasiado corto!
+helper.creator.texttooshort.desc = ¡El texto necesita al menos un carácter para ser un texto!%n%De lo contrario... no sería nada.%n%%n%¡Nadie quiere ser nada, así que no le hagas eso a tu texto!
+
+helper.creator.cannotdelete.title = ¡El elemento no se puede eliminar!
+helper.creator.cannotdelete.desc = Lo siento, pero no se puede eliminar este elemento.%n%%n%Tendrás que aprender a vivir con ello..
+
+
+helper.creator.layoutoptions.renderorder = Orden de Representación
+helper.creator.layoutoptions.renderorder.background = Fondo
+helper.creator.layoutoptions.renderorder.foreground = Frente
+
+helper.creator.layoutoptions.version.mc = Versión de Minecraft
+helper.creator.layoutoptions.version.fm = Versión de FancyMenu
+helper.creator.layoutoptions.version.minimum = Versión Mínima
+helper.creator.layoutoptions.version.minimum.mc = Versión Mínima de Minecraft
+helper.creator.layoutoptions.version.minimum.fm = Versión Mínima de FancyMenu
+helper.creator.layoutoptions.version.maximum = Versión Máxima
+helper.creator.layoutoptions.version.maximum.mc = Versión Máxima de Minecraft
+helper.creator.layoutoptions.version.maximum.fm = Versión Máxima de FancyMenu
+
+helper.creator.layoutoptions.resetbackground = §8Restablecer Fondo
+
+helper.creator.layoutoptions.requiredmods = Mods Necesarios
+helper.creator.layoutoptions.requiredmods.desc = Mods Necesarios §7[id_del_mod, separados por comas]
+
+helper.creator.close = §6⚠ §c¿Seguro que quieres §4cerrar §cel creador de diseños? §6⚠
+
+helper.creator.audio.delete = §c❌ Eliminar
+helper.creator.audio.delete.msg = §6⚠ §c¿Seguro que quieres §4eliminar §ceste sonido? §6⚠
+
+helper.creator.add.image = Imagen
+
+helper.creator.add.animation = Animación
+helper.creator.add.animation.entername = Añadir por Nombre
+helper.creator.add.animation.entername.title = Nombre de la Animación
+
+helper.creator.add.text = Texto
+helper.creator.add.text.newtext = §a✚ Añadir Texto
+
+helper.creator.add.button = Botón
+helper.creator.add.button.label = Etiqueta del Botón
+
+helper.creator.add.audio = Sonido
+
+helper.creator.vanillabutton.autoclick = Auto-Pulsar el Botón
+helper.creator.vanillabutton.autoclick.popup = Pulsar automáticamente el botón
+
+helper.creator.backgroundoptions = Opciones del Fondo
+helper.creator.backgroundoptions.backgroundanimation = Animación
+helper.creator.backgroundoptions.backgroundimage = Imagen
+helper.creator.backgroundoptions.chooseimage = Seleccionar Imagen
+
+helper.creator.custombutton.config = §6⚒ Acción del Botón
+helper.creator.custombutton.config.actionvalue = Introduce {}
+helper.creator.custombutton.config.actiontype = Tipo de Acción
+helper.creator.custombutton.config.actiontype.sendmessage.desc = §7Envía un mensaje por el chat o ejecuta un comando.
+helper.creator.custombutton.config.actiontype.sendmessage.desc.value = el Mensaje o el Comando
+helper.creator.custombutton.config.actiontype.openlink.desc = §7Abre un enlace en el navegador del sistema.
+helper.creator.custombutton.config.actiontype.openlink.desc.value = el Enlace
+helper.creator.custombutton.config.actiontype.quitgame.desc = §7Cierra el Juego.
+helper.creator.custombutton.config.actiontype.joinserver.desc = §7Entra en un Servidor de Minecraft.
+helper.creator.custombutton.config.actiontype.joinserver.desc.value = la IP del Servidor
+helper.creator.custombutton.config.actiontype.loadworld.desc = §7Carga un Mundo de Minecraft.
+helper.creator.custombutton.config.actiontype.loadworld.desc.value = el Nombre de la Carpeta del Mundo
+helper.creator.custombutton.config.actiontype.openfile.desc = §7Abre un Archivo o una Carpeta.
+helper.creator.custombutton.config.actiontype.openfile.desc.value = la Ruta
+helper.creator.custombutton.config.actiontype.prevbackground.desc = §7Cambia al fondo anterior.
+helper.creator.custombutton.config.actiontype.nextbackground.desc = §7Cambia al siguiente fondo.
+
+helper.creator.items.setorientation = §6✎ Asignar Cuadrante
+helper.creator.items.delete = §c❌ Eliminar
+helper.creator.items.border.posx = §9↧ Posición Horizontal
+helper.creator.items.border.posy = §9↥ Posición Vertical
+helper.creator.items.border.orientation = §9⇱ Cuadrante
+helper.creator.items.border.width = §9↔ Ancho
+helper.creator.items.border.height = §9↕ Alto
+
+helper.creator.items.button.editlabel = §6✎ Etiqueta del Botón
+
+helper.creator.items.vanillabutton.resetorientation = §8⟳ Restablecer Cuadrante
+
+helper.creator.items.string.setscale = Establecer Escala
+helper.creator.items.string.setshadow = Sombrear: §cNo
+helper.creator.items.string.setnoshadow = Sombrear: §aSi
+helper.creator.items.string.edit = §6✎ Modificar el Elemento
+helper.creator.items.string.border.scale = §9Escala
+
+helper.creator.items.string.scale.invalidvalue.title = ¡Valor no válido!
+helper.creator.items.string.scale.invalidvalue.desc = ¡El valor que quieres establecer no es un valor de escala válido!%n%%n%Ejemplos de valores de escala: 1.0, 2.0, 0.5
+
+helper.creator.deleteobject = §6⚠ §c¿Seguro que quieres §4eliminar §ceste elemento? §6⚠
+
+helper.creator.choosefile.enterorchoose = §lIntroduce la ruta o busca un archivo
+helper.creator.choosefile.choose = Buscar archivo...
+
+helper.creator.webstring.multiline = Multilínea: §cNo
+helper.creator.webstring.nomultiline = Multilínea: §aSi
+
+helper.creator.web.invalidurl = §c§l¡URL no válida!%n%%n%¡Esta dirección no es válida o no existe!
+helper.creator.web.enterurl = Introduce la URL
+
+helper.creator.add.webimage = Imagen Web
+helper.creator.add.webtext = Texto Web
+
+
+
+helper.creator.items.button.hoverlabel = §6✎ Texto de Selección
+helper.creator.items.button.hoverlabel.reset = §7⟳ Restablecer Texto Selección
+helper.creator.items.button.hoversound = §6✎ Sonido de Selección
+helper.creator.items.button.hoversound.reset = §7⟳ Restablecer Sonido Selección
+
+
+helper.creator.backgroundoptions.panorama = Ampliar
+
+helper.creator.textures.invalidcharacters = §6⚠%n%§c¡Caracteres no válidos!%n%%n%%n%§cEl nombre del archivo contiene caracteres no admitidos.%n%%n%§7El nombre solo puede contener los siguientes caracteres: "a-z", "0-9", ".", "_" y "-".%n%§7No se admiten espacios, mayúsculas o cualquier otro carácter especial.
+
+helper.buttons.tools.overridemenu = §cSustituir Diseño
+helper.buttons.tools.resetoverride = ⟳ Restablecer Sustitución
+
+helper.buttons.tools.customguis = Modificar el Menú
+helper.buttons.tools.customguis.open = §a➚ Abrir el Menú
+helper.buttons.tools.customguis.delete = §c❌ Eliminar el Menú
+helper.buttons.tools.customguis.pickbyname = Seleccionar por Nombre
+helper.buttons.tools.customguis.openbyname = §a➚ Buscar y Abrir
+helper.buttons.tools.customguis.deletebyname = §c❌ Buscar y Eliminar
+helper.buttons.tools.customguis.sure = §6⚠ §c¿Seguro que quieres §4eliminar §ceste menú? §6⚠%n%%n%§c§l¡Esta acción es irreversible!%n% %n% %n% %n%
+helper.buttons.tools.customguis.invalididentifier = §c§l¡Nombre no válido!%n%%n%%n%¡No se ha encontrado ningún menú con este nombre!%n% %n% %n% %n%
+
+helper.buttons.tools.creategui = §3§nAñadir Menú
+helper.buttons.tools.creategui.allowesc = Permitir
+helper.buttons.tools.creategui.donotallowesc = Bloquear
+helper.buttons.tools.creategui.invalididentifier = §c¡Identificador no válido!
+helper.buttons.tools.creategui.identifieralreadyused = §c¡Este identificador ya está en uso!%n%Por favor, introduce otro diferente.
+helper.buttons.tools.creategui.allowescdesc = ¿Permitir cerrar el menú con la tecla 'Esc'?
+helper.buttons.tools.creategui.menuidentifier = Identificador del Menú
+helper.buttons.tools.creategui.menutitle = Título del Menú §8(opcional)
+helper.buttons.tools.creategui.create = §a✚ Añadir Menú
+
+gameintro.skip = §7PRESIONA EL ESPACIO PARA OMITIR
+
+helper.creator.items.chooselayer = Cambiar Diseño
+
+customization.items.webstring.unabletoload = ¡No se puede cargar el texto de la web! ¡La dirección no es válida o no hay conexión con Internet!
+
+helper.creator.custombutton.config.actiontype.opencustomgui.desc = §7Abre un Menú creado.
+helper.creator.custombutton.config.actiontype.opencustomgui.desc.value = el nombre del menú personalizado
+
+
+custombuttons.action.opengui.cannotopengui = §c¡No se puede abrir el menú!%n%%n%%n%¡El menú que quieres abrir no existe o es incompatible!%n%%n%Si es un menú existente, por favor, ponte en contacto con el desarrollador de FancyMenu para intentar corregir el problema.
+
+helper.creator.custombutton.config.actiontype.opengui.desc = §7Abre un Menú original.
+helper.creator.custombutton.config.actiontype.opengui.desc.value = el identificador del menú original
+
+
+helper.creator.windowsize = Tamaño de Ventana
+helper.creator.windowsize.biggerthan = Más Grande de...
+helper.creator.windowsize.smallerthan = Más Pequeña de...
+helper.creator.windowsize.biggerthan.desc = Activar el Diseño solo si la Ventana es más Grande de X
+helper.creator.windowsize.smallerthan.desc = Activar el Diseño solo si la Ventana es más Pequeña de X
+helper.creator.windowsize.currentwidth = §7Ancho de Ventana actual
+helper.creator.windowsize.currentheight = §7Alto de Ventana actual
+
+helper.menuinfo.idcopied = ¡Copiado en el portapapeles!
+
+
+helper.creator.custombutton.config.actiontype.movefile.desc = §7Mueve un archivo a una nueva ruta.
+helper.creator.custombutton.config.actiontype.movefile.desc.value = la Ruta del Archivo + Nueva Ruta, separados por ';'
+helper.creator.custombutton.config.actiontype.copyfile.desc = §7Copia un archivo en una ruta.
+helper.creator.custombutton.config.actiontype.copyfile.desc.value = la Ruta del Archivo + Ruta de Destino, separados por ';'
+helper.creator.custombutton.config.actiontype.deletefile.desc = §7Elimina un archivo.
+helper.creator.custombutton.config.actiontype.deletefile.desc.value = la Ruta del Archivo
+helper.creator.custombutton.config.actiontype.renamefile.desc = §7Cambia el nombre de un archivo.
+helper.creator.custombutton.config.actiontype.renamefile.desc.value = la Ruta del Archivo + nuevo nombre de archivo con su extensión
+helper.creator.custombutton.config.actiontype.reloadmenu.desc = §7Recarga el menú mostrado.
+helper.creator.custombutton.config.actiontype.runscript.desc = §7Ejecuta una rutina.
+helper.creator.custombutton.config.actiontype.runscript.desc.value = el Nombre del archivo de la rutina sin el tipo de archivo
+helper.creator.custombutton.config.actiontype.downloadfile.desc = §7Descarga un archivo en una ruta.
+helper.creator.custombutton.config.actiontype.downloadfile.desc.value = la URL + ruta de descarga, separados por ';'
+helper.creator.custombutton.config.actiontype.unpackzip.desc = §7Descomprime un archivo ZIP en una ruta.
+helper.creator.custombutton.config.actiontype.unpackzip.desc.value = la Ruta del Archivo + ruta de destino, separados por ';'
+
+helper.creator.custombutton.config.actionvalue.example = §8Por ejemplo: {}
+
+helper.creator.custombutton.config.actiontype.openlink.desc.value.example = https://google.com
+helper.creator.custombutton.config.actiontype.sendmessage.desc.value.example = ¡Hola @all!
+helper.creator.custombutton.config.actiontype.joinserver.desc.value.example = mc.servidor.com
+helper.creator.custombutton.config.actiontype.loadworld.desc.value.example = mimundo
+helper.creator.custombutton.config.actiontype.opencustomgui.desc.value.example = menu_worldedit
+helper.creator.custombutton.config.actiontype.opengui.desc.value.example = identificador.del.menu
+helper.creator.custombutton.config.actiontype.openfile.desc.value.example = config/fancymenu/changelog.txt
+helper.creator.custombutton.config.actiontype.movefile.desc.value.example = config/fancymenu/imagen.jpg;config/moveto/imagen.jpg
+helper.creator.custombutton.config.actiontype.copyfile.desc.value.example = config/fancymenu/imagen.jpg;config/fancymenu/copiadeimagen.jpg
+helper.creator.custombutton.config.actiontype.deletefile.desc.value.example = config/fancymenu/boton-rojo.gif
+helper.creator.custombutton.config.actiontype.renamefile.desc.value.example = config/fancymenu/imagen.jpg;nuevonombredeimagen.jpg
+helper.creator.custombutton.config.actiontype.downloadfile.desc.value.example = https://myhoster.com/layout.zip;config/fancymenu/diseno.zip
+helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = config/fancymenu/archivo.zip;config/fancymenu/descompresiones/
+helper.creator.custombutton.config.actiontype.runscript.desc.value.example = mirutina
+
+helper.creator.rightclick.scale = Forzar Escala del Menú
+helper.creator.rightclick.scale.invalid = §c§l¡Escala no válida!%n%%n%%n%¡Los valores de escala deben ser mayores de 0!
+
+helper.creator.items.button.resetlabel = §8⟳ Restablecer el Texto
+
+
+helper.creator.items.custombutton.onlydisplayin = Mostrar en...
+helper.creator.items.custombutton.onlydisplayin.outgame = Fuera del Juego
+helper.creator.items.custombutton.onlydisplayin.singleplayer = Modo Solitario
+helper.creator.items.custombutton.onlydisplayin.multiplayer = Multijugador
+helper.creator.items.custombutton.onlydisplayin.reset = §8⟳ RESTABLECER
+
+helper.creator.items.button.clicksound = §6✎ Sonido de Pulsación
+helper.creator.items.button.clicksound.reset = §8⟳ Restablecer el Sonido de Pulsación
+
+helper.popup.togglecustomization.enable = §c❌ Diseño Inactivo
+helper.popup.togglecustomization.disable = §a✔ Diseño Activo
+
+helper.creator.object.stretch = ⇲ Estirar el Elemento...
+helper.creator.object.stretch.x = ↔ Hasta el Ancho de Ventana
+helper.creator.object.stretch.y = ↕ Hasta el Alto de Ventana
+
+helper.creator.object.stretch.unsupportedorientation = §c§l¡Cuadrante no admitido!%n%%n%%n%El cuadrante actual de este elemento no permite este estiramiento.%n%%n%§lCuadrantes admitidos: {}
+
+helper.creator.backgroundoptions.backgroundpanorama = Panorama
+helper.creator.backgroundoptions.panoramas = Panorama de Fondo
+helper.creator.backgroundoptions.panoramas.set = Establecer Fondo
+helper.creator.backgroundoptions.panoramas.set.desc = Establece el panorama seleccionado%n%como panorama de fondo activo.
+helper.creator.backgroundoptions.panoramas.clear = Limpiar
+helper.creator.backgroundoptions.panoramas.clear.desc = Elimina el actual%n%panorama de fondo activo.
+
+helper.creator.items.button.btndescription = §6✎ Descripción
+helper.creator.items.button.btndescription.desc = Valor a mostrar cuando se selecciona%n%el elemento al pasar sobre el.%n%%n%§8Puedes crear saltos de línea%n%§8usando el código §7#n#§8.
+
+helper.buttons.customization.onoff.btndesc = Activa o desactiva el menú personalizado.%n%%n%§c¡Tiene que estar activado para que se muestre el diseño!
+helper.buttons.customization.overridewith.btndesc = Sustituye el menú actual por un diseño personalizado.%n%%n%§4¡IMPORTANTE!%n%§cSi solo quieres modificar el aspecto del%n%§cmenú solo tienes que crear un diseño.
+
+
+helper.buttons.customization.managelayouts = §bGestor de Diseños
+helper.buttons.customization.managelayouts.enable = §a☑ Activar Diseño
+helper.buttons.customization.managelayouts.enabled = §aActivado
+helper.buttons.customization.managelayouts.disable = §c☒ Desactivar Diseño
+helper.buttons.customization.managelayouts.disabled = §cDesactivado
+helper.buttons.customization.managelayouts.delete = §4❌ Eliminar Diseño
+helper.buttons.customization.managelayouts.delete.msg = §6⚠ §c¿Seguro que quieres §4eliminar §ceste diseño? §6⚠%n%%n%§c§l¡Esta acción es irreversible!
+helper.buttons.customization.managelayouts.layout.btndesc = §7§nInformación del Diseño§r%n%%n%§7Estado ► {}§7.%n%§7Elementos Personalizados ► {}§7.%n%%n%§8Pulsar para mostrar más opciones.
+
+helper.creator.object.moveup = ⬆ Subir una Capa
+helper.creator.object.moveup.desc = Mover el elemento hacia una capa superior.%n%%n%§4¡IMPORTANTE!%n%§cLos elementos activos siempre están en la%n%§cparte superior, por lo que el efecto no se verá%n%§chasta que se desactive el elemento.{}
+helper.creator.object.moveup.desc.subtext = %n%%n%§7§nÚltima Acción:%n%§7► Movido encima de {}
+helper.creator.object.movedown = ⬇ Bajar una Capa
+helper.creator.object.movedown.desc = Mover el elemento hacia una capa inferior.%n%%n%§4¡IMPORTANTE!%n%§cLos elementos activos siempre están en la%n%§cparte superior, por lo que el efecto no se verá%n%§chasta que se desactive el elemento.{}
+helper.creator.object.movedown.desc.subtext = %n%%n%§7§nÚltima Acción:%n%§7► Movido debajo de {}
+
+helper.buttons.customization.managelayouts.openintexteditor = §7➚ Abrir en Editor
+helper.buttons.customization.managelayouts.openintexteditor.desc = Abre este diseño en tu%n%editor de texto.%n%%n%§c¡Para que se muestren los cambios%n%§crealizados deberás usar el botón%n%§cde recarga del menú!
+
+helper.creator.opencloseaudio = Sonido de Cierre/Apertura
+helper.creator.opencloseaudio.desc = Ejecutar un sonido cuando se abre%n%o se cierra el menú.
+helper.creator.opencloseaudio.reset.desc = Este sonido se restablecerá.
+helper.creator.openaudio = Sonido de Apertura del Menú
+helper.creator.openaudio.reset = Restablecer el Sonido de Apertura del Menú
+helper.creator.openaudio.desc = Se reproducirá un sonido al abrir el menú.
+helper.creator.closeaudio = Sonido de Cierre del Menú
+helper.creator.closeaudio.reset = Restablecer el Sonido de Cierre del Menú
+helper.creator.closeaudio.desc = Se reproducirá un sonido al cerrar el menú.
+
+helper.creator.deleteselectedobjects = §6⚠ §c¿Seguro que quieres §4eliminar §ctodos los elementos seleccionados? §6⚠
+
+helper.creator.multiselect.object.deleteall = Eliminar Todo
+helper.creator.multiselect.object.deleteall.btndesc = Elimina todos los elementos seleccionados.
+helper.creator.multiselect.object.stretchall = Estirar Todo
+helper.creator.multiselect.object.stretchall.btndesc = Estira todos los elementos posibles,%n%hasta el alto o el ancho del menú.
+helper.creator.multiselect.vanillabutton.resetorientation = Restablecer Cuadrante
+helper.creator.multiselect.vanillabutton.resetorientation.btndesc = Restablecer el cuadrante asignado%n%de todos los botones originales seleccionados.
+helper.creator.multiselect.vanillabutton.hideall = Ocultar Todo
+helper.creator.multiselect.vanillabutton.hideall.btndesc = Ocultar todos los botones originales seleccionados.
+helper.creator.multiselect.button.buttontexture.btndesc = Determina las texturas normales%n%de todos los botones seleccionados.
+helper.creator.multiselect.button.clicksound.btndesc = Establecer el sonido de las pulsaciones%n%de todos los botones seleccionados.
+helper.creator.multiselect.button.clicksound.reset.btndesc = Restablecer el sonido de todos los botones%n%seleccionados, al pulsar sobre ellos.
+helper.creator.multiselect.button.hoversound.btndesc = Determinar el sonido de todos los botones%n%seleccionados, al pasar sobre ellos.
+helper.creator.multiselect.button.hoversound.reset.btndesc = Restablecer el sonido de todos los botones%n%seleccionados, al pasar sobre ellos.
+
+helper.creator.add.playerentity = Entidad del Jugador
+
+helper.creator.items.playerentity.setscale = Establecer la Escala
+helper.creator.items.playerentity.playername = Nombre del Jugador
+helper.creator.items.playerentity.playername.auto = Automático
+helper.creator.items.playerentity.playername.setname = Establecer el Nombre
+helper.creator.items.playerentity.skin = Establecer la Piel
+helper.creator.items.playerentity.cape = Establecer la Capa
+helper.creator.items.playerentity.texture.local = Textura Local
+helper.creator.items.playerentity.texture.url = URL
+helper.creator.items.playerentity.rotation = Rotación
+helper.creator.items.playerentity.rotation.auto = Rotación Automática
+helper.creator.items.playerentity.rotation.custom = Rotación Personalizada
+helper.creator.items.playerentity.rotation.custom.bodyx = Rotación Horizontal del Cuerpo
+helper.creator.items.playerentity.rotation.custom.bodyy = Rotación Vertical del Cuerpo
+helper.creator.items.playerentity.rotation.custom.headx = Rotación Horizontal de la Cabeza
+helper.creator.items.playerentity.rotation.custom.heady = Rotación Vertical de la Cabeza
+helper.creator.items.playerentity.showname.off = Muestra Nombre: §cNo
+helper.creator.items.playerentity.showname.on = Muestra Nombre: §aSi
+helper.creator.items.playerentity.crouching.off = Agachado: §cNo
+helper.creator.items.playerentity.crouching.on = Agachado: §aSi
+helper.creator.items.playerentity.parrot.off = Muestra Loro: §cNo
+helper.creator.items.playerentity.parrot.on = Muestra Loro: §aSi
+helper.creator.items.playerentity.slim.off = Piel Delgada: §cNo
+helper.creator.items.playerentity.slim.on = Piel Delgada: §aSi
+
+helper.creator.items.playerentity.setscale.btndesc = Establece la escala del muñeco.
+helper.creator.items.playerentity.playername.btndesc = Establece el nombre del jugador.
+helper.creator.items.playerentity.playername.auto.btndesc = Se usará automáticamente el nombre de usuario%n%del cliente como nombre del jugador.
+helper.creator.items.playerentity.playername.setname.btndesc = Establecer el nombre del jugador manualmente.%n%%n%No tiene por que ser un%n%usuario existente.
+helper.creator.items.playerentity.skin.btndesc = Establece la textura de la piel del muñeco.%n%%n%Esta piel tiene prioridad sobre%n%la piel normal del jugador.
+helper.creator.items.playerentity.cape.btndesc = Establece la textura de la capa del muñeco.%n%%n%Esta capa tiene prioridad sobre%n%la capa normal del jugador.
+helper.creator.items.playerentity.rotation.btndesc = Establece la rotación de la cabeza y el cuerpo.
+helper.creator.items.playerentity.rotation.auto.btndesc = El muñeco seguirá el cursor del ratón.
+helper.creator.items.playerentity.rotation.custom.btndesc = Establece una rotación personalizada del muñeco.
+helper.creator.items.playerentity.showname.btndesc = Determina si se mostrará o no el nombre del jugador.
+helper.creator.items.playerentity.crouching.btndesc = Determina si el muñeco permanecerá agachado o no.
+helper.creator.items.playerentity.parrot.btndesc = ¡ARRR!
+helper.creator.items.playerentity.slim.btndesc = Determina si el muñeco debe presentar%n%el diseño de la piel delgada.%n%%n%Las pieles delgadas tienen los brazos más finos.
+
+helper.creator.items.playerentity.texture.invalidtexture.title = ¡Textura no válida!
+helper.creator.items.playerentity.texture.invalidtexture.desc = Esta textura no existe o el archivo de textura no es válido.%n%%n%§lTipos de archivo admitidos: §rPNG
+
+popup.apply = Aplicar
+
+helper.creator.items.orientation.btndesc = Establece el punto de origen desde%n%donde será calculada la posición del elemento.%n%%n%§7NOTA:%n%§7Puedes comprobar como se ve afectado un%n%§7elemento según su cuadrante asignado%n%§7cambiando el tamaño de la ventana o%n%§7cambiando el cuadrante asignado.
+
+helper.creator.add.slideshow = Secuenciador
+helper.creator.add.slideshow.entername = Añadir por Nombre
+helper.creator.add.slideshow.entername.title = Introduce el Nombre del Secuenciador
+
+helper.creator.backgroundoptions.backgroundslideshow = Secuenciador
+helper.creator.backgroundoptions.backgroundslideshow.set = Determinar el Fondo
+helper.creator.backgroundoptions.backgroundslideshow.set.desc = Establece el secuenciador seleccionado%n%como un secuenciador de fondo activo.
+helper.creator.backgroundoptions.backgroundslideshow.clear = Limpiar
+helper.creator.backgroundoptions.backgroundslideshow.clear.desc = Elimina el secuenciador%n%de fondo activo.
+
+
+helper.creator.slideshownotfound = §c§l¡No se ha encontrado el secuenciador!%n%%n%El nombre del secuenciador introducido no existe.%n%¿Está bien escrito?
+
+
+helper.creator.add.shapes = Figura
+helper.creator.add.shapes.rectangle = Forma Rectangular
+
+helper.creator.items.shape.color = §6✎ Color de la Figura
+helper.creator.items.shape.color.btndesc = Determina el color de la figura.%n%%n%§4NOTA:%n%§c¡Puedes utilizar colores HEX para%n%§cañadir opacidad al elemento!
+
+helper.creator.object.movedown.desc.subtext.vanillabutton = %n%%n%§cNo puedes mover el elemento detrás%n%§cde los botones originales.%n%%n%Para solucionar esto, puedes establecer el §lOrden de%n%§lRepresentación §rdel diseño, en el §lFondo§r,%n%para que todos los elementos se muestren%n%detrás del contenido original.%n%%n%¡§lUsa el Botón Derecho sobre el fondo del diseño%n%para determinar el §lOrden de Representación§r!
+
+
+helper.menubar.expand = Expandir la Barra de Edición
+helper.menubar.shrink = Contraer la Barra de Edición
+helper.menubar.settings = §6Configuración de FancyMenu
+
+fancymenu.config = Configuración de FancyMenu
+
+fancymenu.config.categories.general = §3§nGENERAL§r
+
+fancymenu.config.enablehotkeys = Teclas de Acceso Rápido del Mod
+fancymenu.config.playmenumusic = Música del Menú de MC
+fancymenu.config.stopworldmusicwhencustomizable = Detener la Música del Mundo
+fancymenu.config.playbackgroundsounds = Sonidos Personalizados
+fancymenu.config.playbackgroundsoundsinworld = Sonido Personalizado en el Mundo
+fancymenu.config.defaultguiscale = Escala Predeterminada del Menú
+fancymenu.config.showdebugwarnings = Advertencias de Depuración
+
+fancymenu.config.categories.customization = §3§nPERSONALIZACIÓN§r
+
+fancymenu.config.showcustomizationbuttons = Barra de Herramientas 
+fancymenu.config.softmode = Modo Sencillo
+fancymenu.config.advancedmode = Modo Avanzado
+
+fancymenu.config.categories.mainmenu = §3§nMENÚ PRINCIPAL [GENERAL]§r
+
+fancymenu.config.hidebranding = Ocultar la Marca Minecraft
+fancymenu.config.hidelogo = Ocultar el Logo
+fancymenu.config.hiderealmsnotifications = Ocultar Icono de Noticias Realms
+fancymenu.config.showmainmenufooter = Pie de Página del Menú Principal
+fancymenu.config.hideforgenotifications = Ocultar Notificaciones de Forge
+fancymenu.config.copyrightposition = Posición del Copyright
+fancymenu.config.copyrightcolor = Color del Copyright
+
+fancymenu.config.categories.world_loading_screen = §3§nINTERFAZ DE CARGA DEL MUNDO§r
+
+fancymenu.config.showloadingscreenanimation = Animación de Carga del Mundo
+fancymenu.config.showloadingscreenpercent = Porcentaje de Carga del Mundo
+
+fancymenu.config.categories.mainmenu_splash = §3§nMENÚ PRINCIPAL [Texto de Bienvenida]§r
+
+fancymenu.config.hidesplashtext = Ocultar Texto de Bienvenida
+fancymenu.config.splashcolor = Color del Texto de Bienvenida
+fancymenu.config.splashtextfile = Archivo de Texto de Bienvenida
+fancymenu.config.splashorientation = Cuadrante del Texto de Bienvenida
+fancymenu.config.splashrotation = Rotación del Texto de Bienvenida
+fancymenu.config.splashx = Posición X del Texto de Bienvenida
+fancymenu.config.splashy = Posición Y del Texto de Bienvenida
+
+fancymenu.config.categories.loading = §3§nCARGA DEL JUEGO§r
+
+fancymenu.config.gameintroanimation = Animación de Introducción del Juego
+fancymenu.config.loadingscreendarkmode = Interfaz de Carga Oscura
+fancymenu.config.showanimationloadingstatus = Animación del Progreso de Carga
+fancymenu.config.allowgameintroskip = Saltar Introducción del Juego
+fancymenu.config.customgameintroskiptext = Texto de Salto de Introducción
+fancymenu.config.loadinganimationcolor = Color de Animación de Carga
+fancymenu.config.preloadanimations = Precargar Animaciones
+
+fancymenu.config.categories.minecraftwindow = §3§nVENTANA DE MINECRAFT§r
+
+fancymenu.config.customwindowtitle = Texto Personalizado de la Ventana
+fancymenu.config.customwindowicon = Icono Personalizado de la Ventana
+
+fancymenu.config.categories.layouteditor = §3§nEDITOR DE DISEÑOS§r
+
+fancymenu.config.showvanillamovewarning = Advertir movimiento de Botones
+fancymenu.config.editordeleteconfirmation = Confirmar Eliminación
+
+fancymenu.config.categories.ui = §3§nMENÚ DE HERRAMIENTAS DE FANCYMENU§r
+
+fancymenu.config.uiscale = Escala del Editor
+
+fancymenu.config.enablehotkeys.desc = Activar las teclas de acceso rápido de FancyMenu.%n%§7Opción recomendada si se desactiva la Barra de Herramientas.%n%%n%§8Es necesario reiniciar el juego%n%§8para que se aplique este cambio.
+fancymenu.config.playmenumusic.desc = Activa o desactiva la música%n%predeterminada del menú de Minecraft.
+fancymenu.config.stopworldmusicwhencustomizable.desc = Determinar si la música original del mundo debe%n%detenerse al abrir un menú personalizado.
+fancymenu.config.playbackgroundsounds.desc = Activar o desactivar los sonidos de fondo del%n%menú personalizado añadidos con FancyMenu.
+fancymenu.config.playbackgroundsoundsinworld.desc = Si los sonidos de fondo del menú, añadidos con%n%FancyMenu deben reproducirse mientras%n%se carga un mundo (dentro del juego).
+fancymenu.config.defaultguiscale.desc = Escala predeterminada §7(-1)§r del menú.%n%Especialmente útil cuando se usan paquetes de recursos.%n%%n%§8La caché de datos se guarda en /mods/fancymenu/.
+fancymenu.config.showdebugwarnings.desc = Determinar si FancyMenu debe añadir las%n%advertencias en el archivo de%n%registro del juego. Los errores no%n%son incluidos.
+
+fancymenu.config.showcustomizationbuttons.desc = Muestra el menú de herramientas de FancyMenu.%n%%n%§8Para volver a mostrar la barra de herramientas hay que pulsar §lCTRL + ALT + C%n%§8si están activada las 'Teclas de Acceso Rápido del Mod'%n%§8por el contrario habría que editar el archivo de configuración del mod.
+fancymenu.config.softmode.desc = Maximiza la compatibilidad de los mods%n%desactivando la capacidad de personalización del fondo%n%de los menús desplazables como los menús%n%de un jugador y multijugador.
+fancymenu.config.advancedmode.desc = Activa algunas características avanzadas.%n%Esto puede corromper el juego si%n%no se usa correctamente.
+
+fancymenu.config.hidebranding.desc = Oculta la marca de minecraft/forge%n%que se encuentra en la esquina inferior izquierda%n%del menú principal del juego.
+fancymenu.config.hidelogo.desc = Oculta el logo de Minecraft que se encuentra%n%en el centro del menú principal.
+fancymenu.config.hiderealmsnotifications.desc = Oculta el icono de noticias de Realms%n%que hay en el menú principal.
+fancymenu.config.showmainmenufooter.desc = Muestra un texto al pie de página del menú principal%n%como el de "Descubrir más..."%n%que hay al final de los vídeos de YouTube de Minecraft.
+fancymenu.config.hideforgenotifications.desc = Oculta todas las notificaciones de Forge como el aviso de%n%versión beta o la notificación de actualización de Forge.
+fancymenu.config.copyrightposition.desc = Determina la posición del copyright de MC.%n%%n%§7§lValores asignables:%n%§7► top-left §8(arriba-izquierda)§r%n%§7► top-centered §8(arriba-centrado)§r%n%§7► top-right §8(arriba-derecha)§r%n%§7► bottom-left §8(abajo-izquierda)§r%n%§7► bottom-centered §8(abajo-centrado)§r%n%§7► bottom-right §8(abajo-derecha)§r
+fancymenu.config.copyrightcolor.desc = Establece el color del texto del copyright.
+
+fancymenu.config.showloadingscreenanimation.desc = Determina si debe mostrarse la animación%n%de carga de la interfaz de carga del mundo.
+fancymenu.config.showloadingscreenpercent.desc = Determina si debe mostrarse el porcentaje%n%de carga de la interfaz de carga del mundo.
+
+fancymenu.config.hidesplashtext.desc = Determina si el texto de bienvenida debe ser visible o no.
+fancymenu.config.splashcolor.desc = Establece la base de color del texto de bienvenida.%n%§8¡Sólo se permiten valores HEX!
+fancymenu.config.splashtextfile.desc = Especifica un archivo de texto personalizado (TXT)%n% para los textos de bienvenida.%n%Debe contener un texto corto%n%por cada texto de bienvenida.%n%%n%§8El valor introducido debe contener%n%§8la ruta del archivo.
+fancymenu.config.splashorientation.desc = Asigna el cuadrante del texto de bienvenida.%n%%n%§7§lValores Asignables:%n%§7► original §8(&oposición original§r§8)§r%n%§7► top-left §8(arriba-izquierda)§r%n%§7► mid-left §8(centro-izquierda)§r%n%§7► bottom-left §8(abajo-izquierda)§r%n%§7► top-centered §8(arriba-centrado)§r%n%§7► mid-centered §8(centro-centrado)§r%n%§7► bottom-centered §8(abajo-centrado)§r%n%§7► top-right §8(arriba-derecha)§r%n%§7► mid-right §8(centro-derecha)§r%n%§7► bottom-right §8(abajo-derecha)§r
+fancymenu.config.splashrotation.desc = Determina la rotación del texto de bienvenida.
+fancymenu.config.splashx.desc = Determina la posición horizontal del texto de bienvenida%n%asignando un cuadrante como punto de%n%origen (X:0 Y:0).
+fancymenu.config.splashy.desc = Determina la posición vertical del texto de bienvenida%n%asignando un cuadrante como punto de%n%origen (X:0 Y:0).
+
+fancymenu.config.gameintroanimation.desc = Especifica una animación por el nombre que%n%fue asignado a la animación en sus propiedades,%n%y que debería reproducirse como introducción antes de%n%que aparezca el menú principal por%n%primera vez.%n%(Como tienen la mayoría de juegos.)
+fancymenu.config.loadingscreendarkmode.desc = Activa el modo oscuro de la interfaz de carga.
+fancymenu.config.showanimationloadingstatus.desc = Cuando se activa la 'Animación del Progreso de Carga',%n%se muestra una interfaz con información%n%detallada sobre el proceso de carga.
+fancymenu.config.allowgameintroskip.desc = Especifica si el usuario puede omitir la animación%n%de introducción del juego presionando el ESPACIO.
+fancymenu.config.customgameintroskiptext.desc = Especifica el mensaje que aparecerá indicando%n%la tecla que permite omitir la introducción%n%animada del juego.
+fancymenu.config.loadinganimationcolor.desc = Especifica el color del indicador de la interfaz%n%de carga animada. Esta es la animación que%n%se muestra mientras FancyMenu está cargando%n%todas las animaciones.
+fancymenu.config.preloadanimations.desc = Pre-carga las texturas de las animaciones%n%cuando se inicie el juego.%n%Esto hace que la interfaz de carga%n%se congele al final, pero%n%evita que las animaciones se atranquen%n%cuando se muestran por primera vez.
+
+fancymenu.config.customwindowtitle.desc = Introduce el título personalizado%n%de la ventana de Minecraft.
+fancymenu.config.customwindowicon.desc = Activa los iconos personalizados%n%de las ventanas de Minecraft.%n%Para obtener más información,%n%echa un vistazo en la Wiki:%n%§lfm.keksuccino.de
+
+fancymenu.config.showvanillamovewarning.desc = Muestra una advertencia%n%cuando se intenta mover un%n%botón original del menú sin haberle%n%asignado un cuadrante en el editor%n%de diseños.
+fancymenu.config.editordeleteconfirmation.desc = Muestra una ventana emergente para%n%confirmar la eliminación de un elemento.
+
+fancymenu.config.uiscale.desc = Escala de la barra de herramientas de FancyMenu.
+
+helper.ui.dynamicvariabletextfield.variables.desc = §lPlaceholders%n%§7Los placeholders son variables que%n%§7serán sustituídos por su valor real.%n%§8Por ejemplo pueden mostrar el nombre%n%§8del jugador, la versión de un servidor,%n%§8la cantidad de jugadores, etc.%n%%n%§4IMPORTANTE:%n%§cLas variables se verán en el editor como%n%§cplaceholders y no mostrarán su valor%n%§creal hasta cerrar el editor.
+helper.ui.dynamicvariabletextfield.variables.playername = Nombre del Jugador
+helper.ui.dynamicvariabletextfield.variables.playername.desc = Obtiene el nombre del jugador.
+helper.ui.dynamicvariabletextfield.variables.playeruuid = UUID del Jugador
+helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = Obtiene la UUID del jugador.
+helper.ui.dynamicvariabletextfield.variables.mcversion = Versión de Minecraft
+helper.ui.dynamicvariabletextfield.variables.mcversion.desc = Obtiene la versión de Minecraft.
+helper.ui.dynamicvariabletextfield.variables.forgeversion = Versión de Forge
+helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = Obtiene la versión de Forge.
+helper.ui.dynamicvariabletextfield.variables.modversion = Versión del Mod
+helper.ui.dynamicvariabletextfield.variables.modversion.desc = Obtiene la versión de un mod según su ID.%n%%n%Tienes que cambiar el placeholder '<modid>'%n%por la ID de un Mod existente.
+helper.ui.dynamicvariabletextfield.variables.totalmods = Número Total de Mods
+helper.ui.dynamicvariabletextfield.variables.totalmods.desc = Obtiene la cantidad total de mods.%n%Incluidos los mods desactivados.
+helper.ui.dynamicvariabletextfield.variables.loadedmods = Número de Mods Activos
+helper.ui.dynamicvariabletextfield.variables.loadedmods.desc = Obtiene la cantidad de mods activos.%n%Sin incluir los mods desactivados.
+
+helper.creator.items.string.alignment = §bAlinear el Texto
+helper.creator.items.string.alignment.desc = Establece la alineación del texto.%n%%n%§7Especialmente útil cuando el ancho%n%§7del texto no siempre es el mismo.%n%%n%§8Por ejemplo cuando se usan%n%§8placeholders.
+helper.creator.items.string.alignment.left = Izquierda
+helper.creator.items.string.alignment.right = Derecha
+helper.creator.items.string.alignment.centered = Centrado
+
+helper.creator.items.string.border.alignment = §9Alineación
+
+helper.creator.custombutton.config.actiontype.runcmd.desc = §7Ejecuta un Comando. Admite comandos diferenciados por SO.
+helper.creator.custombutton.config.actiontype.runcmd.desc.value = el Comando
+helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:start.bat]; [macos:./Start]; [linux:./start.sh];
+
+helper.creator.custombutton.config.actiontype.closegui.desc = §7Cierra el menú activo.
+
+helper.ui.current = §3DISEÑOS
+helper.ui.current.layouts = §6⚒ Diseños...
+helper.ui.current.layouts.desc = Controla, añade y administra los diseños de este menú.
+helper.ui.current.layouts.new = §a✚ Añadir Diseño
+helper.ui.current.layouts.new.desc = Genera un nuevo diseño para este menú.
+helper.ui.current.layouts.manage = §6⚒ Diseños...
+helper.ui.current.layouts.manage.desc = Desactiva, modifica o elimina los diseños de este menú.
+helper.ui.current.layouts.manage.edit = §6✎ Modificar Diseño
+helper.ui.current.layouts.manage.edit.desc = Modifica el diseño con%n%este editor de diseños.
+helper.ui.current.advanced = §7⚠ Avanzado...
+helper.ui.current.advanced.desc = Contiene herramientas para usuarios expertos.%n%%n%§4¡ATENCIÓN!%n%§cUsar esto puede corromper el diseño%n%§cy no es necesario en la mayoría de situaciones.
+
+helper.ui.customguis = §3MENÚS
+helper.ui.customguis.new = §a✚ Añadir Menú
+helper.ui.customguis.new.desc = Genera un nuevo menú y añade elementos.
+helper.ui.customguis.new.sure = §6⚠ §c¿Seguro que quieres crear un §4nuevo menú§c? §6⚠%n%%n%§c¡§lNo §r§ces lo mismo que personalizar%n%§cun menú ya existente!%n%%n%Si lo que quieres es personalizar un menú existente,%n%debes crear un §lDiseño§r.%n% %n% %n%
+helper.ui.customguis.manage = §6⚒ Menús...
+helper.ui.customguis.manage.desc = Administración de los Menús.
+
+helper.ui.tools = §3OPCIONES
+helper.ui.tools.menuinfo.off = §cℹ §bIdentificador del Menú
+helper.ui.tools.menuinfo.on = §aℹ §bIdentificador del Menú
+helper.ui.tools.menuinfo.desc = Muestra el identificador del menú actual.%n%%n%§8Botón Izquierdo ► Copiar identificador.
+helper.ui.tools.buttoninfo.off = §cℹ §bIdentificador del Botón
+helper.ui.tools.buttoninfo.on = §aℹ §bIdentificador del Botón
+helper.ui.tools.buttoninfo.desc = Muestra el identificador de los botones%n%originales al pasar por encima de ellos.%n%%n%§8No válido para los botones personalizados.
+
+helper.ui.misc = §3INTERFACES
+helper.ui.misc.closegui = §c⏏ Cerrar Interfaz
+helper.ui.misc.closegui.desc = Cierra la interfaz actual.
+helper.ui.misc.openworldloading = §a➚ Interfaz de 'Carga del Mundo'
+helper.ui.misc.openworldloading.desc = Abre la interfaz de carga del mundo,%n%para que se pueda personalizar.%n%%n%§7Esta interfaz aparece cuando estás cargando un mundo.
+helper.ui.misc.openmessagescreen = §a➚ Interfaz de 'Mensajes'
+helper.ui.misc.openmessagescreen.desc = Abre la interfaz de mensajes,%n%para que se pueda personalizar.%n%%n%§7Esta interfaz aparece cuando estás entrando%n%§7en un servidor o cuando se carga o descarga un%n%§7mundo en modo solitario.
+
+helper.ui.reload.desc = Recargar FancyMenu.%n%%n%§a§nRecargará:%n%► Panoramas.%n%► Diapositivas.%n%► Config. del Mod.%n%► Diseños.%n%%n%§c§nNo Recarga:%n%► Animaciones.%n%► Archivo de Idioma.
+
+helper.editor.ui.unsavedwarning = §6⚠ §4¿Seguro que quieres §lsalir§4 del editor? §6⚠%n%%n%%n%§c¡Perderás todos los cambios que no hayas guardado!%n% %n% %n%
+
+helper.editor.ui.layout = Diseño
+helper.editor.ui.layout.new = §a✚ Añadir Diseño
+helper.editor.ui.layout.open = §b➚ Abrir
+helper.editor.ui.layout.save = §5⇣ Guardar
+helper.editor.ui.layout.saveas = §7⇣ Guardar Como...
+helper.editor.ui.layout.saveas.entername = Introduce el Nombre del Diseño
+helper.editor.ui.layout.saveas.failed = §4¡No se ha podido guardar!%n%%n%%n%§cEl nombre del diseño ya existe o no se admite.%n% %n% %n%
+helper.editor.ui.layout.properties = §6↹ Propiedades
+
+helper.editor.ui.edit = Editar
+helper.editor.ui.edit.undo = §d↩ Deshacer
+helper.editor.ui.edit.redo = §d↪ Rehacer
+helper.editor.ui.edit.copy = §5⌸ Copiar
+helper.editor.ui.edit.paste = §5⍞ Pegar
+
+helper.editor.ui.element = Elemento
+helper.editor.ui.element.new = §a✚ Añadir Elemento...
+helper.editor.ui.element.manageaudio = Gestionar Sonidos
+helper.editor.ui.element.manageaudio.loop.on = Bucle: §aSi
+helper.editor.ui.element.manageaudio.loop.off = Bucle: §cNo
+helper.editor.ui.element.deletedvanillabuttons = Botones Originales Eliminados
+helper.editor.ui.element.deletedvanillabuttons.entry.desc = §7Botón Izquierdo ► Restaurar Botón.
+
+helper.editor.ui.exit = §c⏏ Salir del Editor
+helper.editor.ui.exit.desc = Cerrar el Editor de Diseños.
+
+helper.editor.ui.layoutproperties.newelement = §a✚ Añadir Elemento...
+
+helper.ui.warning = §4¡ATENCIÓN!
+helper.ui.warning.unicode = ¡Las fuentes Unicode no son totalmente compatibles con FancyMenu!%n%Por favor, desactiva las fuentes unicode en la configuración de idioma.
+
+helper.creator.error.invalidfile = §4¡Error!%n%%n%%n%§c¡Archivo no válido o inexistente!%n% %n% %n% %n%
+
+helper.creator.add.splash = Texto de Bienvenida
+helper.creator.add.splash.single = Texto de Bienvenida Único
+helper.creator.add.splash.single.desc = Introduce un único Texto de Bienvenida.
+helper.creator.add.splash.multi = Archivo de Textos de Bienvenida
+helper.creator.add.splash.multi.desc = Selecciona un archivo de texto que%n%contenga múltiples Textos de Bienvenida.
+
+helper.creator.items.splash.bounce.on = Rebotar: §aSi
+helper.creator.items.splash.bounce.off = Rebotar: §cNo
+helper.creator.items.splash.refresh.on = Aleatorio: §aSi
+helper.creator.items.splash.refresh.off = Aleatorio: §cNo
+helper.creator.items.splash.refresh.desc = Muestra un texto de bienvenida diferente cada%n%vez que el menú se recarga o se abre.
+helper.creator.items.splash.basecolor = Color Base
+helper.creator.items.splash.rotation = Rotación
+
+helper.creator.items.delay = Retrasar Aparición
+helper.creator.items.delay.off = Retrasar: §cNo
+helper.creator.items.delay.firsttime = Retrasar: §6Solo la Primera Vez
+helper.creator.items.delay.everytime = Retrasar: §aCada Vez
+helper.creator.items.delay.seconds = Tiempo de Retardo (en segundos)...
+helper.creator.items.delay.fadein.off = Aparecer Gradualmente: §cNo
+helper.creator.items.delay.fadein.on = Aparecer Gradualmente: §aSi
+helper.creator.items.delay.fadein.speed = Velocidad de Aparición Gradual...
+
+fancymenu.helper.creator.layoutoptions.randommode.on = Modo Aleatorio: §aSi
+fancymenu.helper.creator.layoutoptions.randommode.off = Modo Aleatorio: §cNo
+fancymenu.helper.creator.layoutoptions.randommode.btn.desc = Selecciona un diseño aleatorio del mismo%n%grupo cuando se abre el menú.%n%%n%Puede utilizarse para alternar%n%fondos y otros elementos.
+fancymenu.helper.creator.layoutoptions.randommode.setgroup = Determina el Grupo Aleatorio
+fancymenu.helper.creator.layoutoptions.randommode.setgroup.btn.desc = Establece el grupo de este diseño aleatorio.%n%Cuando se abre el menú se selecciona%n%un diseño por cada grupo.
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.on = Alternar Solo la Primera Vez: §aSi
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.off = Alternar Solo la Primera Vez: §cNo
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.btn.desc = Si los diseños de este grupo aleatorio%n%se deben alternar cada vez que se abra el%n%menú o si sólo debe elegirse un diseño%n%la primera vez que se abra el menú.
+
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.set = Establece el Fondo
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.set.desc = Establece la animación seleccionada%n%como animación de fondo activa.
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear = Limpiar
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear.desc = Elimina la animación de%n%fondo actualmente activa.
+
+fancymenu.helper.editor.items.buttons.buttonbackground = §6✎ Diseño del Botón
+fancymenu.helper.editor.items.buttons.buttonbackground.normalbackground = §3Diseño Base
+fancymenu.helper.editor.items.buttons.buttonbackground.hoverbackground = §3Cambio de Diseño al Seleccionar
+fancymenu.helper.editor.items.buttons.buttonbackground.type.image = Imagen
+fancymenu.helper.editor.items.buttons.buttonbackground.type.image.chooseimage = Seleccionar Imagen
+fancymenu.helper.editor.items.buttons.buttonbackground.type.animation = Animación
+fancymenu.helper.editor.items.buttons.buttonbackground.type.animation.none = NINGUNA
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.on = Animación en Bucle: §aSi
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.off = Animación en Bucle: §cNo
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.btn.desc = Determina si se usará la animación de textura en bucle o no.
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.on = Reiniciar al Sobrepasar: §aSi
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.off = Reiniciar al Sobrepasar: §cNo
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.btn.desc = Reinicia la animación de la textura%n%al sobrepasar el elemento.
+
+fancymenu.helper.editor.items.visibilityrequirements = §6⚒ Condicionante...
+fancymenu.helper.editor.items.visibilityrequirements.btn.desc = Determina los requisitos que se deben conseguir%n%para que el elemento sea visible.
+fancymenu.helper.editor.items.visibilityrequirements.enabled = {}: §aActivado
+fancymenu.helper.editor.items.visibilityrequirements.disabled = {}: §cDesactivado
+fancymenu.helper.editor.items.visibilityrequirements.toggle.btn.desc = §8§oBotón Izquierdo ► Cambiar Requisito.
+fancymenu.helper.editor.items.visibilityrequirements.showif = Muestra si SI
+fancymenu.helper.editor.items.visibilityrequirements.showif.btn.desc = Muestra el elemento si se cumple la condición.
+fancymenu.helper.editor.items.visibilityrequirements.showifnot = Muestra si NO
+fancymenu.helper.editor.items.visibilityrequirements.showifnot.btn.desc = Muestra elemento si NO se cumple la condición.
+
+fancymenu.helper.editor.items.visibilityrequirements.singleplayer = §bUn Jugador
+fancymenu.helper.editor.items.visibilityrequirements.singleplayer.desc = Comprueba si el usuario está jugando en modo solitario.
+
+fancymenu.helper.editor.items.visibilityrequirements.multiplayer = §bMultijugador
+fancymenu.helper.editor.items.visibilityrequirements.multiplayer.desc = Comprueba si el usuario está jugando en un servidor.
+
+fancymenu.helper.editor.items.visibilityrequirements.worldloaded = §bMundo Cargado
+fancymenu.helper.editor.items.visibilityrequirements.worldloaded.desc = Comprueba si el mundo está cargado.%n%%n%Un mundo se carga cuando el usuario%n%está en un mundo en solitario o en multijugador.
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour = §bHora Real
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour.desc = Comprueba si la hora real actual es X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar distintas horas%n%de una sola vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour.valuename = Horas Reales (Valores Separados por Comas)
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute = §bMinuto Real
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.desc = Comprueba si el minuto real actual es X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar distintos minutos%n%de una sola vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.valuename = Minutos Reales (Valores Separados por Comas)
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond = §bSegundo Real
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.desc = Comprueba si el segundo real actual es X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar distintos segundos%n%de una sola vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.valuename = Segundos Reales (Valores Separados por Comas)
+
+fancymenu.helper.editor.items.visibilityrequirements.windowwidth = §bAncho de la Ventana
+fancymenu.helper.editor.items.visibilityrequirements.windowwidth.desc = Comprueba si el ancho de la ventana es X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar distintos anchos%n%de una sola vez.
+fancymenu.helper.editor.items.visibilityrequirements.windowwidth.valuename = Anchos de Ventana (Valores Separados por Comas)
+
+fancymenu.helper.editor.items.visibilityrequirements.windowheight = §bAlto de la Ventana
+fancymenu.helper.editor.items.visibilityrequirements.windowheight.desc = Comprueba si alto de la ventana es X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar distintas alturas%n%de una sola vez.
+fancymenu.helper.editor.items.visibilityrequirements.windowheight.valuename = Altos de Ventana (Valores Separados por Comas)
+
+fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan = §bLa Ventana es más Grande
+fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.desc = Comprueba si el ancho de la ventana es mayor que X.
+fancymenu.helper.editor.items.visibilityrequirements.windowwidthbiggerthan.valuename = Ancho de la Ventana
+
+fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan = §bLa Ventana es más Alta
+fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.desc = Comprueba si el alto de la ventana es mayor que X.
+fancymenu.helper.editor.items.visibilityrequirements.windowheightbiggerthan.valuename = Alto de la Ventana
+
+fancymenu.helper.editor.items.visibilityrequirements.buttonhovered = §bCursor al Sobrepasar el Botón
+fancymenu.helper.editor.items.visibilityrequirements.buttonhovered.desc = Comprueba si un botón específico es sobrepasado.%n%%n%§cPara obtener la ID de un botón,%n%§cpulsa con el botón derecho y luego en%n%'Copiar ID del Elemento'.
+fancymenu.helper.editor.items.visibilityrequirements.buttonhovered.valuename = ID del Elemento
+
+fancymenu.helper.editor.items.visibilityrequirements.language = §bIdioma del Juego
+fancymenu.helper.editor.items.visibilityrequirements.language.desc = Comprueba si el idioma del juego es uno especifico.
+fancymenu.helper.editor.items.visibilityrequirements.language.valuename = ID del Idioma
+
+fancymenu.helper.editor.items.visibilityrequirements.fullscreen = §bPantalla Completa
+fancymenu.helper.editor.items.visibilityrequirements.fullscreen.desc = Comprueba si el juego está funcionado a pantalla completa.
+
+fancymenu.helper.editor.items.visibilityrequirements.oswindows = §bSistema Windows
+fancymenu.helper.editor.items.visibilityrequirements.oswindows.desc = Comprueba si el sistema operativo es Windows.
+
+fancymenu.helper.editor.items.visibilityrequirements.osmac = §bSistema macOS
+fancymenu.helper.editor.items.visibilityrequirements.osmac.desc = Comprueba si el sistema operativo es macOS.
+
+fancymenu.helper.editor.items.visibilityrequirements.oslinux = §bSistema Linux
+fancymenu.helper.editor.items.visibilityrequirements.oslinux.desc = Comprueba si el sistema operativo es Linux.
+
+fancymenu.helper.editor.items.visibilityrequirements.modloaded = §bMod Cargado
+fancymenu.helper.editor.items.visibilityrequirements.modloaded.desc = Comprueba si un mod específico está cargado.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar si hay cargado más de un mod.
+fancymenu.helper.editor.items.visibilityrequirements.modloaded.valuename = ID del Mod (Valores Separados por Comas)
+
+fancymenu.helper.editor.items.visibilityrequirements.serveronline = §bServidor Activo
+fancymenu.helper.editor.items.visibilityrequirements.serveronline.desc = Comprueba si un servidor específico está activo.
+fancymenu.helper.editor.items.visibilityrequirements.serveronline.valuename = IP del Servidor
+
+fancymenu.helper.editor.items.copyid = Copiar ID del Elemento
+fancymenu.helper.editor.items.copyid.btn.desc = Copiar el Identificador de este elemento.
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.local = Localizar un Texto
+fancymenu.helper.ui.dynamicvariabletextfield.variables.local.desc = Localiza un texto por su cadena.%n%%n%Sólo hay que sustituir el placeholder%n%'<localization.key>' por la cadena del texto.%n%%n%§cConsulta la wiki para saber cómo añadir%n%tus propias traducciones de texto.%n%%n%§cWiki: fm.keksuccino.de%n%%n%§lEjemplo:%n%%local:some.local.key%
+
+fancymenu.config.showgrid = Mostrar Cuadricula
+fancymenu.config.showgrid.desc = Muestra una cuadricula en el editor%n%para facilitar la alineación de los elementos.
+fancymenu.config.gridsize = Tamaño de la Cuadricula
+fancymenu.config.gridsize.desc = El tamaño interior de los cuadrados formados por la cuadrícula.
+
+fancymenu.helper.editor.properties.scale.btn.desc = Fuerza la escala de este menú.%n%%n%Esto anulará la escala establecida%n%en la configuración de Minecraft.%n%%n%§cSólo fuerza la escala de este menú específico,%n%§cno la de todos los menús.
+
+fancymenu.helper.editor.properties.autoscale.on = Auto-Escalar Diseño: §aSi
+fancymenu.helper.editor.properties.autoscale.off = Auto-Escalar Diseño: §cNo
+fancymenu.helper.editor.properties.autoscale.btn.desc = Permite que FancyMenu seleccione la mejor escala para el%n%menú, y que tu diseño funcione en%n%cada escala y resolución.%n%%n%§cEsto provocará que los elementos se vean%n%§cborrosos según la escala.%n%§cPara arreglar esto, la mejor solución sería%n%§cutilizar imágenes de fondo para los elementos de texto.
+fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line1 = Aquí puedes determinar el tamaño base de la ventana de tu diseño.
+fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line2 = Este debe ser del tamaño para el que fue diseñado.
+fancymenu.helper.editor.properties.autoscale.basesize.popup.desc.line3 = Si lo hiciste con el tamaño actual de la ventana, deja los valores como están.
+fancymenu.helper.editor.properties.autoscale.error = §c§l¡Algo ha salido mal!%n%%n%¡Hay un error en la configuración del tamaño base del auto-escalado!%n%Por favor, comprueba si ambos valores son §lmayores de 0%n%y que sean §lnúmeros válidos§r.%n% %n% %n% %n% %n%
+
+fancymenu.helper.ui.dynamicvariabletextfield.categories.other = Otro
+fancymenu.helper.ui.dynamicvariabletextfield.categories.server = Servidor
+fancymenu.helper.ui.dynamicvariabletextfield.categories.realtime = Hora Real
+fancymenu.helper.ui.dynamicvariabletextfield.categories.player = Jugador
+fancymenu.helper.ui.dynamicvariabletextfield.categories.client = Cliente
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeyear = Año
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimemonth = Mes
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeday = Día
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimehour = Hora
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimeminute = Minuto
+fancymenu.helper.ui.dynamicvariabletextfield.variables.realtimesecond = Segundo
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd = Mensaje del Servidor
+fancymenu.helper.ui.dynamicvariabletextfield.variables.servermotd.desc = Obtiene el MOTD de un servidor.%n%%n%Tienes que sustituir el placeholder '<serverIP>'%n% con la IP del servidor.%n%%n%§lPor ejemplo:%n%%servermotd:mc.miservidor.es%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping = Ping del Servidor
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverping.desc = Obtiene el ping actual a un servidor.%n%%n%Tienes que sustituir el placeholder '<serverIP>'%n% con la IP del servidor.%n%%n%§lPor ejemplo:%n%%serverping:mc.miservidor.es%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverplayercount = Cantidad de Jugadores en el Servidor
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverplayercount.desc = Obtiene la cantidad de jugadores de un servidor.%n%%n%Tienes que sustituir el placeholder '<serverIP>'%n% con la IP del servidor.%n%%n%§lPor ejemplo:%n%%serverplayercount:mc.miservidor.es%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverstatus = Estado del Servidor
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverstatus.desc = Obtiene el estado (online/offline) de un servidor.%n%%n%Tienes que sustituir el placeholder '<serverIP>'%n% con la IP del servidor.%n%%n%§lPor ejemplo:%n%%serverstatus:mc.miservidor.es%
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion = Versión del Servidor
+fancymenu.helper.ui.dynamicvariabletextfield.variables.serverversion.desc = Obtiene la versión de MC de un servidor.%n%%n%Tienes que sustituir el placeholder '<serverIP>'%n% con la IP del servidor.%n%%n%§lPor ejemplo:%n%%serverversion:mc.miservidor.es%
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.percentram = RAM Usada en %
+fancymenu.helper.ui.dynamicvariabletextfield.variables.usedram = RAM Usada en MB
+fancymenu.helper.ui.dynamicvariabletextfield.variables.maxram = RAM Máxima en MB
+
+fancymenu.helper.editor.layoutoptions.backgroundoptions.setbackground = Fondo del Menú
+fancymenu.helper.editor.layoutoptions.backgroundoptions.setbackground.btn.desc = Establece el tipo de fondo del menú:%n%► Imagen%n%► Animación%n%► Panorama%n%► Secuencia de Imágenes.
+fancymenu.helper.editor.layoutoptions.backgroundoptions.keepaspect.on = Mantener Relación de Aspecto: §aSi
+fancymenu.helper.editor.layoutoptions.backgroundoptions.keepaspect.off = Mantener Relación de Aspecto: §cNo
+fancymenu.helper.editor.layoutoptions.backgroundoptions.slideimage.on = Deslizamiento Horizontal del Fondo: §aSi
+fancymenu.helper.editor.layoutoptions.backgroundoptions.slideimage.off = Deslizamiento Horizontal del Fondo: §cNo
+fancymenu.helper.editor.layoutoptions.backgroundoptions.slideimage.btn.desc = Deslizar la imagen de fondo de%n%izquierda a derecha, si la imagen tiene%n%un formato demasiado ancho.%n%%n%§cSolo funciona con imágenes de fondo%n%§cy no con secuenciadores, animaciones o panoramas cúbicos.
+fancymenu.helper.editor.layoutoptions.backgroundoptions.image.clear = Limpiar
+fancymenu.helper.editor.layoutoptions.backgroundoptions.image.clear.btn.desc = Elimina la imagen de fondo actual.
+
+fancymenu.helper.editor.items.orientation.element.setidentifier = Introduce el ID del elemento
+fancymenu.helper.editor.items.orientation.element.setidentifier.identifiernotfound = §c§l¡Error!%n%%n%¡No se ha encontrado ningún elemento con este ID!%n%%n%%n%%n%
+fancymenu.helper.editor.items.orientation.element.btn.desc = Asocia el elemento junto a otro elemento.%n%De esta forma quedará vinculado y siempre%n%se moverá junto al elemento principal.%n%%n%§cNecesitaras introducir la ID del elemento principal%n%§cpara vincular el elemento.%n%§8Puedes obtener la ID del elemento principal%n%§8usando el botón derecho sobre el.
+
+fancymenu.helper.setupsharing.import.choosefromsaved = Seleccionar Configuración Guardada
+fancymenu.helper.setupsharing.import.choosefromsaved.btn.desc = Selecciona una configuración de las configuraciones guardadas.
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip = §6Información sobre la Configuración:
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.datemodified = Modificado: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.mcversion = Versión de Minecraft: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.fmversion = Versión de FancyMenu: §7{}
+fancymenu.helper.setupsharing.import.choosefromsaved.tooltip.modloader = Lanzador del Mod: §7{}
+fancymenu.helper.setupsharing.import.choosefrompath = Introduce la Ruta de la Configuración
+fancymenu.helper.setupsharing.import.choosefrompath.btn.desc = Introduce la ruta de una carpeta de configuración.
+fancymenu.helper.setupsharing.import.enterpath = §lIntroduce la ruta de la carpeta de configuración:
+fancymenu.helper.setupsharing.import.differentmodloader = §4¡Atención!%n%%n%§cEsta configuración se ha creado en {}§c, pero estás usando {}§c.%n%%n%§cLa configuración puede ser §4incompatible§c.%n%%n%§4¿Quieres importarla?%n%%n%%n%
+fancymenu.helper.setupsharing.import.differentmcversion = §4¡Atención!%n%%n%§cEsta configuración se ha creado en Minecraft {}§c,%n%§cpero estás uasando Minecraft {}§c.%n%%n%§cLa configuración puede ser §4incompatible§c.%n%%n%§4¿Quieres importarla?%n%%n%%n%
+fancymenu.helper.setupsharing.import.differentfmversion = §4¡Atención!%n%%n%§cEsta configuración se ha creado con FancyMenu {}§c,%n%§cpero estás usando FancyMenu {}§c.%n%%n%§cLa configuración puede ser §4incompatible§c.%n%%n%§4¿Quieres importarla?%n%%n%%n%
+fancymenu.helper.setupsharing.import.invalididentifiers = §4¡Atención!%n%%n%§cSe han encontrado diseños con identificadores%n%§cde menú no válidos.%n%%n%Esto puede ocurrir cuando el diseño se%n%§cha realizado en otra versión de MC%n%§co con otro lanzador de mods.%n%§cTambién puede ser que se haya diseñado para%n%§cun menú de mods específicos y el mod ya%n%§cno se encuentre instalado.%n%%n%§7FancyMenu puede intentar solucionar el problema%n%§7usando los identificadores de los menús originales.%n%%n%§4¿Debe FancyMenu intentar reparar los identificadores?%n%%n%%n%
+fancymenu.helper.setupsharing.import.success = §2¡Completado!%n%%n%¡Se ha importado la configuración!%n%%n%¡Por favor, §6reinicia §rel juego para finalizar el proceso!%n%%n%%n%
+fancymenu.helper.setupsharing.import.error = §4¡Fallo!%n%%n%¡Ha surgido un problema al intentar importar la configuración!%n%%n%¡Por favor, envía el registro al desarrollador del mod.%n%%n%%n%
+fancymenu.helper.setupsharing.import.confirm = §6⚠ §4¿Estás seguro? §6⚠%n%%n%§cAl importar la configuración se §4sustituirá%n%§cla configuración actual%n%%n%§cFancyMenu realizará una copia de seguridad%n%§cde la configuración actual, pero%n%§cse recomienda encarecidamente §crealizar una copia%n%§cde seguridad completa de tu instancia de Minecraft.%n%%n%§7Puedes restaurar la última copia de seguridad automática de la configuración desde la 'Barra de Menú → Herramientas'.%n%%n%§4¿Quieres sustituir ahora tu configuración?%n%%n%%n%
+fancymenu.helper.setupsharing.import.importingsetup = §lImportando la configuración, por favor espera...
+fancymenu.helper.setupsharing.import.preparing = §lPreparando la configuración, por favor espera...
+fancymenu.helper.setupsharing.import.invalidsetup = §c§l'Fallo!%n%%n%¡Esta carpeta no contiene una configuración válida de FancyMenu!%n%%n%%n%
+fancymenu.helper.setupsharing.export.entername = §lIntroduce el nombre de la configuración:
+fancymenu.helper.setupsharing.export.error = §c§l¡Fallo!%n%%n%¡Ha surgido un problema al intentar exportar la configuración!%n%%n%§c¡Por favor, envía el archivo de registro al desarrollador del mod!%n%%n%%n%
+fancymenu.helper.setupsharing.export.confirm = §6⚠ §4¿Estás seguro? §6⚠%n%%n%Exportando una configuración, exportarás la configuración, todos tus diseños,%n%animaciones, recursos y más, para que puedas compartirlo con los demás.%n%%n%§6¿Quieres exportar tu configuración ahora?%n%%n%%n%
+fancymenu.helper.setupsharing.export.unabletoexport = §4¡Atención!%n%%n%§cSe ha exportado tu configuración, pero%n%§cno se han podido exportar {} §celementos.%n%%n%§c¡Tedrás que copiar manualmente estos elementos!%n%%n%§c¿Quieres ver una lista con los%n%§celementos que no se han podido exportar?%n%%n%%n%
+fancymenu.helper.setupsharing.export.success = §a§l¡Completado!%n%%n%¡La configuración se ha exportado sin problemas!%n%%n%§6¿Quieres abrir la carpeta de configuraciones?%n%%n%%n%
+fancymenu.helper.setupsharing.import.exportingsetup = §lExportanto la configuración, por favor espera...
+fancymenu.helper.setupsharing.restore.confirm = §6⚠ §4¿Estás seguro? §6⚠%n%%n%¡Al restaurar una copia, se §csustituirá §rtu configuración actual de FancyMenu!%n%%n%§c¡Por favor, realiza una copia completa de tu instancia de Minecraft!%n%%n%§c§l¿Quieres restaurar la copia de seguridad ahora?%n%%n%%n%
+fancymenu.helper.setupsharing.restore.success = §a§l¡Completado!%n%%n%¡Se ha restaurado la copia de seguridad de la configuración!%n%%n%¡Por favor, §6reinicia §rel juego para completar el proceso!%n%%n%%n%
+fancymenu.helper.setupsharing.restore.error = §c§l¡Fallo!%n%%n%¡Se ha producido un error al intentar restaurar la copia de seguridad!%n%%n%§6No te preocupes§r, tu copia de seguridad debería estar bien.%n%Puedes intentar §6restarurar la copia manualmente§r.%n%%n%§6¿Quieres abrir la carpeta de copias de seguridad?%n%%n%%n%
+fancymenu.helper.setupsharing.restore.backingup = §lRealizando una Copia de Seguridad de la Configuración, por favor espera...
+fancymenu.helper.setupsharing.restore.restoring = §lRestaurando una Copia de Seguridad de la Configuración, por favor espera...
+
+fancymenu.helper.ui.setup = §3HERRAMIENTAS
+fancymenu.helper.ui.setup.import = §7⎘ Importar Config.
+fancymenu.helper.ui.setup.import.btn.desc = Importar una configuración guardada.%n%%n%§4¡ATENCIÓN!%n%§cSe sustituirá la configuración de FancyMenu.
+fancymenu.helper.ui.setup.export = §7⎗ Exportar Config.
+fancymenu.helper.ui.setup.export.btn.desc = Exportar la configuración actual.%n%%n%Se copiará la configuración, diseños,%n%animaciones, recursos y más.
+fancymenu.helper.ui.setup.restore = §7⟳ Restaurar Config.
+fancymenu.helper.ui.setup.restore.btn.desc = Restaurar una copia de seguridad%n%de la configuración.%n%%n%§7Las copias de seguridad se realizan%n%§7automáticamente antes de importar%n%§7una nueva configuración.
+fancymenu.helper.ui.setup.restore.entry.btn.desc = §8Botón Izquierdo ► Recuperar la Copia de Seguridad.
+
+fancymenu.commands.openguiscreen.error = Se ha producido un error al intentar%n%abrir la interfaz gráfica de usuario.
+fancymenu.commands.openguiscreen.cannotopen = No se puede abrir la interfaz gráfica de usuario.%n%El menú que quieres abrir no existe o no es compatible.%n%Si se trata de un menú original, por favor,%n%ponte en contacto con el desarrollador de FancyMenu%n%para que pueda añadir soporte para éste.
+
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc = Copiar el texto en el portapapeles.
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value = Texto
+helper.creator.custombutton.config.actiontype.copytoclipboard.desc.value.example = ¡Este texto se ha copiado en el portapapeles!
+
+fancymenu.config.forcefullscreen = Forzar Interfaz Completa
+fancymenu.config.forcefullscreen.desc = Forzar el inicio a interfaz completa.%n%Los usuarios pueden cambiar el%n%tamaño de la interfaz más tarde.
+
+helper.creator.custombutton.config.actiontype.mimicbutton.desc = Ejecuta la acción de un botón original.
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value = identificador_menu:id_boton
+helper.creator.custombutton.config.actiontype.mimicbutton.desc.value.example = algun.identificador.menu:505280
+
+fancymenu.custombutton.action.mimicbutton.unabletoexecute = §4¡Fallo!%n%%n%¡No se ha podido ejecutar la acción del botón.%n%%n%La localización del botón no es válida o %n%es incapaz de abrir la interfaz principal del botón.%n% %n% %n% %n%
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel = Etiqueta del Botón Original
+fancymenu.helper.ui.dynamicvariabletextfield.variables.vanillabuttonlabel.desc = Obtener la etiqueta de un botón original.%n%%n%§cCambia el "<button_locator>" del%n%§cbotón por el localizador correcto%n%§cdel botón de destino.%n%%n%El localizador de botón es una combinación%n%del identificador del menú%n%en el que se encuentra el botón y el %n%ID del botón, separado%n%por dos puntos.%n%%n%Ejemplo de localizador de botón:%n%algun.identificador.menu:505280
+
+fancymenu.helper.editor.windowsizerestrictions.reset = §cRestablecer Tamaños de Ventana
+fancymenu.helper.editor.windowsizerestrictions.reset.btn.desc = Restablecer o eliminar todas%n%las restricciones de tamaño%n%de las ventanas.
+fancymenu.helper.editor.windowsizerestrictions.btn.desc = Configurar el diseño para que sólo se cargue%n%en tamaños de ventana específicos.%n%%n%§c¡Se recomienda utilizar sólo%n%§cel ancho o el alto y%n%§cno ambos al mismo tiempo!
+
+fancymenu.config.categories.multiplayer_screen = MENÚ MULTIJUGADOR
+fancymenu.config.categories.singleplayer_screen = MENÚ SOLITARIO
+
+fancymenu.config.show_server_icons = Mostrar el Icono del Servidor
+fancymenu.config.show_server_icons.desc = Determina si los iconos del servidor deben ser visibles.
+fancymenu.config.show_world_icons = Mostrar Iconos del Mundo
+fancymenu.config.show_world_icons.desc = Determina si los iconos del mundo deben ser visibles.
+
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations = §c¡Para poder utilizar esta herramienta%n%§ces necesario activar la personalización del menú actual!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line1 = §4¡ATENCIÓN!
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line2 = Es necesario activar la personalización del menú actual
+fancymenu.helper.ui.tools.buttoninfo.enablecustomizations.cursorwarning.line3 = antes de usar la herramienta §lInformación del Botón§r!
+
+fancymenu.helper.editor.items.visibilityrequirements.guiscale = §bEscala del Menú
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.desc = Comprueba si la escala del Menú actual es X.%n%%n%Puede comprobar si es mayor de ('>'),%n%menor de ('<') o igual a X.%n%%n%Por ejemplo, si quieres comprobar%n%si la escala es menor de 3.20,%n%introduce '<3.20' (sin las comillas '').%n%Para comprobar si la escala es igual a 1.0,%n%simplemente escribe '1.0' (sin las comillas '').%n%Comprobar si la escala es mayor de 2.20,%n%introduce '>2.20' (sin las comillas '').%n%%n%Puede separar varios valores con una coma,%n%para comprobar más de una escala%n%a la vez.
+fancymenu.helper.editor.items.visibilityrequirements.guiscale.valuename = Condiciones de Escala del Menú (valores separados por coma).
+
+fancymenu.helper.editor.backgrounds.choose = Selecciona el fondo
+
+fancymenu.helper.editor.backgrounds.image.desc = Una imagen estática.%n%%n%Solo se admiten imágenes JPG/JPEG y PNG.
+fancymenu.helper.editor.backgrounds.animation.desc = Una animación. Como un video, pero no, ¿sabes?%n%%n%Visita la wiki (fm.keksuccino.de) para saber%n%cómo hacer tus propias animaciones.
+fancymenu.helper.editor.backgrounds.panorama.desc = Un panorama cúbico giratorio como%n%el del menú principal original.%n%%n%Visita la wiki (fm.keksuccino.de) para saber%n%cómo hacer tus propios panoramas.
+fancymenu.helper.editor.backgrounds.slideshow.desc = Un secuenciador que muestra un conjunto de imágenes.%n%%n%Visita la wiki (fm.keksuccino.de) para saber%n%cómo hacer tus propios secuenciadores.
+
+fancymenu.helper.editor.backgrounds.custom.choosefile = Selecciona el Archivo
+fancymenu.helper.editor.backgrounds.custom.setbackground = Establece el Fondo
+fancymenu.helper.editor.backgrounds.custom.clearbackground = Borrar
+fancymenu.helper.editor.backgrounds.custom.clearbackground.desc = Borra el fondo activo actualmente de este tipo.
+
+fancymenu.helper.editor.extension.dummy.audio.btn.desc = §6Para usar este elemento%n%§6tienes que instalar la%n%§6§lExtensión de Audio§r§6.%n%%n%§cPulsa sobre el botón%n%§cpara abrir la página de descarga.
+fancymenu.helper.editor.extension.dummy.audio.manageaudio.btn.desc = §c§l¡OBSOLETO!%n%%n%§c¡Esto forma parte de un antiguo%n%§csistema de audio y será eliminado%n%§cmuy pronto!%n%%n%§cPara obtener más información, lee%n%§cla información que aparece sobre el botón%n%§cpara añadir una nueva extensión de audio.
+
+helper.creator.custombutton.config.actiontype.join_last_world.desc = Entrar en el último mundo/servidor.
+
+fancymenu.helper.ui.universal_layouts = §3PLANTILLAS
+fancymenu.helper.ui.universal_layouts.btn.desc = Las plantillas son diseños que se pueden%n%usar en cada menú personalizado en vez de%n%en un sólo un menú.%n%%n%§7Puede utilizarse para añadir imágenes de fondo%n%§7y todo tipo de elementos en todos los%n%§7menús a la vez.
+fancymenu.helper.ui.universal_layouts.new = §a✚ Nueva Plantilla
+fancymenu.helper.ui.universal_layouts.manage = §6⚒ Plantillas...
+
+fancymenu.helper.ui.misc.open_progress_screen = §a➚ Interfaz 'Progreso'
+fancymenu.helper.ui.misc.open_progress_screen.btn.desc = Abre la interfaz 'Progreso',%n%para que se pueda personalizar.%n%%n%§7Esta interfaz aparece cuando te estás%n%§7conectando a un servidor o cargas un mundo.
+fancymenu.helper.ui.misc.receiving_level_screen = §a➚ Interfaz 'Generando el Entorno'
+fancymenu.helper.ui.misc.receiving_level_screen.btn.desc = Abre la interfaz 'Generando el entorno',%n%para que se pueda personalizar.%n%%n%§7Esta interfaz aparece cuando te estás%n%§7conectando a un servidor o cargas un mundo.%n%%n%§c¡Esta interfaz no se puede abrir si estás%n%§cen un mundo o conectado a un servidor!
+fancymenu.helper.ui.misc.open_connect_screen = §a➚ Interfaz 'Conexión'
+fancymenu.helper.ui.misc.open_connect_screen.btn.desc = Abre la interfaz 'Conexión',%n%para que se pueda personalizar.%n%%n%§7Esta interfaz aparece cuando te estás%n%§7conectando a un servidor.%n%%n%§c¡Esta interfaz no se puede abrir si estás%n%§cen un mundo o conectado a un servidor!
+
+fancymenu.helper.editor.layoutoptions.universal_layout.options = Opciones de las Plantillas
+fancymenu.helper.editor.layoutoptions.universal_layout.options.input_menu_identifier = Identificador del Menú:
+fancymenu.helper.editor.layoutoptions.universal_layout.options.choose_menu_identifier = Selecciona el Identificador del Menú
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist = Añade el menú en la Lista de Exclusiones
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_blacklist.desc = Añade un menú en la lista de Exclusiones%n%por su §lidentificador de menú§r.%n%%n%§cLos menús de la lista de exclusiones%n%§cson ignorados por el diseño, por lo que%n%§clas personalizaciones no serán%n%§caplicadas a este menú.%n%%n%§cPuedes obtener el identificador%n%§cde un menú en%n%§c§lHerramientas ► Información del Menú §r§cmientras estás en el menú.
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist = Elimina el Menú de la Lista de Exclusiones
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_blacklist.confirm = §6⚠ §4¿Estás seguro? §6⚠%n%%n%§c¿Seguro que quieres §4eliminar §ceste identificador?
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist = Borra la lista de Exclusiones
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_blacklist.confirm = §6⚠ §4¿Estás seguro? §6⚠%n%%n%§c¿Seguro que quieres §4vaciar §cla lista de exclusiones?
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist = Añade el Menú en la Lista de Permitidos
+fancymenu.helper.editor.layoutoptions.universal_layout.options.add_whitelist.desc = Añade el menú a la lista de permitidos%n%por su §lidentificador de menú§r.%n%%n%§cSi hay menús en el%n%§clista blanca, sólo estos menús%n%§cse personalizará con el diseño.%n%§c¡El resto de menús serán ignorados!%n%%n%§cPuedes obtener el identificador%n%§cde un menú en%n%§c§lHerramientas ► Información del Menú §r§cmientras estás en el menú.
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist = Elimina el menú de la Lista de Permitidos
+fancymenu.helper.editor.layoutoptions.universal_layout.options.remove_whitelist.confirm = §6⚠ §c¿Seguro que quieres §4eliminar §ceste identificador? §6⚠
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist = Borra la Lista de Permitidos
+fancymenu.helper.editor.layoutoptions.universal_layout.options.clear_whitelist.confirm = §6⚠ §c¿Seguro que quieres §4vaciar §cla lista de permitidos? §6⚠
+
+fancymenu.guicomponents.back = ❰ Volver
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.randomtext = Texto Aleatorio desde un Archivo de Texto
+fancymenu.helper.ui.dynamicvariabletextfield.variables.randomtext.desc = Elige un texto al azar desde un archivo de texto (TXT).%n%%n%También se puede establecer el tiempo de cambio del texto:%n%Sólo hay que sustituir '<filepath>' (eliminando los < >)%n%con la ruta del archivo TXT y sustituir '<interval_sec>'%n%(eliminando los < >)%n%por el tiempo (en segundos) de cambio del texto.%n%Si el valor se establece como 0, el texto solo%n%se cambiará una vez en cada.%n%%n%§7§nEjemplo:%n%%§7randomtext:ruta/del/archivo.txt:10%
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeday = §bSi Hoy es el Día
+fancymenu.helper.editor.items.visibilityrequirements.realtimeday.desc = Comprueba si hoy es el día X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar más de un día%n%a la vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeday.valuename = Hoy es el Día (Valores separados por coma)
+fancymenu.helper.editor.items.visibilityrequirements.realtimemonth = §bHoy es el Mes
+fancymenu.helper.editor.items.visibilityrequirements.realtimemonth.desc = Comprueba si hoy es el mes X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar más de un día%n%a la vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimemonth.valuename = Hoy es el Mes (Valores separados por coma)
+fancymenu.helper.editor.items.visibilityrequirements.realtimeyear = §bHoy es el Año
+fancymenu.helper.editor.items.visibilityrequirements.realtimeyear.desc = Comprueba si hoy es el año X.%n%%n%Puedes separar varios valores con una coma,%n%para comprobar más de un día%n%a la vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeyear.valuename = Hoy es el Año (Valores separados por coma)
+
+fancymenu.helper.editor.ui.element.deleted_vanilla_elements = §c❌ Botones Originales
+fancymenu.helper.editor.ui.element.deleted_vanilla_elements.desc = Restaura los botones originales que se han eliminado.
+
+fancymenu.helper.editor.element.vanilla.delete.confirm = §4Importante:%n%%n%§cAl eliminar un elemento original lo ocultará por completo.%n%§8Para que vuelva a ser visible, pulsa sobre §7§lElemento ► Elementos Originales Eliminados§r.%n% %n% %n% %n%
+
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.realmsnotification = Icono de Notificaciones de Realms
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.logo = Logo de Minecraft
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.branding = Versión de Minecraft
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash = Texto de Bienvenida Original
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.orientation.reset = Restablecer Cuadrante
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.splash_file.set = Determina el Archivo de Texto de Bienvenida Personalizado
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.splash_file.reset = Restablecer el Archivo de Texto de Bienvenida
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.rotation.set = Determinar Rotación
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.rotation.reset = Restablecer Rotación
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.color.set = Determinar Color HEX
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.splash.color.reset = Restablecer Color HEX
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.copyright = Notificación de Copyright de Forge
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.copyright.example.line1 = < Texto de Ejemplo de la Notificación de Copyright de Forge >
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.top = Notificación Superior de Forge
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.top.example.line1 = §cEjemplo de Notificación Superior de Forge
+fancymenu.helper.editor.element.vanilla.deepcustomization.titlescreen.forge.top.example.line2 = Se utiliza para mostrar información sobre las compilaciones y otras cosas.
+
+fancymenu.helper.buttonaction.variables.set.desc = Almacena variables para utilizarlas%n%para los placeholders y%n%requisitos de visibilidad.
+fancymenu.helper.buttonaction.variables.set.value.desc = Nombre de la Variable y Valor; Separados por dos Puntos
+fancymenu.helper.buttonaction.variables.clearall.desc = Elimina TODAS las variables almacenadas.
+
+fancymenu.helper.buttonaction.paste_to_chat.desc = Pegar el texto%n%en el chat.
+fancymenu.helper.buttonaction.paste_to_chat.value.desc = Añade True/False y el Texto; Separados por dos Puntos
+
+fancymenu.helper.placeholder.get_variable = Obtener Variable Almacenada
+fancymenu.helper.placeholder.get_variable.desc = Obtener el valor de una variable almacenada.
+
+fancymenu.helper.visibilityrequirement.is_variable_value = §bValor de una Variable
+fancymenu.helper.visibilityrequirement.is_variable_value.desc = Comprueba si el valor de una variable%n%almacenada es el correcto.%n%%n%El valor necesario es%n%una combinación de la%n%y el nombre de la variable%n%para comprobar si coincide con el valor%n%el almacenado.%n%%n%¡El ejemplo tiene nombre de variable%n%y el valor variable envuelto%n%en <>, pero hay que quitarlos!
+fancymenu.helper.visibilityrequirement.is_variable_value.value.desc = Nombre de la Variable y el Valor; Separados por dos Puntos
+
+fancymenu.helper.visibilityrequirement.is_server_ip = §bIP del Servidor
+fancymenu.helper.visibilityrequirement.is_server_ip.desc = Comprueba si la IP del servidor es la correcta.
+fancymenu.helper.visibilityrequirement.is_server_ip.value.desc = IP del Servidor
+
+fancymenu.helper.visibilityrequirement.is_layout_enabled = §bDiseño Activo
+fancymenu.helper.visibilityrequirement.is_layout_enabled.desc = Comprueba si un diseño de menú está activo.
+fancymenu.helper.visibilityrequirement.is_layout_enabled.value.desc = Nombre del Diseño
+
+fancymenu.helper.ui.tools.clear_variables = §c❌ Eliminar Variables
+fancymenu.helper.ui.tools.clear_variables.desc = Elimina TODOS los valores almacenados.%n%%n%§c¡Esta acción es irreversible!
+fancymenu.helper.ui.tools.clear_variables.confirm = §6⚠ §c¿Seguro que quieres §leliminar/restablecer §4TODAS §clas variables almacenadas? §6⚠%n%%n%§c§l¡Esta acción es irreversible!%n% %n% %n% %n%
+
+fancymenu.helper.buttonaction.toggle_layout.desc = Activa o desactiva un diseño de menú%n%por su nombre.
+fancymenu.helper.buttonaction.toggle_layout.value.desc = Nombre del Diseño
+
+fancymenu.helper.buttonaction.enable_layout.desc = Activa un diseño de menú%n%por su nombre.
+fancymenu.helper.buttonaction.enable_layout.value.desc = Nombre del Diseño
+
+fancymenu.helper.buttonaction.disable_layout.desc = Desactiva un diseño de menú%n%por su nombre.
+fancymenu.helper.buttonaction.disable_layout.value.desc = Nombre del Diseño
+
+fancymenu.helper.ui.visibility_requirements.manage = §3Requisitos de Visibilidad
+
+fancymenu.helper.ui.button_action.set = Determina la Acción del Botón
+
+fancymenu.guicomponents.done = §a✔ Aceptar
+
+fancymenu.helper.visibilityrequirement.gamemode.is_survival = §bModo Superviviente
+fancymenu.helper.visibilityrequirement.gamemode.is_survival.desc = Comprueba si el jugador se%n%encuentra en modo supervivencia.
+fancymenu.helper.visibilityrequirement.gamemode.is_creative = §bModo Creativo
+fancymenu.helper.visibilityrequirement.gamemode.is_creative.desc = Comprueba si el jugador se%n%encuentra en modo creativo.
+fancymenu.helper.visibilityrequirement.gamemode.is_adventure = §bModo Aventura
+fancymenu.helper.visibilityrequirement.gamemode.is_adventure.desc = Comprueba si el jugador se%n%encuentra en modo aventura.
+fancymenu.helper.visibilityrequirement.gamemode.is_spectator = §bModo Espectador
+fancymenu.helper.visibilityrequirement.gamemode.is_spectator.desc = Comprueba si el jugador se%n%encuentra en modo espectador.
+
+fancymenu.customization.items.input_field = Campo de Texto
+fancymenu.customization.items.input_field.desc = Un campo para introducir un texto.%n%%n%Puede utilizarse para que el usuario%n%pueda establecer variables.
+fancymenu.customization.items.input_field.editor.set_variable = Enlace de la Variable
+fancymenu.customization.items.input_field.editor.set_variable.desc = Vincula este campo de texto a una variable.%n%Utiliza el nombre de la variable.%n%%n%La variable puede ser nueva o existente.
+fancymenu.customization.items.input_field.editor.set_max_length = Longitud Máxima del Texto
+fancymenu.customization.items.input_field.editor.set_type = §6✎ Tipo del Campo de Texto
+fancymenu.customization.items.input_field.editor.set_type.desc = Establece el tipo de campo de texto.%n%%n%Define el tipo de caracteres que se%n%pueden utilizar en el campo.%n%%n%§7Por ejemplo: Si el campo está configurado%n%§7como "Sólo números", el usuario sólo%n%§7podrá escribir números en el campo.
+fancymenu.customization.items.input_field.type.integer = Solo Números
+fancymenu.customization.items.input_field.type.decimal = Sólo Números Decimales
+fancymenu.customization.items.input_field.type.url = URL
+fancymenu.customization.items.input_field.type.text = Texto
+
+fancymenu.customization.items.slider = Deslizador
+fancymenu.customization.items.slider.desc = Un Botón Deslizante.%n%%n%Se puede utilizar para establecer valores%n%variables mediante introducción del usuario.
+fancymenu.customization.items.slider.editor.set_type = §6✎ Tipo de Deslizador
+fancymenu.customization.items.slider.editor.set_type.desc = Define el tipo de deslizador.%n%%n%Cuando se utiliza tipo lista, se puede%n%establecer una lista de valores de texto por los%n%que se puede pasar al mover el deslizador.%n%%n%El tipo rango le permite cambiar a través de un%n%rango de números. Puedes establecer un valor%n%mínimo y un valor máximo.
+fancymenu.customization.items.slider.editor.set_label_prefix = Prefijo de la Etiqueta
+fancymenu.customization.items.slider.editor.set_label_prefix.desc = El prefijo de la etiqueta deslizante.%n%%n%La base de la etiqueta deslizante%n%siempre es el valor actual.
+fancymenu.customization.items.slider.editor.set_label_suffix = Sufijo de la Etiqueta
+fancymenu.customization.items.slider.editor.set_label_suffix.desc = El sufijo de la etiqueta deslizante.%n%%n%La base de la etiqueta deslizante%n%siempre es el valor actual.
+fancymenu.customization.items.slider.editor.range.set_min_range_value = Establecer Valor Mínimo
+fancymenu.customization.items.slider.editor.range.set_max_range_value = Establecer Valor Máximo
+fancymenu.customization.items.slider.editor.list.set_list_values = Determina los Valores de la Lista
+fancymenu.customization.items.slider.editor.list.set_list_values.desc = La lista de variables.%n%%n%¡Separa los valores con punto y coma ( ; )!
+fancymenu.customization.items.slider.editor.list.set_list_values.error.not_enough_values = §c§lError!%n%%n%¡Es necesario al menos 2 valores!%n% %n% %n% %n%
+fancymenu.customization.items.slider.editor.set_variable = Enlace de la Variable
+fancymenu.customization.items.slider.editor.set_variable.desc = Vincula este deslizador a una variable.%n%Utiliza el nombre de la variable.%n%%n%La variable puede ser nueva o existente.
+fancymenu.customization.items.slider.type.range = Rango de Números
+fancymenu.customization.items.slider.type.list = Lista de Textos
+
+fancymenu.helper.editor.global_visibility_requirements = Visibilidad del Diseño
+fancymenu.helper.editor.global_visibility_requirements.desc = Al igual que los requisitos de%n%visibilidad de los elementos, esto%n%establecerá los requisitos a nivel de diseño.%n%%n%Esto significa que todo el%n%diseño será visible/invisible en%n%función de sus requisitos.
+
+fancymenu.helper.editor.items.splash.vanilla_like = Texto de Bienvenida Original
+fancymenu.helper.editor.items.splash.vanilla_like.desc = Añade el texto de bienvenida que%n%usa el archivo de texto original.
+
+fancymenu.commands.variable.get.success = §a[FancyMenu] Valor de la variable: §6{}
+fancymenu.commands.variable.set.success = §a[FancyMenu] El valor de la variable ahora es: §6{}
+fancymenu.commands.variable.not_found = §c[FancyMenu] ¡No se ha encontrado la variable!
+
+fancymenu.helper.editor.items.vanilla_button.copy_locator = Copia el Localizador del Botón
+fancymenu.helper.editor.items.vanilla_button.copy_locator.desc = El localizador de un botón%n%es una combinación entre el%n%identificador del menú%n%y el identificador del botón.%n%%n%El localizador del botón es necesario para%n%§oimitar §rel comportamiento de otros botones.
+
+fancymenu.helper.button_info.copy_locator = §lBotón Derecho ► Copiar el Localizador del Botón!
+fancymenu.helper.button_info.copy_locator.copied = §a§l¡SE HA COPIADO EL LOCALIZADOR DEL BOTÓN!
+
+fancymenu.helper.editor.edit_menu_title = Título del Menú
+fancymenu.helper.editor.edit_menu_title.desc = ¿Has visto ese texto molesto en la%n%parte superior de algunos menús,%n%como el menú de pausa?%n%¡Esta función le permite modificarlo!%n%%n%§cDebido al funcionamiento de los menús, es%n%§cposible que no se pueda modificar%n%§cel título de algunos menús.%n%§cSi ese es el caso, no hay%n%§cmucho que podamos hacer.
+fancymenu.helper.editor.edit_menu_title.reset = Restablece el Título del Menú
+fancymenu.helper.editor.edit_menu_title.reset.desc = Recupera el título predeterminado del menú.
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday = §bSi es el Día de la Semana
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday.desc = Comprueba si el día de la semana actual real es X.%n%%n%¡El primer día de la semana es domingo!%n%%n%Puede separar varios valores mediante comas,%n%comprobar más de un día%n%de una vez.
+fancymenu.helper.editor.items.visibilityrequirements.realtimeweekday.valuename = Día/s de la semana reales (valores separados por comas)
+
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.on = Reiniciar la Animación al Cargar: §aSi
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.off = Reiniciar la Animación al Cargar: §cNo
+fancymenu.helper.editor.backgrounds.animation.restart_on_load.desc = Si la animación debe reiniciarse%n%cada vez que se abre el menú.
+
+fancymenu.helper.editor.element.vanilla.orientation_needed = §6⚠ §c§lAsignar Cuadrante §6⚠%n%%n%¡Para poder cambiar el tamaño o mover los elementos,%n%primero tienes que asignarle un §lCuadrante§r!%n%%n%Pulsa el §lbotón derecho§r sobre el elemento para asignar un cuadrante.%n% %n% %n% %n%
+
+fancymenu.helper.editor.element.moving_not_allowed = §c§l¡No se Puede Mover!%n%%n%¡Este elemento no se puede mover!%n%%n%Puedes eliminarlo y sustituirlo%n%con un elemento personalizado.%n% %n% %n% %n%
+
+fancymenu.customization.items.text = Texto
+fancymenu.customization.items.text.placeholder = §c<Elemento Vacío>
+fancymenu.customization.items.text.desc = Añade un texto para renderizarlo%n%en tu diseño.%n%%n%Determina si la fuente%n%del texto es local o en línea.
+fancymenu.customization.items.text.alignment.left = Alineación del Texto: §6Izquierda
+fancymenu.customization.items.text.alignment.right = Alineación del Texto: §6Derecha
+fancymenu.customization.items.text.alignment.center = Alineación del Texto: §6Centrado
+fancymenu.customization.items.text.base_color = Color Base
+fancymenu.customization.items.text.base_color.desc = Establece la base de color del texto.%n%%n%§8Usa códigos de color HEX.
+fancymenu.customization.items.text.case_mode.normal = Modo Mayúsculas: §6Normal
+fancymenu.customization.items.text.case_mode.lower = Modo Mayúsculas: §6Todo minúsculas
+fancymenu.customization.items.text.case_mode.upper = Modo Mayúsculas: §6Todo mayúsculas
+fancymenu.customization.items.text.scale = Escala de texto
+fancymenu.customization.items.text.shadow.on = Texto Sombreado: §aSi
+fancymenu.customization.items.text.shadow.off = Texto Sombreado: §cNo
+fancymenu.customization.items.text.source_mode.mode.direct = Tipo de Elemento: §6Texto
+fancymenu.customization.items.text.source_mode.mode.web = Tipo de Elemento: §6Texto Web
+fancymenu.customization.items.text.source_mode.mode.local = Tipo de Elemento: §6Archivo TXT
+fancymenu.customization.items.text.source_mode.desc = Texto:%n%§7► Introduce un valor a mostrar.%n%%n%Archivo TXT:%n%§7► Muestra el texto que contiene una archivo TXT.%n%%n%Texto Web:%n%§7► Muestra el texto de un sitio web.%n%%n%§4¡ATENCIÓN!%n%§cSi cambias el tipo de elemento%n%§cse eliminará su valor establecido!
+fancymenu.customization.items.text.set_source.direct = §6✎ Modificar Texto...
+fancymenu.customization.items.text.set_source.direct.desc = Muestra el texto introducido.%n%§7Puedes usar placeholders.%n%%n%§8Puedes crear saltos de línea%n%§8usando el código §7<line_break_code>
+fancymenu.customization.items.text.set_source.web = §6✎ Modificar Texto Web...
+fancymenu.customization.items.text.set_source.web.desc = Muestra el texto de un sitio web.
+fancymenu.customization.items.text.set_source.local = §6✎ Modificar Archivo TXT...
+fancymenu.customization.items.text.set_source.local.desc = Muestra el texto que contiene una archivo TXT.
+fancymenu.customization.items.text.text_border = Borde del Texto
+fancymenu.customization.items.text.text_border.desc = El borde del texto es el espacio%n%existente entre el texto de la izquierda%n%y el texto de la derecha del elemento.
+fancymenu.customization.items.text.line_spacing = Espacio entre Líneas
+fancymenu.customization.items.text.scroll_grabber_texture = Textura Barra de Desplazamiento
+fancymenu.customization.items.text.scroll_grabber_texture.hover = Textura de la Barra
+fancymenu.customization.items.text.scroll_grabber_texture.normal = Textura del Fondo
+fancymenu.customization.items.text.scroll_grabber_color = Color Barra de Desplazamiento
+fancymenu.customization.items.text.scroll_grabber_color.hover = Color de la Barra
+fancymenu.customization.items.text.scroll_grabber_color.normal = Color del Fondo
+fancymenu.customization.items.text.scroll_grabber_color.desc = El color de la barra de desplazamiento.%n%%n%§8Usa los códigos de color HEX.
+fancymenu.customization.items.text.status.loading = §lCARGANDO ELEMENTO..
+fancymenu.customization.items.text.status.unable_to_load = §c§lERROR: ¡NO SE PUEDE CARGAR!
+fancymenu.customization.items.text.scrolling.on = Desplazamiento: §aSi
+fancymenu.customization.items.text.scrolling.off = Desplazamiento: §cNo
+fancymenu.customization.items.text.scrolling.desc = Si el desplazamiento se encuentra%n%desactivado, la barra de desplazamiento no%n%será mostrada y no podrás desplazarte%n%verticalmente usando la rueda del ratón.
+
+fancymenu.helper.placeholder.json = Analizador JSON
+fancymenu.helper.placeholder.json.desc = Analiza un JSON%n%y obtiene su valor.%n%%n%Sustituye 'ruta_o_enlace_del_json' con%n%la ruta o el enlace del%n%archivo JSON que quieres analizar.%n%%n%Sustituye '$.alguna.ruta.json' por la ruta%n%JSON del valor que quieres obtener.%n%%n%§6Visita §lbit.ly/jsonfm §r§6para aprender%n%§6más sobre las rutas JSON.
+
+fancymenu.helper.placeholder.webtext = Texto Web
+fancymenu.helper.placeholder.webtext.desc = Obtiene la primera línea de texto que%n%contiene un sitio web.%n%%n%Sustituye la ruta%n%'http://sitioweb.com/archivodetexto.txt' %n%por la url de la web de donde%n%se quiere obtener el texto.
+
+fancymenu.config.categories.compatibility = COMPATIBILIDAD
+fancymenu.config.allow_level_registry_interactions = Registro de Interacciones
+fancymenu.config.allow_level_registry_interactions.desc = Permite el registro de interacciones,%n%como el tipo de mundo, entidad, etc., lo que%n%puede causar problemas con otros%n%mods de entidad y mundo.%n%%n%§c¡Si se desactiva esta función, también%n%§cse desactivará la entidad del jugador!
+
+fancymenu.config.show_unicode_warning = Mostrar advertencias Unicode
+fancymenu.config.show_unicode_warning.desc = Si se debe mostrar la fuente unicode%n%en color rojo indicando que ésta no es%n%totalmente compatible con la%n%Interfaz de FancyMenu.
+
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiwidth = Anchura de Interfaz
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiwidth.desc = La anchura del menú actual.
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiheight = Altura de Interfaz
+fancymenu.helper.ui.dynamicvariabletextfield.variables.guiheight.desc = La altura del menú actual.
+
+fancymenu.helper.placeholder.stringify = Encadenado
+fancymenu.helper.placeholder.stringify.desc = Encadena un texto omitiendo todos los%n%caracteres sintácticos ( " { } ).%n%%n%Útil cuando existen placeholders anidados%n%como valor. Si el placeholder reemplazado y anidado%n%puede contener caracteres sintácticos que no%n%forman parte de otro placeholder,%n%estos caracteres deben omitirse.%n%%n%§cLos placeholders como valor serán reemplazados%n%§cprimero, por lo que no necesita%n%§cpreocuparse de que se encadenen.
+
+fancymenu.helper.ui.dynamicvariabletextfield.categories.advanced = Experto
+fancymenu.helper.ui.dynamicvariabletextfield.categories.gui = Menú
+
+fancymenu.helper.placeholder.elementheight = Altura del Elemento
+fancymenu.helper.placeholder.elementheight.desc = Obtener la altura de un elemento%n%con el Identificador del elemento.%n%%n%Solo tienes que sustituir 'alguna.id.elemento' por%n%el Identificador real del elemento.%n%%n%§cPuedes obtener el identificador de los elementos%n%§cpulsando con el botón derecho sobre el elemento.
+fancymenu.helper.placeholder.elementwidth = Anchura del Elemento
+fancymenu.helper.placeholder.elementwidth.desc = Obtener la anchura de un elemento%n%con el Identificador del elemento.%n%%n%Solo tienes que sustituir 'alguna.id.elemento' por%n%el Identificador real del elemento.%n%%n%§cPuedes obtener el identificador de los elementos%n%§cpulsando con el botón derecho sobre el elemento.
+fancymenu.helper.placeholder.elementposx = Posición X del Elemento
+fancymenu.helper.placeholder.elementposx.desc = Obtener la posición X de un elemento%n%con el Identificador del elemento.%n%%n%Solo tienes que sustituir 'alguna.id.elemento' por%n%el Identificador real del elemento.%n%%n%§cPuedes obtener el identificador de los elementos%n%§cpulsando con el botón derecho sobre el elemento.
+fancymenu.helper.placeholder.elementposy = Posición Y del Elemento
+fancymenu.helper.placeholder.elementposy.desc = Obtener la posición Y de un elemento%n%con el Identificador del elemento.%n%%n%Solo tienes que sustituir 'alguna.id.elemento' por%n%el Identificador real del elemento.%n%%n%§cPuedes obtener el identificador de los elementos%n%§cpulsando con el botón derecho sobre el elemento.
+fancymenu.helper.placeholder.calc = Calculadora
+fancymenu.helper.placeholder.calc.desc = Resuelve expresiones aritméticas.%n%%n%Solo hay que sustituir la expresión%n%de ejemplo con una real.%n%%n%Introduce 'decimal' en 'false' si el%n%placeholder debe devolver un LONG%n%en vez de un DOUBLE.
+fancymenu.helper.placeholder.mouseposx = Posición X del Puntero
+fancymenu.helper.placeholder.mouseposx.desc = Obtener la posición X del ratón.%n%%n%§cSiempre devuelve 10 mientras está en el editor,%n%§cpor lo que todavía es posible modificar el elemento%n%§csin seguir al puntero mientras%n%§cse utiliza el tamaño avanzado o el posicionamiento avanzado.
+fancymenu.helper.placeholder.mouseposy = Posición Y del Puntero
+fancymenu.helper.placeholder.mouseposy.desc = Obtener la posición Y del ratón.%n%%n%§cSiempre devuelve 10 mientras está en el editor,%n%§cpor lo que todavía es posible modificar el elemento%n%§csin seguir al puntero mientras%n%§cse utiliza el tamaño avanzado o el posicionamiento avanzado.
+fancymenu.helper.placeholder.guiscale = Escala del Menú
+fancymenu.helper.placeholder.guiscale.desc = Obtiene la escala del menú.
+
+fancymenu.helper.editor.items.visibilityrequirements.is_text = §bSi es un Texto
+fancymenu.helper.editor.items.visibilityrequirements.is_text.desc = Comprueba si un texto coincide con otro.%n%%n%Modos de Comparación%n%equals, contains, starts-with, ends-with%n%%n%Introduce 3 puntos después de la variable 'mode'%n%en el modo de comparación que quieres utilizar.%n%%n%Introduce 3 puntos después de la variable 'text' variable%n%en el texto que quieres comprobar.%n%%n%Introduce 3 puntos después de la variable 'compare_with'%n%en el texto con el que quieres comparar el primero.%n%%n%§cPuedes comprobar varios números/modos%n%§ca la vez separando las secciones%n%§ca comparar usando comas.
+fancymenu.helper.editor.items.visibilityrequirements.is_text.valuename = Comparar Sección/es
+
+fancymenu.helper.editor.items.visibilityrequirements.is_number = §bSi es un Número
+fancymenu.helper.editor.items.visibilityrequirements.is_number.desc = Comprueba si un numero coincide con otro.%n%%n%Modos de Comparación:%n%equals, bigger-than, smaller-than,%n%bigger-than-or-equals,%n%smaller-than-or-equals%n%%n%Introduce 3 puntos después de la variable 'mode'%n%en el modo de comparación que quieres utilizar.%n%%n%Introduce 3 puntos después de la variable 'number'%n%en el número que quieres comprobar.%n%%n%Introduce 3 puntos después de la variable 'compare_with'%n%en el número con el que quieres comparar el primero.%n%%n%§cPuedes comprobar varios números/modos%n%§ca la vez separando las secciones%n%§ca comparar usando comas.
+fancymenu.helper.editor.items.visibilityrequirements.is_number.valuename = Comparar Sección/es
+
+fancymenu.helper.editor.items.features.advanced_positioning = Posición Avanzada
+fancymenu.helper.editor.items.features.advanced_positioning.active = Posición Avanzada (§6Activo§r)
+fancymenu.helper.editor.items.features.advanced_positioning.desc = §4¡Solo para usuarios experimentados!%n%%n%Permite ajustar manualmente la%n%posición del elemento.%n%%n%Las posiciones avanzadas admiten placeholders.%n%Puedes utilizar el placeholder Calculator%n%para calcular/obtener posiciones%n%de otros elementos y mucho más.%n%%n%Puedes encontrar muchos placeholders útiles%n%en la categoría "Menú" y "Avanzado".%n%%n%§cNo podrás redimensionar,%n%§carrastrar o mover el elemento%n%§cmientras uses esta función.%n%%n%§cPara "desactivar" esto, tienes vaciar el valor de %n%§cla posición X y la posición Y.
+fancymenu.helper.editor.items.features.advanced_positioning.posx = Posición X
+fancymenu.helper.editor.items.features.advanced_positioning.posy = Posición Y
+
+fancymenu.helper.editor.items.features.advanced_sizing = Tamaño Avanzado
+fancymenu.helper.editor.items.features.advanced_sizing.active = Tamaño Avanzado (§6Activado§r)
+fancymenu.helper.editor.items.features.advanced_sizing.desc = §4¡Solo para usuarios experimentados!%n%%n%Permite establecer manualmente%n%el tamaño del elemento.%n%%n%El dimensionado avanzado admite placeholders.%n%Puedes utilizar el placeholder Calculator%n%para calcular/obtener el tamaño de%n%otros elementos y mucho más.%n%%n%Puedes encontrar muchos placeholders útiles%n%en la categoría "Menú" y "Avanzado".%n%%n%§cNo podrás cambiar el%n%§ctamaño obtenido del elemento%n%§canulado por el dimensionamiento avanzado.%n%%n%§cPara "deshacer" la anulación, tienes que dejar%n%§cvacío el valor existente.
+fancymenu.helper.editor.items.features.advanced_sizing.width = Ancho
+fancymenu.helper.editor.items.features.advanced_sizing.height = Alto
+
+fancymenu.helper.editor.properties.autoscale.forced_scale_needed = ¡Es necesario §lforzar §rla escala del menú%n%antes de poder usar el auto-escalamiento!%n%%n%Se recomienda utilizar 2 como valor para%n%forzar la escala del menú.%n%%n%§cPara establecer la escala forzada del menú,%n%§cpulsa en el fondo con el botón derecho%n%§cy pulsa sobre §lForzar Escala del Menú§r§c.
+
+fancymenu.customization.items.ticker = Actuador
+fancymenu.customization.items.ticker.desc = Permite ejecutar acciones cada tick.%n%%n%Admite ticks asíncronos y ticks de espera.%n%%n%Se puede configurar para que solo se pueda usar una vez%n%cada vez que se abra el menú.%n%%n%§cEste elemento solo es visible en el editor.
+fancymenu.customization.items.ticker.add_action = §aAñadir Acción
+fancymenu.customization.items.ticker.add_action.desc = Añadir una acción nueva a la lista de%n%acciones que debe ejecutar este actuador.
+fancymenu.customization.items.ticker.manage_actions = §3Gestionar Acciones
+fancymenu.customization.items.ticker.manage_actions.desc = Modificar o eliminar acciones de este Actuador.
+fancymenu.customization.items.ticker.manage_actions.action = §lAcción: §r{}
+fancymenu.customization.items.ticker.manage_actions.value = §lValor: §r{}
+fancymenu.customization.items.ticker.manage_actions.remove = §c❌ Eliminar Acción
+fancymenu.customization.items.ticker.manage_actions.remove.confirm = §6⚠ §4¿Estás seguro? §6⚠%n%%n%§c¿Seguro que quieres §4eliminar §cesta acción?%n%%n% %n%%n%
+fancymenu.customization.items.ticker.manage_actions.edit = §6Modificar Acción
+fancymenu.customization.items.ticker.tick_delay = Tiempo de Espera [ms]
+fancymenu.customization.items.ticker.tick_delay.desc = Establece el tiempo de espera entre los actuadores en milisegundos.
+fancymenu.customization.items.ticker.async.on = Asíncrono: §aSi
+fancymenu.customization.items.ticker.async.off = Asíncrono: §cNo
+fancymenu.customization.items.ticker.async.desc = Determina si el Actuador debe ejecutarse%n%de forma independiente (asíncrono).
+fancymenu.customization.items.ticker.tick_mode.normal = Funcionamiento del Actuador: §6Normal
+fancymenu.customization.items.ticker.tick_mode.once_per_session = Funcionamiento del Actuador: §6Sesión
+fancymenu.customization.items.ticker.tick_mode.on_menu_load = Funcionamiento del Actuador: §6Carga de Menú
+fancymenu.customization.items.ticker.tick_mode.desc = §lNormal ► §rEl Actuador se ejecuta cada tick.%n%%n%§lSesión ► §rEl Actuador se ejecuta una vez%n%en por cada sesión.%n%%n%§lCarga de Menú ► §rEl Actuador se ejecuta una vez%n%cada vez que se carga el menú.%n%hay que tener en cuenta que los menús%n%también se recargan al cambiar el%n%tamaño de la ventana.
+
+fancymenu.helper.editor.items.visibilityrequirements.is_element_hovered = §bSeleccionado
+fancymenu.helper.editor.items.visibilityrequirements.is_element_hovered.desc = Comprueba si el elemento se encuentra seleccionado.%n%Usa el ID del elemento para identificarlo.%n%%n%Puedes obtener el ID de un elemento%n%pulsando el botón derecho en el editor.
+fancymenu.helper.editor.items.visibilityrequirements.is_element_hovered.valuename = ID del Elemento
+
+fancymenu.helper.editor.items.playerentity = Entidad del Jugador
+fancymenu.helper.editor.items.playerentity.desc = Personalizar la entidad del jugador.
+
+fancymenu.helper.editor.items.playerentity.copy_client_player.off = §5Cuenta de Minecraft: §cNo
+fancymenu.helper.editor.items.playerentity.copy_client_player.on = §5Cuenta de Minecraft: §aSi
+fancymenu.helper.editor.items.playerentity.copy_client_player.desc = Usar los datos de la cuenta de Minecraft%n%para representar automáticamente el Nombre,%n%la Piel y la Capa del jugador.
+fancymenu.helper.editor.items.playerentity.copy_client_player.blocked_until_disabled = §cNo puedes modificar esto si está%n%§cactivada la función "Datos Cliente".
+fancymenu.helper.editor.items.playerentity.set_player_name = ✎ Nombre del Jugador
+fancymenu.helper.editor.items.playerentity.set_player_name.desc = Determina el nombre del jugador.%n%%n%Puedes usar cualquier nombre, exista o no.
+
+fancymenu.helper.editor.items.playerentity.skin.auto.off = Piel Automática: §cNo
+fancymenu.helper.editor.items.playerentity.skin.auto.on = Piel Automática: §aSi
+fancymenu.helper.editor.items.playerentity.skin.auto.desc = Intenta usar automáticamente%n%la textura de la piel basada%n%en el nombre del jugador.
+fancymenu.helper.editor.items.playerentity.skin.auto.blocked_until_disabled = §cNo puedes hacer esto si está%n%§cactivada la función "Piel Automática".
+fancymenu.helper.editor.items.playerentity.skin.set = Textura de la Piel
+fancymenu.helper.editor.items.playerentity.skin.set.desc = Determina la textura de la piel.%n%Se admiten texturas locales o vía web.
+fancymenu.helper.editor.items.playerentity.skin.set.local = Textura Local de la Piel
+fancymenu.helper.editor.items.playerentity.skin.set.web = Textura Web de la Piel
+
+fancymenu.helper.editor.items.playerentity.cape.auto.off = Capa Automática: §cNo
+fancymenu.helper.editor.items.playerentity.cape.auto.on = Capa Automática: §aSi
+fancymenu.helper.editor.items.playerentity.cape.auto.desc = Intenta usar automáticamente%n%la textura de la capa basada%n%en el nombre del jugador.
+fancymenu.helper.editor.items.playerentity.cape.auto.blocked_until_disabled = §cNo puedes hacer esto si está%n%§cactivada la función "Capa Automática".
+fancymenu.helper.editor.items.playerentity.cape.set = Textura de la Capa
+fancymenu.helper.editor.items.playerentity.cape.set.desc = Determina la textura de la capa.%n%Se admiten texturas locales o vía web.
+fancymenu.helper.editor.items.playerentity.cape.set.local = Textura Local de la Capa
+fancymenu.helper.editor.items.playerentity.cape.set.web = Textura Web de la Capa
+
+fancymenu.helper.editor.items.playerentity.scale = Escala de la Entidad
+fancymenu.helper.editor.items.playerentity.scale.desc = Determina la escala de la entidad.%n%%n%§8El valor predeterminado es 30.
+
+fancymenu.helper.editor.items.playerentity.rotation.follow_mouse.off = Seguir el Puntero: §cNo
+fancymenu.helper.editor.items.playerentity.rotation.follow_mouse.on = Seguir el Puntero: §aSi
+fancymenu.helper.editor.items.playerentity.rotation.follow_mouse.desc = Si está activado, el jugador seguirá%n%el cursor del ratón.
+fancymenu.helper.editor.items.playerentity.rotation.custom = Rotación del Jugador
+fancymenu.helper.editor.items.playerentity.rotation.custom.desc = Determina la rotación del cuerpo y la cabeza del jugador.
+fancymenu.helper.editor.items.playerentity.rotation.custom.disabled = §cEsta función no es efectiva, si está activada%n%§cla función "Seguir el Puntero".
+fancymenu.helper.editor.items.playerentity.rotation.bodyx = Rotación Y de Cuerpo: {}
+fancymenu.helper.editor.items.playerentity.rotation.bodyy = Rotación X de Cuerpo: {}
+fancymenu.helper.editor.items.playerentity.rotation.headx = Rotación X de Cabeza: {}
+fancymenu.helper.editor.items.playerentity.rotation.heady = Rotación Y de Cabeza: {}
+
+fancymenu.helper.editor.items.playerentity.slim.off = Entidad Delgada: §cNo
+fancymenu.helper.editor.items.playerentity.slim.on = Entidad Delgada: §aSi
+fancymenu.helper.editor.items.playerentity.slim.desc = Especifica si la entidad debe%n%ser representada como delgada.
+
+fancymenu.helper.editor.items.playerentity.crouching.off = Entidad Agachada: §cNo
+fancymenu.helper.editor.items.playerentity.crouching.on =  Entidad Agachada: §aSi
+fancymenu.helper.editor.items.playerentity.crouching.desc = Especifica si la entidad debe%n%ser representada como agachada.
+
+fancymenu.helper.editor.items.playerentity.show_name.off = Etiqueta del Jugador: §cNo
+fancymenu.helper.editor.items.playerentity.show_name.on = Etiqueta del Jugador: §aSi
+fancymenu.helper.editor.items.playerentity.show_name.desc = Especifica si la entidad debe%n%ser representada con la etiqueta superior donde%n%se indica el nombre del jugador.
+
+fancymenu.helper.editor.items.playerentity.parrot.off = Representar Loro: §cNo
+fancymenu.helper.editor.items.playerentity.parrot.on = Representar Loro: §aSi
+fancymenu.helper.editor.items.playerentity.parrot.desc = Especifica si la entidad debe%n%ser representada con un Loro.
+
+fancymenu.helper.editor.items.playerentity.parrot_left.off = Loro en Hombro Izquierdo: §cNo
+fancymenu.helper.editor.items.playerentity.parrot_left.on = Loro en Hombro Izquierdo: §aSi
+fancymenu.helper.editor.items.playerentity.parrot_left.desc = Si el loro del jugador debe%n%estar en el hombro izquierdo.
+
+fancymenu.helper.editor.items.playerentity.baby.off = Aspecto de Niño: §cNo
+fancymenu.helper.editor.items.playerentity.baby.on = Aspecto de Niño: §aSi
+fancymenu.helper.editor.items.playerentity.baby.desc = Especifica si la entidad debe%n%ser representada con aspecto de niño.
+
+fancymenu.guicomponents.cancel = §c❌ Cancelar
+
+fancymenu.ui.text_editor.placeholders = Placeholders
+fancymenu.ui.text_editor.cut = ✄ Cortar
+fancymenu.ui.text_editor.copy = 📋 Copiar
+fancymenu.ui.text_editor.paste = ⍞ Pegar
+fancymenu.ui.text_editor.select_all = ☑ Seleccionar Todo
+fancymenu.ui.text_editor.error.multiline_support = Este campo no admite texto multi-línea.
+fancymenu.ui.text_editor.placeholders.back_to_categories = VOLVER
+
+fancymenu.config.variables_to_reset_on_launch = Variables a Restaurar
+fancymenu.config.variables_to_reset_on_launch.desc = Una lista de nombres de variables separados por comas%n%que debería reiniciarse cada vez%n%que se inicia el juego.
+
+fancymenu.customization.items.custom_button.add_action = ✚ Añadir Acción
+fancymenu.customization.items.custom_button.add_action.desc = Añade una nueva acción a la lista de%n%acciones que debe ejecutar este botón.
+fancymenu.customization.items.custom_button.manage_actions = §6✎ Administrar Acciones
+fancymenu.customization.items.custom_button.manage_actions.desc = Añadir, eliminar y modificar las acciones del botón.
+
+fancymenu.editor.actions.add.set_action_value = Valor de la Acción [{}]
+fancymenu.editor.actions.add.set_action_value.generic = Establece el valor de la acción.
+
+fancymenu.editor.elements.web_image.enter_url = Introduce la URL de la Imagen
+
+fancymenu.editor.elements.splash.single.enter_text = Introduce el Texto de Presentación
+
+fancymenu.editor.elements.visibilityrequirements.edit_value = Modificar el Valor del Requisito
+
+fancymenu.editor.loading_requirement.category.window = Ventana...
+fancymenu.editor.loading_requirement.category.world = Mundo...
+fancymenu.editor.loading_requirement.category.gui = Interfaz...
+fancymenu.editor.loading_requirement.category.realtime = Tiempo Real...
+fancymenu.editor.loading_requirement.category.system = Sistema...
+
+fancymenu.editor.loading_requirement.elements.loading_requirements = §6✎ Requisitos del Elemento
+fancymenu.editor.loading_requirement.elements.loading_requirements.desc = Modifica los requisitos necesarios para que se muestre este elemento.%n%%n%Los requisitos se utilizan para determinar en qué%n%circunstancia se debe mostrar el elemento.
+
+fancymenu.editor.loading_requirement.layouts.loading_requirements = §6✎ Requisitos del Diseño
+fancymenu.editor.loading_requirement.layouts.loading_requirements.desc = Modifica los requisitos necesarios para que se muestre este diseño.%n%%n%Los requisitos se utilizan para determinar en qué%n%circunstancia se debe mostrar el diseño.
+
+fancymenu.editor.loading_requirement.screens.lists.back = §7↩ Volver
+fancymenu.editor.loading_requirement.screens.add_requirement = §2✚ Añadir Requisito
+fancymenu.editor.loading_requirement.screens.add_group = §2✚ Añadir Grupo
+fancymenu.editor.loading_requirement.screens.edit_requirement = §6✎ Modificar Requisito
+fancymenu.editor.loading_requirement.screens.edit_group = §6✎ Modificar Grupo
+fancymenu.editor.loading_requirement.screens.remove_requirement = §4❌ Eliminar Requisito
+fancymenu.editor.loading_requirement.screens.remove_group = §4❌ Eliminar el Grupo
+fancymenu.editor.loading_requirement.screens.remove_requirement.confirm = §6⚠ §c¿Seguro que quieres §4eliminar §cel requisito seleccionado?%n%§c¡Esta acción es irreversible!
+fancymenu.editor.loading_requirement.screens.remove_group.confirm = §6⚠ §c¿Seguro que quieres §4eliminar §cel grupo seleccionado?%n%§c¡Esta acción es irreversible!
+fancymenu.editor.loading_requirement.screens.requirement.info.mode = §3ℹ Modo:
+fancymenu.editor.loading_requirement.screens.requirement.info.mode.normal = §aNormal
+fancymenu.editor.loading_requirement.screens.requirement.info.mode.opposite = §cOpuesto
+fancymenu.editor.loading_requirement.screens.requirement.info.value = §3ℹ Valor:
+fancymenu.editor.loading_requirement.screens.requirement.info.value.none = §7§oNinguno
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_description = Descripción del Requisito
+fancymenu.editor.loading_requirement.screens.build_screen.available_requirements = Requisitos Disponibles
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_mode.normal = §3ℹ Modo: §6Normal
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_mode.opposite = §3ℹ Modo: §6Opuesto
+fancymenu.editor.loading_requirement.screens.build_screen.requirement_mode.desc = El modo determina lo qué el requisito debe indicar%n%realmente cuando se cumple la condición.%n%%n%§6Normal ► §rIndica que el requisito es válido%n%cuando SI se cumple la condición.%n%%n%§6Opuesto ► §rIndica que el requisito es válido%n%cuando NO se cumple la condición.
+fancymenu.editor.loading_requirement.screens.build_screen.edit_value = §6⚒ Valor del Requisito
+fancymenu.editor.loading_requirement.screens.build_screen.edit_value.desc.no_value = §7Este requisito no necesita ningún%n%§7valor y tampoco se puede establecer uno.
+fancymenu.editor.loading_requirement.screens.build_screen.edit_value.desc.normal = Modifica el valor del requisito seleccionado.
+fancymenu.editor.loading_requirement.screens.build_screen.finish.desc.no_requirement_selected = §6⚠ §cPrimero tienes que seleccionar un requisito.
+fancymenu.editor.loading_requirement.screens.build_screen.finish.desc.no_value_set = §6⚠ §cPrimero tienes que modificar el valor del requisito.
+fancymenu.editor.loading_requirement.screens.build_group_screen.mode.and = §3ℹ Modo: §6And
+fancymenu.editor.loading_requirement.screens.build_group_screen.mode.or = §3ℹ Modo: §6Or
+fancymenu.editor.loading_requirement.screens.build_group_screen.mode.desc = El modo define cómo el grupo%n%debe enfrentar los requisitos.%n%%n%§6And ► §rIndica que TODOS los requisitos deben%n%ser válidos para poder cargar.%n%%n%§6Or ► §rIndica que para poder cargar, sólo es%n%necesario que uno de los requisitos sea válido.
+fancymenu.editor.loading_requirement.screens.build_group_screen.finish.no_requirements_added = §6⚠ §cPrimero tienes que añadir un requisito por lo menos.
+fancymenu.editor.loading_requirement.screens.build_group_screen.finish.identifier_already_used = §6⚠ §cEl identificador del grupo ya%n%§cse está utilizando en otro grupo.
+fancymenu.editor.loading_requirement.screens.build_group_screen.finish.identifier_too_short = §6⚠ §cEl identificador de grupo es demasiado corto.
+fancymenu.editor.loading_requirement.screens.build_group_screen.add_requirement.desc = Añade un requisito a este grupo.
+fancymenu.editor.loading_requirement.screens.build_group_screen.edit_requirement.desc = Modifica el requisito seleccionado.
+fancymenu.editor.loading_requirement.screens.build_group_screen.remove_requirement.desc = Elimina el requisito seleccionado.
+fancymenu.editor.loading_requirement.screens.build_group_screen.no_requirement_selected = §6⚠ §cPrimero tienes que seleccionar un requisito.
+fancymenu.editor.loading_requirement.screens.build_group_screen.group_requirements = Grupo de Requisitos
+fancymenu.editor.loading_requirement.screens.build_group_screen.group_identifier = Identificador Único de Grupo
+fancymenu.editor.loading_requirement.screens.manage_screen.manage = §3Requisitos de Carga
+fancymenu.editor.loading_requirement.screens.manage_screen.group.info = Grupo con {} Requisitos
+fancymenu.editor.loading_requirement.screens.manage_screen.add_requirement.desc = Añadir nuevo requisito.
+fancymenu.editor.loading_requirement.screens.manage_screen.add_group.desc = Añade un nuevo grupo de requisitos.%n%%n%Los grupos de requisitos pueden contener%n%múltiples requisitos y convertirlos básicamente en%n%un gran requisito.%n%%n%Los grupos de requisitos tienen dos modalidades.%n%En el modo §6And§r, todos los requisitos%n%tienen que ser válidos para poder cargar,%n%pero en el modo §6Or§r, sólo un requisito%n%tiene que ser válido para poder cargar.
+fancymenu.editor.loading_requirement.screens.manage_screen.no_entry_selected = §6⚠ §cPrimero tienes que seleccionar un grupo o requisito.
+fancymenu.editor.loading_requirement.screens.manage_screen.edit.generic = §6✎ Modificar
+fancymenu.editor.loading_requirement.screens.manage_screen.edit.desc = Modifica el grupo o requisito seleccionado.
+fancymenu.editor.loading_requirement.screens.manage_screen.remove.generic = §4❌ Eliminar
+fancymenu.editor.loading_requirement.screens.manage_screen.remove.desc = Elimina el grupo o requisito seleccionado.
+fancymenu.editor.loading_requirement.screens.manage_screen.requirements_and_groups = §7Grupos y Requisitos:
+
+fancymenu.editor.action.screens.add_action = §2✚ Añadir Acción
+fancymenu.editor.action.screens.add_action.desc = Añade una acción nueva.
+fancymenu.editor.action.screens.edit_action = §6✎ Modificar Acción
+fancymenu.editor.action.screens.edit_action.desc = Modifica la acción seleccionada.
+fancymenu.editor.action.screens.remove_action = §4❌ Eliminar Acción
+fancymenu.editor.action.screens.remove_action.desc = Elimina la acción seleccionada.
+fancymenu.editor.action.screens.finish.no_action_selected = §7Selecciona primero una acción.
+fancymenu.editor.action.screens.remove_action.confirm = §6⚠ §c¿Seguro que quieres §4eliminar §cla acción seleccionada?%n%§c¡Esta acción es irreversible!
+fancymenu.editor.action.screens.build_screen.edit_value = §6✎ Modificar Acción
+fancymenu.editor.action.screens.build_screen.edit_value.desc.normal = Modifica el valor de esta acción.
+fancymenu.editor.action.screens.build_screen.edit_value.desc.no_value = §6Esta acción no tiene ningún valor.%n%§6Tampoco es necesario que se establezca un valor.
+fancymenu.editor.action.screens.build_screen.action_description = Descripción de la Acción
+fancymenu.editor.action.screens.build_screen.available_actions = Acciones Disponibles
+fancymenu.editor.action.screens.build_screen.finish.no_value_set = §6⚠ §cPrimero tienes que modificar el valor de la acción.
+fancymenu.editor.action.screens.manage_screen.info.value = Valor:
+fancymenu.editor.action.screens.manage_screen.info.value.none = §7NINGUNO
+fancymenu.editor.action.screens.manage_screen.manage = §6✎ Acciones del Elemento
+fancymenu.editor.action.screens.manage_screen.actions = §7Acciones del Elemento:
+fancymenu.editor.action.screens.move_action_up = ⇧ Subir
+fancymenu.editor.action.screens.move_action_up.desc = Desplaza esta acción hacia arriba,%n%para que se ejecute antes.
+fancymenu.editor.action.screens.move_action_down = ⇩ Bajar
+fancymenu.editor.action.screens.move_action_down.desc = Desplaza esta acción hacia abajo,%n%para que se ejecute más tarde.
+fancymenu.editor.elements.button.manage_actions.desc = Modifica las acciones que debe ejecutar este%n%botón cuando se pulsa.
+fancymenu.editor.elements.ticker.manage_actions.desc = Modifica las acciones que debe ejecutar%n%este Actuador.
+fancymenu.guicomponents.confirm = §2✔ Confirmar
+fancymenu.custom_guis.build = Generar Interfaz Personalizada
+fancymenu.custom_guis.build.identifier = Identificador de la Interfaz:
+fancymenu.custom_guis.build.identifier.already_in_use = §6⚠ El identificador ya se encuentra en uso y este debe ser único.
+fancymenu.custom_guis.build.identifier.invalid = §6⚠ Identificador no válido.
+fancymenu.custom_guis.build.title = Título del Menú (opcional):
+fancymenu.custom_guis.build.allow_esc.enabled = Permitir cerrar con 'Esc': §aActivado
+fancymenu.custom_guis.build.allow_esc.disabled = Permitir cerrar con 'Esc': §cDesactivado
+fancymenu.ui.screens.string_builder_screen.edit_in_editor = Abrir en el Editor
