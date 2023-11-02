@@ -1,0 +1,21 @@
+{
+  "lambdynlights.menu.light_sources": "§6⚒ Fuentes de Luz Dinámicas",
+  "lambdynlights.menu.title": "§3§nConfiguración del mod LambDynamicLights",
+  "lambdynlights.menu.canvas.1": "¡Si usas el mod Canvas, se recomienda desactivar la iluminación dinámica!",
+  "lambdynlights.menu.canvas.2": "Usar actualmente la iluminación dinámica junto con Canvas, requiere un equipo con gran rendimiento.",
+  "lambdynlights.menu.tabs.general": "General",
+  "lambdynlights.option.light_sources.block_entities": "Bloques Lumínicos",
+  "lambdynlights.option.light_sources.entities": "Entidades",
+  "lambdynlights.option.light_sources.self": "Primera Persona",
+  "lambdynlights.option.light_sources.water_sensitive_check": "Objetos bajo el Agua",
+  "lambdynlights.option.mode": "Iluminación Dinámica",
+  "lambdynlights.tooltip.block_entities": "Activa la iluminación dinámica de los bloques que emiten luz.",
+  "lambdynlights.tooltip.creeper_lighting": "Establece el modo de iluminación dinámica del Creeper.\n- %s ► Desactiva la iluminación dinámica de Creeper.\n- %s ► Establece una luminancia constante.\n- %s ► Establece una luminancia dinámica.",
+  "lambdynlights.tooltip.entities": "Activa la iluminación dinámica de las entidades. Nota: los jugadores siempre están activos.",
+  "lambdynlights.tooltip.mode.1": "Activa la iluminación dinámica. Por ejemplo, si se activa, un jugador con una antorcha en la mano iluminará la zona.",
+  "lambdynlights.tooltip.mode.2": "%s y %s se retrasará un poco, pero minimiza las actualizaciones de iluminación.",
+  "lambdynlights.tooltip.mode.3": "%s establece una iluminación dinámica suave.",
+  "lambdynlights.tooltip.self_light_source": "Activa la iluminación dinámica en primera persona. Se recomienda desactivar esta opción si utilizas sombreadores con iluminación dinámica propia.",
+  "lambdynlights.tooltip.tnt_lighting": "Establece el modo de iluminación dinámica de la Dinamita.\n- %s ► Desactiva la iluminación dinámica de la Dinamita.\n- %s ► Establece una luminancia constante.\n- %s ► Establece una luminancia dinámica.",
+  "lambdynlights.tooltip.water_sensitive": "Activa la comprobación de fuentes de iluminación bajo el agua. Esto significa que algunos objetos no emitirán iluminación cuando se encuentren sumergidos en agua."
+}
