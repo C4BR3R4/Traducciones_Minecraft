@@ -1,0 +1,13 @@
+{
+  "options.continuity.title": "§3§nConfiguración del mod Continuity",
+  "options.continuity.connected_textures": "Conectar Texturas",
+  "options.continuity.connected_textures.tooltip": "Activa o desactiva la conexión de texturas de los bloques.",
+  "options.continuity.emissive_textures": "Texturas Emisoras",
+  "options.continuity.emissive_textures.tooltip": "Activa o desactiva las texturas emisoras de los modelos de bloques y objetos.",
+  "options.continuity.custom_block_layers": "Capas de Bloques Personalizadas",
+  "options.continuity.custom_block_layers.tooltip": "Activa o desactiva las capas de bloque personalizadas.",
+  "resourcePack.continuity.default.name": "Conectar Texturas Predeterminadas",
+  "resourcePack.continuity.default.description": "Librerías, Arenisca y Cristal",
+  "resourcePack.continuity.glass_pane_culling_fix.name": "Corregir Canto del Panel de Cristal",
+  "resourcePack.continuity.glass_pane_culling_fix.description": "Corrige la eliminación de los bordes superior e inferior."
+}
