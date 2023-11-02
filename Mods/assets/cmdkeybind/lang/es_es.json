@@ -1,0 +1,16 @@
+{
+  "key.cmdkeybind.config.title": "§3Configuración de Command Macros",
+  "key.cmdkeybind.config.category.main": "Principal",
+  "key.cmdkeybind.config.sub.macro": "Configuración de Command Macros",
+  "key.cmdkeybind.config.macro.key": "Tecla Asignada",
+  "key.cmdkeybind.config.macro.keymod": "Tecla Combinada",
+  "key.cmdkeybind.config.macro.command": "Comando",
+  "key.cmdkeybind.config.enabled": "Activar la herramienta ''Command Macros''",
+  "key.cmdkeybind.config.macrotype": "Tipo de Macro",
+  "key.cmdkeybind.config.delay": "Retraso §8(Ignorar en los tipos de macro: Display y Single)",
+  "key.cmdkeybind.config.repetitions": "veces a repetir",
+  "key.cmdkeybind.config.add": "§2Añadir Macro",
+  "key.cmdkeybind.config.remove": "§4Eliminar Macro",
+  "key.categories.cmdkeybind": "§3Teclas de Command Macros",
+  "key.cmdkeybind.config.openmacrokeybind": "Abre la Pantalla de Configuración de Macros"
+}
