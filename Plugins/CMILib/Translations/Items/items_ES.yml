@@ -134,10 +134,10 @@ CHEST_MINECART: Vagoneta con Cofre
 CHICKEN: Pollo Crudo
 CHICKEN_SPAWN_EGG: ADN de Huevo de Gallina
 CHIPPED_ANVIL: Yunque Dañado
-CHISELED_QUARTZ_BLOCK: Cuarzo Cincelado
-CHISELED_RED_SANDSTONE: Arenisca Roja Cincelada
-CHISELED_SANDSTONE: Arenisca Cincelada
-CHISELED_STONE_BRICKS: Ladrillos de Piedra Cincelados
+CHISELED_QUARTZ_BLOCK: Cuarzo Esculpido
+CHISELED_RED_SANDSTONE: Arenisca Roja Esculpida
+CHISELED_SANDSTONE: Arenisca Esculpida
+CHISELED_STONE_BRICKS: Ladrillos de Piedra Esculpidos
 CHORUS_FLOWER: Flor Chorus
 CHORUS_FRUIT: Fruta de Chorus
 CHORUS_PLANT: Planta Chorus
@@ -146,7 +146,7 @@ CLAY_BALL: Bola de Arcilla
 CLOCK: Reloj
 COAL: Carbón
 COAL_BLOCK: Bloque de Carbón
-COAL_ORE: Mena de Mena de Carbón
+COAL_ORE: Mena de Carbón
 COARSE_DIRT: Tierra Estéril
 COBBLESTONE: Roca
 COBBLESTONE_SLAB: Losa de Roca
@@ -330,7 +330,7 @@ GOLD_INGOT: Lingote de Oro
 GOLD_NUGGET: Pepita de Oro
 GOLD_ORE: Mena de Oro
 GRANITE: Granito
-GRASS: Hierba
+SHORT_GRASS: Short Grass
 GRASS_BLOCK: Césped
 GRAVEL: Grava
 GRAY_BANNER: Estandarte Gris
@@ -372,7 +372,7 @@ HORN_CORAL_WALL_FAN: Gorgonia de Cuerno Adosada
 HORSE_SPAWN_EGG: ADN de Caballo
 HUSK_SPAWN_EGG: ADN de Zombi Momificado
 ICE: Hielo
-INFESTED_CHISELED_STONE_BRICKS: Ladrillos de Piedra Cincelados Infestados
+INFESTED_CHISELED_STONE_BRICKS: Ladrillos de Piedra Esculpidos Infestados
 INFESTED_COBBLESTONE: Roca Infestada
 INFESTED_CRACKED_STONE_BRICKS: Ladrillos de Piedra Agrietados Infestados
 INFESTED_MOSSY_STONE_BRICKS: Ladrillos de Piedra Musgosos Infestados
@@ -714,7 +714,7 @@ SEAGRASS: Hierba Marina
 SEA_LANTERN: Linterna Marina
 SEA_PICKLE: Pepino de Mar
 SHEARS: Tijeras
-SHEEP_SPAWN_EGG: ADN de Obeja
+SHEEP_SPAWN_EGG: ADN de Oveja
 SHIELD: Escudo
 SHULKER_BOX: Caja de Shulker
 SHULKER_SHELL: Caparazón dee Shulker
@@ -758,7 +758,7 @@ SPRUCE_WOOD: Leño de Abeto
 SQUID_SPAWN_EGG: ADN de Calamar
 STICK: Palo
 STICKY_PISTON: Pistón Pegajoso
-STONE: Stone
+STONE: Piedra
 STONE_AXE: Acha de Piedra
 STONE_BRICKS: Ladrillos de Piedra
 STONE_BRICK_SLAB: Losa de Piedra
@@ -983,8 +983,8 @@ BLACKSTONE_SLAB: Losa de Piedra Negra
 BLACKSTONE_STAIRS: Escaleras de Piedra Negra
 BLACKSTONE_WALL: Muro de Piedra Negra
 CHAIN: Cadena
-CHISELED_NETHER_BRICKS: Infradrillos Cincelados
-CHISELED_POLISHED_BLACKSTONE: Piedra Negra Pulida Cincelada
+CHISELED_NETHER_BRICKS: Infradrillos Esculpidos
+CHISELED_POLISHED_BLACKSTONE: Piedra Negra Pulida Esculpida
 CRACKED_NETHER_BRICKS: Infradrillos Agrietados
 CRACKED_POLISHED_BLACKSTONE_BRICKS: Ladrillos de Piedra Negra Pulida Agrietados
 CRIMSON_BUTTON: Botón Carmesí
@@ -998,11 +998,11 @@ CRIMSON_PLANKS: Tablones Carmesí
 CRIMSON_PRESSURE_PLATE: Placa de Presión Carmesí
 CRIMSON_ROOTS: Raíces Carmesí
 CRIMSON_SIGN: Cartel Carmesí
+CRIMSON_WALL_SIGN: Cartel Adosado Carmesí
 CRIMSON_SLAB: Losa Carmesí
 CRIMSON_STAIRS: Escalones Carmesí
 CRIMSON_STEM: Tallo Carmesí
 CRIMSON_TRAPDOOR: Trampilla Carmesí
-CRIMSON_WALL_SIGN: Cartel Adosado Carmesí
 CRYING_OBSIDIAN: Obsidiana Llorosa
 GILDED_BLACKSTONE: Piedra Negra Áurea
 HOGLIN_SPAWN_EGG: ADN de Hoglin
@@ -1068,11 +1068,11 @@ WARPED_PLANKS: Tablones Distorsionado
 WARPED_PRESSURE_PLATE: Placa de Presión Distorsionada
 WARPED_ROOTS: Raíces Distorsionadas
 WARPED_SIGN: Cartel Distorsionado
+WARPED_WALL_SIGN: Cartel Adosado Distorsionado
 WARPED_SLAB: Losa Distorsionada
 WARPED_STAIRS: Escalones Distorsionados
 WARPED_STEM: Tallo Distorsionado
 WARPED_TRAPDOOR: Trampilla Distorsionada
-WARPED_WALL_SIGN: Cartel Adosado Distorsionado
 WARPED_WART_BLOCK: Bloque de Verrugas Distorsionadas
 WEEPING_VINES: Enredaderas Lacrimosas
 WEEPING_VINES_PLANT: Planta de Enredaderas Lacrimosas
@@ -1101,7 +1101,7 @@ CANDLE: Vela
 CANDLE_CAKE: Tarta con Vela
 CAVE_VINES: Enredaderas de Cueva
 CAVE_VINES_PLANT: Planta de Enredaderas de Cueva
-CHISELED_DEEPSLATE: Pizarra Profunda Cincelada
+CHISELED_DEEPSLATE: Pizarra Profunda Esculpida
 COBBLED_DEEPSLATE: Pizarra Profunda Rocosa
 COBBLED_DEEPSLATE_SLAB: Losa de Pizarra Profunda Rocosa
 COBBLED_DEEPSLATE_STAIRS: Escaleras de Pizarra Profunda Rocosa
@@ -1254,10 +1254,10 @@ MANGROVE_PRESSURE_PLATE: Placa de Presión de Mangle
 MANGROVE_PROPAGULE: Propágulo de Mangle
 MANGROVE_ROOTS: Raíces de Mangle
 MANGROVE_SIGN: Cartel de Mangle
+MANGROVE_WALL_SIGN: Cartel Adosado de Mangle
 MANGROVE_SLAB: Losa de Mangle
 MANGROVE_STAIRS: Escaleras de Mangle
 MANGROVE_TRAPDOOR: Trampilla de Mangle
-MANGROVE_WALL_SIGN: Cartel Adosado de Mangle
 MANGROVE_WOOD: Leño de Mangle
 MUD: Barro
 MUDDY_MANGROVE_ROOTS: Raíces de Mangle Embarradas
@@ -1284,4 +1284,126 @@ TADPOLE_BUCKET: Cubo con Renacuajo
 TADPOLE_SPAWN_EGG: ADN de Renacuajo
 VERDANT_FROGLIGHT: Ranaluz Verde
 WARDEN_SPAWN_EGG: ADN de Warden
+ACACIA_HANGING_SIGN: Cartel Colgante de Acacia
+ACACIA_WALL_HANGING_SIGN: Cartel Colgante de Acacia Adosado
+ANGLER_POTTERY_SHERD: Fragmento de Cerámica de Caña de Pescar
+ARCHER_POTTERY_SHERD: Fragmento de Cerámica de Arco
+ARMS_UP_POTTERY_SHERD: Fragmento de Cerámica de Monigote
+BAMBOO_BLOCK: Bloque de Bambú
+BAMBOO_BUTTON: Botón de Bambú
+BAMBOO_CHEST_RAFT: Balsa de Bambú con Cofre
+BAMBOO_DOOR: Puerta de Bambú
+BAMBOO_FENCE: Valla de bambú
+BAMBOO_FENCE_GATE: Puerta de Valla de Bambú
+BAMBOO_HANGING_SIGN: Cartel Colgante de Bambú
+BAMBOO_MOSAIC: Mosaico de Bambú
+BAMBOO_MOSAIC_SLAB: Losa de Mosaico de Bambú
+BAMBOO_MOSAIC_STAIRS: Escaleras de Mosaico de Bambú
+BAMBOO_PLANKS: Tablones de Bambú
+BAMBOO_PRESSURE_PLATE: Placa de Presión de Bambú
+BAMBOO_RAFT: Balsa de Bambú
+BAMBOO_SIGN: Cartel de Bambú
+BAMBOO_SLAB: Losa de Bambú
+BAMBOO_STAIRS: Escaleras de Bambú
+BAMBOO_TRAPDOOR: Trampilla de Bambú
+BAMBOO_WALL_HANGING_SIGN: Cartel Colgante de Bambú Adosado
+BAMBOO_WALL_SIGN: Cartel de Bambú Adosado
+BIRCH_HANGING_SIGN: Cartel Colgante de Abedul
+BIRCH_WALL_HANGING_SIGN: Cartel Colgante de Abedul Adosado
+BLADE_POTTERY_SHERD: Fragmento de Cerámica de Espada
+BREWER_POTTERY_SHERD: Fragmento de cerámica de poción
+BRUSH: Pincel
+BURN_POTTERY_SHERD: Fragmento de Cerámica de Fuego
+CALIBRATED_SCULK_SENSOR: Sensor de Sculk Calibrado
+CAMEL_SPAWN_EGG: ADN de Camello
+CHERRY_BOAT: Barca de Cerezo
+CHERRY_BUTTON: Botón de Cerezo
+CHERRY_CHEST_BOAT: Carca de Cerezo con Cofre
+CHERRY_DOOR: Puerta de Cerezo
+CHERRY_FENCE: Valla de Cerezo
+CHERRY_FENCE_GATE: Puerta de Valla de Cerezo
+CHERRY_HANGING_SIGN: Cartel Colgante de Cerezo
+CHERRY_LEAVES: Hojas de Cerezo
+CHERRY_LOG: Tronco de Cerezo
+CHERRY_PLANKS: Tablones  de Cerezo
+CHERRY_PRESSURE_PLATE: Placa de Presión de Cerezo
+CHERRY_SAPLING: Brote de Cerezo
+CHERRY_SIGN: Cartel de Cerezo
+CHERRY_SLAB: Losa de Cerezo
+CHERRY_STAIRS: Escaleras de Cerezo
+CHERRY_TRAPDOOR: Trampilla de Cerezo
+CHERRY_WALL_HANGING_SIGN: Cartel Colgante de Cerezo Adosado
+CHERRY_WALL_SIGN: Cartel de Cerezo Adosado
+CHERRY_WOOD: Leño de cerezo
+CHISELED_BOOKSHELF: Estantería
+COAST_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+CRIMSON_HANGING_SIGN: Cartel Colgante Carmesí
+CRIMSON_WALL_HANGING_SIGN: Cartel Colgante Carmesí Adosado
+DANGER_POTTERY_SHERD: Fragmento de Cerámica de Creeper
+DARK_OAK_HANGING_SIGN: Cartel Colgante de Roble Oscuro
+DARK_OAK_WALL_HANGING_SIGN: Cartel Colgante de Roble Oscuro Adosado
+DECORATED_POT: Vasija Decorada
+DUNE_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+ENDER_DRAGON_SPAWN_EGG: ADN de Dragón
+EXPLORER_POTTERY_SHERD: Fragmento de Cerámica de Mapa
+EYE_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+FRIEND_POTTERY_SHERD: Fragmento de Cerámica de Amistad
+HEARTBREAK_POTTERY_SHERD: Fragmento de Cerámica de Corazón Roto
+HEART_POTTERY_SHERD: Fragmento de Cerámica de Corazón
+HOST_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+HOWL_POTTERY_SHERD: Fragmento de Cerámica de Lobo
+IRON_GOLEM_SPAWN_EGG: ADN de Gólem de Hierro
+JUNGLE_HANGING_SIGN: Cartel Colgante de Jungla
+JUNGLE_WALL_HANGING_SIGN: Cartel Colgante de Jungla Adosado
+MANGROVE_HANGING_SIGN: Cartel colgante de Mangle
+MANGROVE_WALL_HANGING_SIGN: Cartel colgante de Mangle Adosado
+MINER_POTTERY_SHERD: Fragmento de Cerámica de Pico
+MOURNER_POTTERY_SHERD: Fragmento de Cerámica de Warden
+MUSIC_DISC_RELIC: Disco de música de Aaron Cherof - Relic
+NETHERITE_UPGRADE_SMITHING_TEMPLATE: Molde de Herrería de Netherite
+OAK_HANGING_SIGN: Cartel Colgante de Roble Oscuro
+OAK_WALL_HANGING_SIGN: Cartel Colgante de Roble Oscuro Adosado
+PIGLIN_HEAD: Cabeza de Piglin
+PIGLIN_WALL_HEAD: Cabeza de Piglin Adosada
+PINK_PETALS: Pétalos Rosas
+PITCHER_CROP: Cultivo de Planta Odre
+PITCHER_PLANT: Planta Odre
+PITCHER_POD: Vaina de Planta Odre
+PLENTY_POTTERY_SHERD: Fragmento de Cerámica de Cofre
+POTTED_CHERRY_SAPLING: Maceta con Brote de Cerezo
+POTTED_TORCHFLOWER: Maceta con Plantorcha
+PRIZE_POTTERY_SHERD: Fragmento de Cerámica de Gema
+RAISER_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+RIB_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+SHAPER_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+SHEAF_POTTERY_SHERD: Fragmento de Cerámica de Paja
+SHELTER_POTTERY_SHERD: Fragmento de Cerámica de Refugio
+SILENCE_ARMOR_TRIM_SMITHING_TEMPLATE: de Silencio
+SKULL_POTTERY_SHERD: Fragmento de Cerámica de Calavera
+SNIFFER_EGG: Huevo de Sniffer
+SNIFFER_SPAWN_EGG: ADN de Sniffer
+SNORT_POTTERY_SHERD: Fragmento de Cerámica de Sniffer
+SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+SNOW_GOLEM_SPAWN_EGG: ADN de Gólem de Nieve
+SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+SPRUCE_HANGING_SIGN: Cartel Colgante de Abeto
+SPRUCE_WALL_HANGING_SIGN: Cartel Colgante de Abeto Adosado
+STRIPPED_BAMBOO_BLOCK: Bloque de Bambú Pelado
+STRIPPED_CHERRY_LOG: Tronco de Cerezo sin Corteza
+STRIPPED_CHERRY_WOOD: Leño de Cerezo sin Corteza
+SUSPICIOUS_GRAVEL: Grava Sospechosa
+SUSPICIOUS_SAND: Arena Sospechosa
+TIDE_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+TORCHFLOWER: Plantorcha
+TORCHFLOWER_CROP: Cultivo de Plantorcha
+TORCHFLOWER_SEEDS: Semillas de Plantorcha
+VEX_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+WARD_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+WARPED_HANGING_SIGN: Cartel Colgante Distorsionado
+WARPED_WALL_HANGING_SIGN: Cartel Colgante Distorsionado Adosado
+WAYFINDER_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+WILD_ARMOR_TRIM_SMITHING_TEMPLATE: Molde de Herrería
+WITHER_SPAWN_EGG: ADN de Wither
 SIGN: Cartel
+GRASS: Hierba
