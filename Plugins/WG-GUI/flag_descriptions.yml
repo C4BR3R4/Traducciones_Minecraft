@@ -1,0 +1,666 @@
+# -----------------------------------------------------------------------------------------------
+# Este archivo ha sido traducido por C4BR3R4.
+# Puedes encontrar más plugins, traducidos en: http://c4br3r4.es
+# -----------------------------------------------------------------------------------------------
+
+
+# ----------------------------------------------------------
+# WG-GUI ► https://www.spigotmc.org/resources/wg-gui.57951/
+# ----------------------------------------------------------
+allow-shop:
+- '&3¿Se pueden usar las Tiendas?'
+- ''
+- '&8Si el plugin correspondiente se encuentra instalado.'
+buyable:
+- '&3¿Se puede comprar la región?'
+- ''
+- '&8Si el plugin correspondiente se encuentra instalado.'
+price:
+- '&3Determina el precio de esta Región.'
+- ''
+- '&8Si el plugin correspondiente se encuentra instalado.'
+
+
+# --------------------------------------------------
+# WorldGuard 7.0 ► https://enginehub.org/worldguard
+# --------------------------------------------------
+# Overrides
+passthrough:
+- '&3Esta propiedad es la abreviatura de "construcción de paso",'
+- '&3la cual, no tiene nada que ver con el movimiento.'
+- ''
+- '  &7&nSi el valor es:'
+- '  &7• Predeterminado, entonces la región está protegida.'
+- '  &7• Permitido, entonces la región está protegida.'
+- '  &7• Denegado, entonces la región NO está protegida.'
+- ''
+- '  &7&n¿Donde se usa esta propiedad?'
+- '  &7• Cuando se usan otras propiedades como "pvp", "heal-",'
+- '  &7  etc. y no quieres impedir que puedan construir.'
+- '  &7• ¿Entonces por qué no activar la Propiedad "build"?'
+- '  &7  Porque esto anularía las propiedades de otras regiones'
+- '  &7  y permitiría construir.'
+nonplayer-protection-domains:
+- '&3Las asociaciones que no son jugadores, como los pistones,'
+- '&3suelen ser miembros de todas las regiones en las que se'
+- '&3encuentran o sólo de las regiones con mayor prioridad en'
+- '&3las que están, dependiendo del valor introducido en la'
+- '&3configuración "use-max-priority-association" y de si se'
+- '&3trata de una región global. Por lo tanto, puede haber'
+- '&3fronteras entre regiones, de forma que los pistones no'
+- '&3puedan mover bloques de una región a otra.'
+- ''
+- '  &7Las fronteras entre regiones pueden eliminarse en las'
+- '  &7asociaciones que no son jugadores estableciendo la'
+- '  &7propiedad "nonplayer-protection-domains" en estas regiones.'
+- '  &7Esta propiedad es un conjunto de cadenas que describen los'
+- '  &7dominios a los que pertenece la región. Si una asociación'
+- '  &7que no es un jugador es miembro de una región, y también es'
+- '  &7miembro de otra región, si hay al menos un dominio al que'
+- '  &7pertenecen ambas regiones.'
+# Protection-Related
+build:
+- '&3Determina si se puede (todo lo siguiente):'
+- ''
+- '  &b• Romper o colocar bloques.'
+- '  &b• Usar puertas, palancas, etc.'
+- '  &7  No inventarios.'
+- '  &b• Interactuar con entidades y bloques.'
+- '  &b• Luchar entre jugadores.'
+- '  &b• Dormir en la cama.'
+- '  &b• Acceder a los inventarios.'
+- '  &b• Colocar vehículos: barcas, vagonetas, etc.'
+interact:
+- '&3Todo lo que implique "usar" un bloque o entidad:'
+- ''
+- '  &b• Usar puertas, palancas, etc.'
+- '  &7  No inventarios.'
+- '  &b• Montar en vehículos, incluidos animales.'
+block-break:
+- '&3¿Se pueden romper los bloques?'
+block-place:
+- '&3¿Se pueden colocar bloques?'
+use:
+- '&3¿Se pueden usar las puertas, palancas, etc.?'
+- '&7No inventarios.'
+damage-animals:
+- '&3¿Los jugadores pueden matar animales?'
+- '&7Por ejemplo: vacas, ovejas, cerdos, gallinas, etc.'
+chest-access:
+- '&3¿Se pueden abrir los cofres?'
+ride:
+- '&3¿Se pueden montar animales y entrar en los vehículos?'
+pvp:
+- '&3¿Se permite luchar entre jugadores?'
+sleep:
+- '&3¿Se puede dormir en la cama?'
+respawn-anchors:
+- '&3¿Se pueden activar los Nexos de Reaparición?'
+tnt:
+- '&3¿Se permite detonar la TNT.'
+vehicle-place:
+- '&3¿Se pueden colocar vehículos?'
+- '&7Por ejemplo: barcas, vagonetas, etc.'
+vehicle-destroy:
+- '&3¿Se pueden destruir vehículos?'
+lighter:
+- '&3¿Se puede usar el Mechero?'
+block-trampling:
+- '&3¿Se pueden pisotear las tierra de cultivo'
+- '&3y los huevos de tortuga?'
+frosted-ice-form:
+- '&3¿Se debe formar escarcha al usar las'
+- '&3Botas con Paso Helado?'
+item-frame-rotation:
+- '&3¿Se pueden girar los objetos que hay dentro de los marcos?'
+firework-damage:
+- '&3¿Los Fuegos Artificiales hacen daño?'
+use-anvil:
+- '&3¿Se pueden usar Yunques?'
+use-dripleaf:
+- '&3¿Se puede usar la Plataforma?'
+- ''
+- '&8Añadido en la v7.0.6 de WorldGuard.'
+# Mobs, Fire, and Explosions
+creeper-explosion:
+- '&3¿Los Creepers pueden romper bloques?'
+enderdragon-block-damage:
+- '&3¿Los Dragones pueden romper bloques?'
+ghast-fireball:
+- '&3¿Deben hacer daño las Bolas de Fuego de los'
+- '&3Ghast y los Proyectiles de la Calavera del Wither.'
+other-explosion:
+- '&3¿Las explosiones hacen daño?'
+fire-spread:
+- '&3¿Debe propagarse el fuego?'
+enderman-grief:
+- '&3¿Los Enderman pueden robar bloques?'
+snowman-trails:
+- '&3¿Los Golem Invernales pueden'
+- '&3generar caminos de nieve?'
+ravager-grief:
+- '&3¿Los Devastadores pueden romper bloques?'
+mob-damage:
+- '&3¿Las criaturas pueden hacer daño?'
+mob-spawning:
+- '&3¿Deben generarse Criaturas?'
+deny-spawn:
+- '&3Determina una lista de entidades'
+- '&3que no se pueden generar.'
+entity-painting-destroy:
+- '&3¿Las entidades pueden destruir los Cuadros?'
+entity-item-frame-destroy:
+- '&3¿Las entidades pueden destruir los Marcos?'
+wither-damage:
+- '&3¿La explosión corporal del Wither puede romper bloques?'
+- '&7Los proyectiles de la calavera son determinados'
+- '&7por la propiedad "ghast-fireball".'
+# Natural Events
+lava-fire:
+- '&3¿La Lava puede incendiar bloques?'
+lightning:
+- '&3¿Pueden caer Rayos?'
+water-flow:
+- '&3¿El agua debe fluir?'
+lava-flow:
+- '&3¿La Lava debe fluir?'
+snow-fall:
+- '&3¿Puede nevar?'
+snow-melt:
+- '&3¿La nieve se derrite?'
+ice-form:
+- '&3¿Puede formarse hielo?'
+ice-melt:
+- '&3¿El hielo se derrite?'
+frosted-ice-melt:
+- '&3¿La escarcha se derrite?'
+mushroom-growth:
+- '&3¿Deben crecer las Setas?'
+leaf-decay:
+- '&3¿Las Hojas se marchitan?'
+grass-growth:
+- '&3¿Debe crecer la Hierba?'
+mycelium-spread:
+- '&3¿Se debe extender el Micelio?'
+vine-growth:
+- '&3¿Deben extenderse las Enredaderas?'
+crop-growth:
+- '&3¿Deben crecer los cultivos pueden crecer?'
+- '&7El trigo, las patatas, los melones, etc.'
+soil-dry:
+- '&3¿El suelo se debe secar?'
+coral-fade:
+- '&3¿El Coral debe morir fuera del agua?'
+rock-growth:
+- '&3¿El Bloque de Amatista y el Bloque'
+- '&3de Espeleotema pueden propagarse?'
+- ''
+- '&8Añadido en la v7.0.7 de WorldGuard.'
+# Movement
+entry:
+- '&3¿Los jugadores pueden entrar en la región?'
+exit:
+- '&3¿Los jugadores pueden salir de la región?'
+exit-via-teleport:
+- '&3¿Los jugadores pueden salir de la región'
+- '&3usando el conjuro de aparición?'
+- ''
+- '&7Sólo si el jugador tiene prohibido'
+- '&7salir de la región.'
+exit-override:
+- '&3¿Pueden salir simpre los jugadores de la región?'
+- '&7Esta propiedad puede ser usada en una región con la'
+- '&7Propiedad "entry=allow" y permite que los jugadores'
+- '&7puedan entrar desde una región con la Propiedad'
+- '&7"entry=deny".'
+entry-deny-message:
+- '&3Mensaje que recibe el jugador cuando'
+- '&3tiene prohíbido entrar en la región.'
+exit-deny-message:
+- '&3Mensaje que recibe el jugador cuando'
+- '&3tiene prohíbido salir de la región.'
+notify-enter:
+- '&3Determina si los jugadores con el'
+- '&3permiso "worldguard.notify" son notificados'
+- '&3cuando otro jugador entra en la región.'
+notify-leave:
+- '&3Determina si los jugadores con el'
+- '&3permiso "worldguard.notify" son notificados'
+- '&3cuando otro jugador sale de la región.'
+greeting:
+- '&3Mensaje de chat que le aparece'
+- '&3al jugador cuando entra en la región.'
+- '&7Puedes usar \n para separar las líneas.'
+- ''
+- '&8Puedes usar colores usando el símbolo que'
+- '&8se genera pulsando la combinación "Alt + 21".'
+greeting-title:
+- '&3Título que le aparece al jugador'
+- '&3cuando entra en la región.'
+- '&7Usa \n para introducir el subtítulo.'
+- ''
+- '&8Puedes usar colores usando el símbolo que'
+- '&8se genera pulsando la combinación "Alt + 21".'
+greeting-action:
+- '&3Mensaje que le aparece al jugador'
+- '&3encima del cinturón cuando entra en la región.'
+- ''
+- '&8Puedes usar colores usando el símbolo que'
+- '&8se genera pulsando la combinación "Alt + 21".'
+farewell:
+- '&3Mensaje de chat que le aparece al jugador'
+- '&3cuando sale de la región.'
+- ''
+- '&8Puedes usar \n para separar las líneas.'
+- '&8Puedes usar colores usando el símbolo que'
+- '&8se genera pulsando la combinación "Alt + 21".'
+farewell-title:
+- '&3Título que le aparece al jugador'
+- '&3cuando sale de la región.'
+- '&7Usa \n para introducir el subtítulo.'
+- ''
+- '&8Puedes usar colores usando el símbolo que'
+- '&8se genera pulsando la combinación "Alt + 21".'
+farewell-action:
+- '&3Mensaje que le aparece al jugador'
+- '&3encima del cinturón cuando sale de la región.'
+- ''
+- '&8Puedes usar colores usando el símbolo que'
+- '&8se genera pulsando la combinación "Alt + 21".'
+enderpearl:
+- '&3¿Se pueden usar las Perlas de Ender'
+- '&3para desplazarse?'
+chorus-fruit-teleport:
+- '&3¿Se puede usar la Fruta de Coral'
+- '&3para aparecer en la región?'
+teleport:
+- '&3Lugar de aparición cuando se usa el'
+- '&3conjuro "/rg teleport" dentro de la región.'
+spawn:
+- '&3Lugar de aparición del jugador'
+- '&3cuando muere dentro de la región.'
+teleport-message:
+- '&3Mensaje que le aparece al jugador cuando'
+- '&3usa el comando "/region teleport".'
+# Map Making
+item-pickup:
+- '&3¿Se pueden recoger objetos.'
+item-drop:
+- '&3¿Se pueden arrojar objetos.'
+exp-drops:
+- '&3¿Se permite arrojar XP.'
+deny-message:
+- '&3Mensaje que aparece al rechazar una acción.'
+invincible:
+- '&3¿Los jugadores son invencibles?'
+fall-damage:
+- '&3¿Los jugadores se hacen daño al caer?'
+game-mode:
+- '&3Determina el modo de juego (survival, creative,'
+- '&3adventure, spectator) que será usado por el jugador'
+- '&3cuando entra en la región.'
+time-lock:
+- '&3Hora del día en ticks (entre 0 y 24000) que verán'
+- '&3los jugadores mientras se encuentren dentro de la región.'
+- '&3Usa + o - para usar el tiempo relativo al mundo.'
+weather-lock:
+- '&3Determina el clima que verán los jugadores'
+- '&3permaneciendo en la región.'
+- '&7No afecta a la mecánica del mundo.'
+- ''
+- '&8Puedes elegir:'
+- '&8   - clear ► Soleado'
+- '&8   - rain ► Lluvia'
+- '&8   - thunder_storm ► Tormenta'
+natural-health-regen:
+- '&3¿Los jugadores deben recuperar'
+- '&3la salud de forma natural?'
+natural-hunger-drain:
+- '&3¿Los jugadores deben perder'
+- '&3el hambre de forma natural?'
+heal-delay:
+- '&3Número de segundos entre curaciones.'
+- '&7Si se ha determinado la Propiedad "heal-amount".'
+- ''
+- '&8Introduce 0 como valor, para desactivar.'
+heal-amount:
+- '&3La cantidad de medios-corazones de curación del'
+- '&3jugador a razón de la Propiedad "heal-delay".'
+- ''
+- '&7Si se establece un valor negativo'
+- '&7restará corazones en vez de añadirlos.'
+heal-min-health:
+- '&3La cantidad mínima de medios-corazones de daño que no'
+- '&3será superada (por la Propiedad "heal-amount").'
+heal-max-health:
+- '&3La cantidad máxima de medios-corazones de daño que no'
+- '&3será superada (por la Propiedad "heal-amount").'
+feed-delay:
+- '&3Número de segundos entre alimentaciones.'
+- '&7Si se ha determinado la Propiedad "feed-amount".'
+- ''
+- '&8Introduce 0 como valor, para desactivar.'
+feed-amount:
+- '&3La cantidad de medios-puntos de comida del'
+- '&3jugador a razón de la Propiedad "feed-delay".'
+- ''
+- '&7Si se establece un valor negativo'
+- '&7restará puntos en vez de añadirlos.'
+feed-min-hunger:
+- '&3La cantidad mínima de medios-puntos de comida que no'
+- '&3será superada (por la Propiedad "feed-amount").'
+feed-max-hunger:
+- '&3La cantidad máxima de medios-puntos de comida que no'
+- '&3será superada (por la Propiedad "feed-amount").'
+blocked-cmds:
+- '&3Lista de comandos bloqueados.'
+allowed-cmds:
+- '&3Lista de comandos permitidos.'
+# Miscellaneous
+pistons:
+- '&3¿Se pueden usar Pistones?'
+send-chat:
+- '&3Determina si los jugadores pueden'
+- '&3enviar mensajes por el chat.'
+receive-chat:
+- '&3Determina si los jugadores pueden'
+- '&3recibir los mensajes del chat.'
+potion-splash:
+- '&3Determina si las Pociones Arrojadizas ejercen su efecto.'
+# Nuevas propiedades
+sculk-growth:
+- '&3¿Deben brotar el Sculk y las venas de Sculk?'
+
+# -----------------------------------------------------------------------------------------
+# WorldGuard Extra Flags ► https://www.spigotmc.org/resources/worldguard-extra-flags.4823/
+# -----------------------------------------------------------------------------------------
+play-sounds:
+- '&3Permite reproducir sonidos.'
+respawn-location:
+- '&3Punto de aparición dentro de la región.'
+chunk-unload:
+- '&3¿Se pueden descargar sectores dentro de la región?'
+
+# ------------------------------------------------------------------------------------------------------
+# WorldGuard Extra Flags Reborn ► https://www.spigotmc.org/resources/worldguardextraflags-reborn.96894/
+# ------------------------------------------------------------------------------------------------------
+join-location:
+- '&3Establece un lugar de aparición cuando se entra en la región.'
+# Material Set Flags
+allow-block-place:
+- '&3Lista de bloques que se pueden colocar.'
+allow-block-break:
+- '&3Lista de bloques que se pueden romper.'
+deny-block-place:
+- '&3Lista de bloques que NO se pueden colocar.'
+deny-block-break:
+- '&3Lista de bloques que NO se pueden romper.'
+# Entity Set Flag
+allow-entity-place:
+- '&3Lista de entidades que se pueden generar.'
+deny-entity-place:
+- '&3Lista de entidades que NO se pueden generar.'
+allow-entity-damage:
+- '&3Lista de entidades que pueden hacer daño.'
+deny-entity-damage:
+- '&3Lista de entidades que NO pueden hacer daño.'
+allow-entity-destroy:
+- '&3Lista de entidades que se pueden matar.'
+deny-entity-destroy:
+- '&3Lista de entidades que NO se pueden matar.'
+# Potion Effect Set Flags
+give-effects:
+- '&3Determina el efecto que se adquiere al entrar.'
+blocked-effects:
+- '&3Determina el efecto que se eliminará al entrar.'
+# Command Set Flag
+command-on-entry:
+- '&3Comandos que ejecutará el jugador al entrar.'
+command-on-exit:
+- '&3Comandos que ejecutará el jugador al salir.'
+console-command-on-entry:
+- '&3Comandos que se ejecutarán en consola al entrar.'
+console-command-on-exit:
+- '&3Comandos que se ejecutarán en consola al salir.'
+# State Flags
+worldedit:
+- '&3¿Se puede usar el WorldEdit dentro de la región?'
+godmode:
+- '&3¿Se permite usar el modo Invencible (modo Dios)?'
+fly:
+- '&3¿Se puede volar?'
+frostwalker:
+- '&3¿Se puede usar el encantamiento de congelación al andar?'
+nether-portals:
+- '&3¿Se pueden crear Portales del Infrmundo?'
+glide:
+- '&3¿Se puede volar con Elitros?'
+item-durability:
+- '&3¿Los objetos deben desgastarse?'
+villager-trade:
+- '&3¿Se puede comerciar con los Aldeanos?'
+# Location Flags
+teleport-on-entry:
+- '&3Mueve al jugador a un lugar concreto al entrar.'
+- '&7Puede ser una posición dentro o fuera de la región.'
+teleport-on-exit:
+- '&3Mueve al jugador a un lugar concreto al salir.'
+- '&7Puede ser una posición dentro o fuera de la región.'
+# Double Flags
+walk-speed:
+- '&3Velocidad con la que se anda al entrar.'
+- ''
+- '&8La velocidad predeterminada es de 0.2'
+fly-speed:
+- '&3Velocidad de vuelo al entrar.'
+- ''
+- '&8La velocidad predeterminada es de 0.2'
+# Boolean Flags
+keep-inventory:
+- '&3¿Se conserva el inventario al morir?'
+keep-exp:
+- '&3¿Se conserva la experiencia al morir?'
+disable-collision:
+- '&3¿Desactivar la colisión del jugador?'
+- '&7Los jugadores no podrán empujarse entre ellos.'
+# String Flags
+chat-prefix:
+- '&3Prefijo que debe aparecer en el chat.'
+chat-suffix:
+- '&3Sufijo que debe aparecer en el chat.'
+
+# -------------------------------------------------------------------------------------------------------------------
+# AngelChest ► https://www.spigotmc.org/resources/%E2%AD%90-angelchest-plus-%E2%AD%90-death-chests-graveyards.88214/
+# -------------------------------------------------------------------------------------------------------------------
+allow-angelchest:
+- '&3¿Se pueden generar los Artefactos Angelicales.'
+
+# -----------------------------------------------------------------------------------------------
+# ProtectionStones ► https://www.spigotmc.org/resources/protectionstones-updated-for-1-17.61797/
+# -----------------------------------------------------------------------------------------------
+ps-tax-autopayer:
+- '&3Cambia el jugador que debe pagar automáticamente'
+- '&3los impuestos de la región.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-name:
+- '&3Cambia el nombre o la ID de la región.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-merged-regions-types:
+- '&3Cambia los tipos de regiones que deben fusionarse.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-merged-regions:
+- '&3Cambia las regiones que deben fusionarse.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-home:
+- '&3¿Se puede establecer el lugar de inicio dela región?'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-block-material:
+- '&3Cambia el tipo de bloque que repersenta la Runa de Protección.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-tax-last-payment-added:
+- '&3Cambia el valor del último impuesto añadido.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+ps-tax-last-payment-due:
+- '&3Cambia el valor del último impuesto que se debe.'
+- ''
+- '&8Propiedad del plugin ProtectionStones.'
+
+# -----------------------------------------------------------------------------------------------------------------------------------------------
+# Lands ► https://www.spigotmc.org/resources/lands-land-claim-plugin-grief-prevention-protection-gui-management-nations-wars-1-17-support.53313/
+# -----------------------------------------------------------------------------------------------------------------------------------------------
+lands-claim:
+- '&3Determina si se pueden adquirir sectores'
+- '&3para añadirlos a un Territorio o Campamento.'
+- ''
+- '&8Propiedad del plugin Lands.'
+
+# ----------------------------------------------------------------------------
+# Dynmap-WorldGuard ► http://dev.bukkit.org/bukkit-plugins/dynmap-worldguard/
+# ----------------------------------------------------------------------------
+dynmap-boost:
+- '&3Aumenta la resolución de la región.'
+- ''
+- '&8Propiedad del plugin Dynmap-WorldGuard.'
+
+# ----------------------------------------------------------------------------
+# RealisticSeasons ► https://www.spigotmc.org/resources/realisticseasons-1-16-3-1-19-3-seasons-in-your-minecraft-world-with-temperature-and-calendar.93275/
+# ----------------------------------------------------------------------------
+season-block-changes:
+- '&3Determina si se pueden cambiar los'
+- '&3bloques según la estación.'
+- ''
+- '&8Propiedad del plugin RealisticSeasons.'
+season-effects:
+- '&3Determina si los efectos controlados'
+- '&3por el plugin deben surtir efecto.'
+- ''
+- '&8Propiedad del plugin RealisticSeasons.'
+season-mob-spawning:
+- '&3Determina si se deben generar las'
+- '&3criaturas controladas por el plugin.'
+- ''
+- '&8Propiedad del plugin RealisticSeasons.'
+permanent-season:
+- '&3Puedes establecer una estación permanente'
+- '&3dentro de la región.'
+- ''
+- '&8Propiedad del plugin RealisticSeasons.'
+permanent-temperature:
+- '&3Puedes establecer una temperatura permanente'
+- '&3dentro de la región.'
+- ''
+- '&8Propiedad del plugin RealisticSeasons.'
+
+# ----------------------------------------------------------------------------
+# Chest Protect ► https://www.spigotmc.org/resources/chest-protect-chest-lock-plugin-containers-entities-gui-management-prevent-grief-1-15-support.53494/
+# ----------------------------------------------------------------------------
+ChestProtect-lock:
+- '&3Determina si se pueden proteger los'
+- '&3objetos usando el plugin Chest Protect.'
+- ''
+- '&8Propiedad del plugin Chest Protect.'
+
+# ----------------------------------------------------------------------------
+# Aurelium Skills ► https://www.spigotmc.org/resources/aurelium-skills-advanced-skills-stats-abilities-and-more.81069/
+# ----------------------------------------------------------------------------
+aureliumskills-custom-toot:
+- '&3Determina si se pueden obtener'
+- '&3recompensas personalizadas.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain:
+- '&3Determina si se puede obtener'
+- '&3experiencia en las habilidades.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-agility:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Agilidad.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-alchemy:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Alquimia.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-archery:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Arquero.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-defense:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Defensa.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-enchanting:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Encantador.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-endurance:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Resistencia.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-excavation:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Excavación.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-farming:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Granjero.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-fighting:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Combate.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-fishing:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Pesca.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-foraging:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Talador.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-forging:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Forjador.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-healing:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Curación.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-mining:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Minería.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+aureliumskills-xp-gain-sorcery:
+- '&3Determina si se puede obtener'
+- '&3experiencia de Hechicería.'
+- ''
+- '&8Propiedad del plugin Aurelium Skills.'
+
+# ----------------------------------------------------------------------------
+# Plantilla ► https://
+# ----------------------------------------------------------------------------
+id-de-la-propiedad:
+- '&3Determina si'
+- '&3.'
+- ''
+- '&8Propiedad del plugin .'
