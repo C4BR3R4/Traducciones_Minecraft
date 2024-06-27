@@ -1,0 +1,100 @@
+General:
+  Reloaded: '&2Configuración recargada.'
+  NoPermission: '&cNo tienes permiso para hacer esto.'
+  OnlyPlayer: '&cTienes que ser un jugador para ejecutar este comando.'
+  TypeRegionName: '&bIntroduce el nombre de la región. &8Introduce &7Q &8para cancelar.'
+  TypePlayerName: '&bIntroduce el nombre del jugador que quieres añadir o eliminar.
+    &8Introduce &7Q &8para cancelar.'
+  TypeStringValue: '&bIntroduce el valor de la Propiedad &3"<flagName>"&b. &8Introduce
+    &7Q &8para cancelar.'
+  TypeIntegerValue: '&bIntroduce un valor numérico (sin decimales) para la Propiedad
+    &3"<flagName>"&b. &8Introduce &7Q &8para cancelar.'
+  TypeDoubleValue: '&bIntroduce un valor numérico (con decimales opcionales) para
+    la Propiedad &3"<flagName>"&b. &8Introduce &7Q &8para cancelar.'
+  TypeLocationValue: '&bEntra en la región donde quieres cambiar la Propiedad &3"<flagName>"
+    &bhe introduce &3set. &8Introduce &7Q &8para cancelar.'
+  TypeSetValue: '&bIntroduce el valor de la Propiedad &3"<flagName>"&b. &7Si ya existe
+    un valor, este será sustituído, a menos que uses el signo más "+" para añadirlo.
+    Ejemplos: +/heal | +ZOMBIE. &8Introduce &7Q &8para cancelar.'
+  MakeWESelection: '&bEstablece los límites de la región, introduce &3//sel1 &bpara
+    seleccionar una esquina y &3//sel2 &bpara seleccionar otra esquina opuesta. Introduce
+    &3create &bcuando termines de seleccionar la región (o &3edit &bsi estás modificando
+    una región existente). &8Introduce &7Q &8para cancelar.'
+  Aborted: '&cOperación cancelada.'
+  RegionCreated: '&bSe ha creado la región llamada &3"<regionName>"&b.'
+  RegionExists: '&bYa existe una región con el mismo nombre (en este mundo).'
+  RegionDoesntExist: '&bLa región seleccionada no existe. ¿Quieres eliminarla?'
+  MatchRegex: '&bLa introducción solo puede contener letras, números, la barra "/"
+    y subguiones "_".'
+  MatchRegexPlayer: '&bLa introducción solo puede contener letras, números y subguiones
+    "_".'
+  RegionOverlapsNoPermission: '&bNo puedes crear regiones que solapen otras regiones
+    en las que no eres propietario.'
+  MemberAdded: '&3<player> &bahora es Miembro de la región &3"<region>"&b.'
+  OwnerAdded: '&3<player> &bahora es el Propietario de la región &3"<region>"&b.'
+  MemberRemoved: '&3<player> &bya no es Miembro de la región &3"<region>"&b.'
+  OwnerRemoved: '&3<player> &bya no es el Propietario de la región &3"<region>"&b.'
+  RegionRemoved: '&bSe ha eliminado la región &3"<region>"&b.'
+  RegionEdited: '&bSe ha modificado la configuración de la región.'
+  RegionFlagsCopied: '&bLa región &3"<regionTo>" &bahora tiene las mismas Propiedades
+    que la región &3"<regionFrom>"&b.'
+  InvClosedOnDisable: '&bTu inventario se ha cerrado porque se ha desactivado el plugin.'
+  RegionParentSet: '&bLa región &3"<region>" &bahora es el padre de la región &3"<childregion>"&b.'
+  RegionRenamed: '&bLa región &3"<oldName>" &bahora se llama &3"<newName>"&b.'
+  GUIItemHelp: '&bHas obtenido la Herramienta WG-GUI. Pulsa el Botón Derecho para
+    usarla.'
+  RegionLimit: '&bNo puedes crear más de &a<count> &bregiones.'
+GUI:
+  MainMenuTitle: '&3Menú de Regiones'
+  MainMenuCreateNew: '&2✚ Crear una Región'
+  MainMenuEditExisting: '&6✎ Modificar una Región'
+  MainMenuReload: '&5⟳ Recargar el plugin'
+  Exit: '&7↩ Volver'
+  SelectTemplate: '&3Selecciona una Plantilla...'
+  SelectWorld: '&51º ► Selecciona el Mundo...'
+  SelectRegion: '&52º ► Selecciona la Región...'
+  ChangeRegionVisibility: '&7Filtro de Regiones'
+  ShowAllRegions: '&eTodas las Regiones'
+  ShowOwnedRegions: '&6Regiones en Propiedad'
+  RegionOptions: '&5Configuración de la Región'
+  EditFlagsOption: '&cModifica las Propiedades de la región'
+  EditFlagsTitle: '&5Propiedades de la región'
+  SelectTemplateOption: '&bAplica una Plantilla'
+  SelectTemplateTitle: '&5Plantillas disponibles'
+  TemplateNoName: '&cPlantilla sin Nombre'
+  TemplateNoDescription: '&cPlantilla sin descripción'
+  EditOwnerMemberOption: '&eModifica los Propietarios y Miembros de la Región'
+  EditOwnerMemberTitle: '&4Propietarios y Miembros'
+  RemoveRegionOption: '&4❌ &cElimina esta Región'
+  SetFlagsFromOtherRegionOption: '&eImportar las Propiedades de otra región'
+  SetParentRegionOption: '&eAsignar una región como principal'
+  RenameRegionOption: '&7✎ Cambiar el Nombre de la región'
+  AddOwnerPlayerOption: '&aAñadir un &2Propietario &aa la región'
+  AddMemberPlayerOption: '&aAñadir un &2Miembro &aa la región'
+  DeleteMemberPlayerOption: '&4❌ &cEliminar un &4Miembro &cde la región'
+  DeleteOwnerPlayerOption: '&4❌ &cEliminar un &4Propietario &cde la región'
+  EditRegionBoundsOption: '&b✎ Modificar los límites de esta región'
+  SelectPlayerTitle: '&5Seleccionar un jugador.'
+  Value: '&b&nValor:&r'
+  NextPage: '&7⇨ Página Siguiente'
+  PreviousPage: '&7⇦ Página Anterior'
+  HelpItemName: '&7&nAcciones:'
+  HelpItemLore:
+  - '&8🖰 Izquierdo ► Cambiar el valor de la Propiedad.'
+  - '&8🖰 Derecho ► Recuperar el valor predeterminado.'
+  - '&8⌨ Mayús + 🖰 Botón Izquierdo ► Cambiar el valor del grupo.'
+  ConfirmMessage: '&c¿Estás seguro?'
+  ParentWarn: '&c¡La región no puede ser su propio padre!'
+  GetItem: '&aObtener la Herramienta WG-GUI'
+  ValueNames:
+    ALLOW: '&2Permitido'
+    DENY: '&4Denegado'
+    DEFAULT: '&ePredeterminado'
+    NONE: Nadie
+    ALL: Todos
+    MEMBERS: Miembros
+    OWNERS: Propietarios
+    NON_MEMBERS: No_Miembros
+    NON_OWNERS: No_Propietarios
+    'true': SI
+    'false': 'NO'
