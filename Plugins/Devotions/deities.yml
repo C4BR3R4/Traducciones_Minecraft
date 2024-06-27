@@ -1,0 +1,62 @@
+deities:
+  baphomet:
+    name: "Bafometo"
+    lore: "Deidad misteriosa asociada a menudo con el ocultismo y los rituales místicos. Sus orígenes siguen siendo objeto de debate entre los eruditos."
+    domain: "Ocultismo"
+    alignment: "Malo"
+    offerings:
+      - "VANILLA:GOLD_INGOT:5:command1;command2" # TYPE:ITEM:FAVOR:COMMANDS
+      - "VANILLA:NETHER_STAR:50:give {player} diamond 5;say ¡Gracias por el ofrecimiento!"
+    rituals:
+      - "purification_ritual"
+    blessings:
+      - "SPEED,2,300"  # Speed II for 300 seconds
+      - "NIGHT_VISION,1,600"  # Night Vision I for 600 seconds
+    curses:
+      - "BLINDNESS,1,60"  # Blindness 60 seconds
+      - "WEAKNESS,1,600"  # Weakness I for 600 seconds
+    miracles:
+      - "repair_all"
+      - "stop_burning"
+      - "run_command:give {player} DIAMOND 1"
+  gaia:
+    name: "Gaia"
+    lore: "Gaia es la diosa griega primordial de la naturaleza y de la tierra. Como tal, tenía el poder de controlarla y manipularla. Podía hacer crecer árboles y plantas, mover montañas y crear ríos y lagos. También tenía el poder de dar y quitar la vida y se decía que podía curar enfermedades y heridas."
+    domain: "Naturaleza"
+    alignment: "Bueno"
+    offerings:
+      - "VANILLA:OAK_SAPLING:10"
+      - "VANILLA:DIAMOND_HOE:1"
+    rituals:
+      - "harvest_festival"
+    blessings:
+      - "REGENERATION,2,300"  # Regeneration II for 300 seconds
+      - "SATURATION,1,300"  # Saturation I for 300 seconds
+    curses:
+      - "HUNGER,2,120"  # Hunger II for 120 seconds
+      - "POISON,1,60"  # Poison I for 60 seconds
+    miracles:
+      - "grow_crops"
+      - "tame_animals"
+      - "run_command:give {player} EMERALD 5"
+  anubis:
+    name: "Anubis"
+    lore: "Guardián del inframundo, asociado con la momificación y la vida después de la muerte en la antigua religión egipcia."
+    domain: "Vida después de la muerte"
+    alignment: "Neutro"
+    offerings:
+      - "VANILLA:BONE:20"
+      - "VANILLA:GOLDEN_SWORD:1"
+    rituals:
+      - "meditation_ritual"
+    blessings:
+      - "INVISIBILITY,1,300"  # Invisibility I for 300 seconds
+      - "LUCK,2,300"  # Luck II for 300 seconds
+    curses:
+      - "BAD_OMEN,1,300"  # Bad Omen I for 300 seconds
+      - "UNLUCK,2,300"  # Unluck II for 300 seconds
+    miracles:
+      - "resurrect_player"
+      - "run_command:give {player} ENCHANTED_BOOK 1"
+
+# More deities can be added in the same format, feel free to remove or modify the above ones
