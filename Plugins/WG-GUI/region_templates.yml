@@ -1,0 +1,103 @@
+InvSize: 9
+Templates:
+  Empty:
+    DisplayName: Plantilla vacía
+    Description: '&ePlantilla con Propiedades predeterminadas.'
+    Icon: PAPER
+  General:
+    DisplayName: General
+    Description: '&ePlantilla con Propiedades personalizadas.'
+    Icon: STONE
+    Flags:
+      pvp:
+        value: deny
+      mob-spawning:
+        value: deny
+      use:
+        value: allow
+      chest-access:
+        value: deny
+      interact:
+        value: allow
+  Mago:
+    DisplayName: Mago
+    Description: '&ePlantilla con Propiedades mágicas.'
+    Icon: ENCHANTING_TABLE
+    Flags:
+      pvp:
+        value: deny
+      mob-spawning:
+        value: deny
+      use:
+        value: allow
+      chest-access:
+        value: deny
+      interact:
+        value: allow
+      allowed-cmds:
+        value:
+        - /creativo
+        group: owners
+      command-on-exit:
+        value:
+        - /normal
+  Mixed:
+    DisplayName: Mixto
+    Description: '&ePlantilla para eventos tipo parkour o laberintos.'
+    Icon: ELYTRA
+    Flags:
+      invincible:
+        value: allow
+        group: members
+      pvp:
+        value: deny
+      mob-spawning:
+        value: deny
+      use:
+        value: allow
+      chest-access:
+        value: allow
+      interact:
+        value: allow
+  PvP:
+    DisplayName: PvP
+    Description: '&ePlantilla para eventos PvP.'
+    Icon: IRON_SWORD
+    Flags:
+      invincible:
+        value: deny
+      pvp:
+        value: allow
+      mob-spawning:
+        value: deny
+      use:
+        value: allow
+      chest-access:
+        value: allow
+      interact:
+        value: allow
+  MobArena:
+    DisplayName: MobArena
+    Description: '&ePlantilla para MobArenas.'
+    Icon: ZOMBIE_SPAWN_EGG
+    Flags:
+      invincible:
+        value: deny
+      pvp:
+        value: deny
+      mob-spawning:
+        value: allow
+      use:
+        value: allow
+      chest-access:
+        value: allow
+      interact:
+        value: allow
+      mob-damage:
+        value: allow
+      damage-animals:
+        value: allow
+      blocked-cmds:
+        value:
+        - /home
+        group: non_owners
