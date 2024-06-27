@@ -1,0 +1,112 @@
+general:
+  player_not_found: '<prefix_negative>Jugador no encontrado: {name}'
+  migration_complete: <prefix>¡Almacenamiento migrado con éxito!
+selection:
+  condition:
+    not:
+      met: No cumples los requisitos para seguir a {deity}.
+ritual:
+  meditation_penalty: <prefix_negative>¡Tonto mortal! ¡Deja de moverte durante la meditación!
+  wrong_deity: <accent>No puedes realizar el {ritual} por tu deidad elegida.
+  failure: <prefix_negative>No has cumplido las condiciones del Ritual.
+  success: <prefix>¡El {ritual} ha sido un éxito! ¡Benditos seáis!
+  start: <accent>El {ritual} ha comenzado...
+  progress: '<accent>Objectivo {objective}: {current}/{total} completado.'
+  return_to_resume: <accent>Regresa al santuario para completar el ritual.
+  cancelled: <prefix_negative>¡El {ritual} ha sido cancelado!
+  cmd:
+    specify_ritual: <offset>Especifica el ritual sobre el cual quieres buscar información.
+    usage: '<prefix_warning>Usa: <cmd_syntax>/ritual <arg>info</arg> <arg_opt>NombreRitual</arg_opt></cmd_syntax>'
+  not_found: <prefix_negative>Ritual desconocido. Por favor, selecciona un nombre de ritual válido.
+  info: |-
+    <primary>Detalles de {display-name}
+    <offset>Descripción: <text>{description}
+    <offset>Elemento Clave: <text>{item-name}
+    <offset>Favor Recompensado: <text>{favour-amount}
+favor:
+  amount:
+    set_to: <offset>Tu favor se ha establecido en <favor_col>{favor}
+    favor_increased: <prefix>Tu favor con {deity} ha aumentado a <favor_col>{favor}
+    current_favor: <offset>Tu favor actual con {deity} es <favor_col>{favor}
+    favor_decreased: <prefix_negative>Tu favor con {deity} ha disminuido a <favor_col>{favor}
+  cmd:
+    usage: '<prefix_warning>Usage: <cmd_syntax>/favor <arg>set|give|take</arg> <arg>playername</arg>
+      <arg>amount</arg></cmd_syntax>'
+    player_does_not_worship: <prefix_negative>{player} no adora a ninguna deidad.
+    invalid_number_format: <prefix_negative>Cantidad no válida. Por favor, introduce un número.
+    invalid_action: <prefix_negative>Acción no válida. Usa set, give, o take.
+meditation:
+  complete: <prefix>Meditación completada. Ahora puedes moverte.
+devotion:
+  abandoned-not-met: <prefix_negative>No has cumplido las condiciones necesarias para abandonar a {deity}.
+  already_set: <prefix>Ya eres devoto de {name}.
+  set: <prefix>Ahora eres devoto de {name}. Tu favor es {favor}.
+  reload_success: <prefix>¡Devociones recargadas con éxito!
+  abandoned: <prefix>Habéis abandonado vuestra devoción.
+  none_set: <prefix_negative>No eres devoto.
+miracle:
+  repair: <prefix>¡Un milagro ha reparado todos tus objetos!
+  iron_golem: <prefix>¡Un milagro ha invocado Golems de Hierro para ayudarte!
+  harvest: <prefix>Un milagro te ha bendecido con una cosecha abundante.
+  hero_of_the_village: <prefix>¡Un milagro te ha concedido el efecto Héroe de la Aldea!
+  bestowed: <prefix>Os ha sido concedido un milagro.
+  fire_resistance: <prefix>¡Un milagro te ha concedido Resistencia al Fuego!
+  cmd:
+    unknown_miracle: <prefix_negative>Milagro desconocido
+    usage: '<prefix_warning>Usa: <cmd_syntax>/testmiracle <arg>number</arg></cmd_syntax>'
+    no_miracles: <prefix_negative>No hay milagros cargados.
+  saved_from_death: <prefix>¡Un milagro te ha revivido tras la muerte!
+  wolves: <prefix>Un milagro ha invocado Lobos amistosos para protegerte.
+devotions:
+  admin: |-
+    <prefix_warning>Versión del Servidor: <gray>{server-ver}</gray>
+    Versión de Devotions: <gray>{plugin-ver}</gray>
+    Versión de Java: <gray>{java-ver}</gray>
+shrines:
+  set:
+    no_perm: <prefix_negative>No tienes permiso para colocar un santuario.
+  follow_deity_to_designate: <prefix_negative>¡Hay que seguir a una deidad para designar un santuario!
+  click_block_to_create: <prefix_warning>Pulsa el botón derecho en un bloque para designarlo como santuario de la deidad {deity}
+  cannot_place_on_top: <prefix_negative>No se pueden colocar bloques encima de un santuario.
+  list:
+    no_shrines: <prefix_negative>No hay santuarios designados.
+    no_perm: <prefix_negative>No tienes permiso para ver la lista de santuarios.
+    header: '<offset>Santuarios:'
+    shrine: '{deity} at {x:#}, {y:#}, {z:#}'
+  offering_accepted: <prefix>Tu oferta ha sido aceptada.
+  remove:
+    success: <prefix>¡Santuario eliminado con éxito!
+    no_perm: <prefix_negative>No tienes permiso para retirar santuarios.
+    not_found: <prefix_negative>No se ha encontrado ningún santuario en este lugar.
+  right_click_to_remove: <prefix_warning>Usa el botón derecho en un santuario para eliminarlo.
+  deity_not_found: <prefix_negative>No se pudo determinar tu deidad, por favor informa a un admin.
+  limit_reached: <prefix_negative>Has alcanzado el límite de {limit} santuarios.
+  cannot_break_shrines: <prefix_negative>¡No puedes destruir santuarios! Elimínalo usando <cmd_syntax>/shrine remove</cmd_syntax>.
+  cooldown: <prefix_negative>Debes esperar {cooldown:'m'}m {cooldown:'s'}s antes de llevar a cabo otro ritual.
+  already_exists: <prefix_negative>Ya existe un santuario en este lugar.
+  protected_area: <prefix_negative>No se puede crear un santuario en una zona protegida.
+  offering_declined: <prefix_negative>Tu ofrenda no ha sido aceptada por {subject}.
+  not_following_deity: <prefix_negative>Sólo los seguidores de {deity} pueden usar este santuario.
+  shrine_created: <prefix>¡Se ha designado con éxito un santuario para {deity}!
+deity:
+  no_deity_found: <prefix_negative>No se han encontrado deidades.
+  cursed: <prefix_negative>¡{deity} te ha maldecido con {curse}!
+  blessed: <prefix>¡{deity} te ha bendecido con {blessing}!
+  cmd:
+    specify_deity: <prefix_warning>Especifica la deidad a la que quieres rendir culto.
+    specify_player: <prefix_warning>Especifica la deidad cuya información quieres consultar.
+    usage: '<offset>Usa: <cmd_syntax>/deity list|select|info|abandon NombreDeidad</cmd_syntax>'
+  list:
+    entry: <text>- {name}</text>
+    header: '<primary>Deidades disponibles:'
+  not_found: <prefix_negative>Deidad desconocida. Por favor, selecciona un nombre de deidad válido.
+  info: |-
+    <primary>Detalles de {name}
+    <offset>Descripción: <text>{lore}
+    <offset>Dominio: <text>{domain}
+    <offset>Alineación: <text>{alignment}
+    <offset>Rituales Predilectos: <text>{rituals}
+    <offset>Ofrecimientos Predilectos: <text>{offerings}
+miracles:
+  cmd:
+    list_available: '<prefix>Milagros disponibles: <offset>{miracles}'
