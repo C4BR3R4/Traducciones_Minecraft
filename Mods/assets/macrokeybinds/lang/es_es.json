@@ -3,10 +3,10 @@
   "text.config.globalmacros": "Macros Globales",
   "text.config.servermacros": "Macros de Servidor",
   "text.config.needhelp": "§8Discord de Ayuda",
-  "text.tooltip.main.noserver": "§6⚠ No te encuentras en un servidor.",
+  "text.tooltip.main.noserver": "§4❗ §cNo te encuentras en un servidor.",
 
-  "key.macrokeybinds.openoptions.desc": "Abrir la Interfaz" ,
-  "key.categories.macrokeybinds": "Asignaciones de MacroKeybinds",
+  "key.macrokeybinds.openoptions.desc": "Abrir la Configuración",
+  "key.categories.macrokeybinds": "§3§lMacroKeybinds",
 
   "text.globalmacros.title": "§3§nMacros Globales",
   "text.createglobalmacros.title": "§3§nCreación de Macros Globales",
@@ -44,6 +44,10 @@
   "text.macro.deleteQuestion": "¿Seguro que quieres eliminar esta macro?",
   "text.macro.deleteWarning": "Será eliminada permanentemente",
   "text.macro.deleteButton": "Eliminar esta Macro",
+
+  "text.running": "R",
+  "text.tooltip.running": "Ejecutando",
+  "text.stopmacro": "Detener Todas las Macros Pendientes/Recurrentes",
 
   "text.editglobalmacro.title": "§3§nModificación de Macro Global",
   "text.editservermacro.title": "§3§nModificación de Macro de Servidor",
