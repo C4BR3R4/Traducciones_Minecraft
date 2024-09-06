@@ -1,9 +1,9 @@
 {
   "sspb.pages.sspb_page.name":"§3SSPB",
-  "sspb.options.shadowyness.name":"Intensidad del Sombreado",
-  "sspb.options.shadowyness.tooltip":"Ajusta la intensidad de las sombras similares en bloques incompletos.\n\n0% ► Valor predeterminado de Sodium.\n85% ► Valor predeterminado de SSPB.\n100% ► Máximo (intensidad igual a la original, pero puede ser más oscura en ciertos casos).\n\nNo afecta a los bloques de camino cuando está activada la opción 'Usar la Iluminación Original en Bloques de Camino'.",
-  "sspb.options.onlyaffectpathblocks.name":"Afectar solo a los Bloques de Camino",
-  "sspb.options.onlyaffectpathblocks.tooltip":"El error en Minecraft que causa bloques de camino sombreados afecta en realidad a todos los bloques no fluidos he incompletos.\n\nDe forma predeterminada, SSPB aplica la iluminación suave similar a la original a todos los bloques no fluidos he incompletos. Activando esta opción, los efectos se limitarán sólo a los bloques de camino.",
-  "sspb.options.vanillapathblocklighting.name":"Usar la Iluminación Original en Bloques de Camino.",
-  "sspb.options.vanillapathblocklighting.tooltip":"Cuando está activada, la iluminación de los bloques de camino se renderizan con un algoritmo preciso a la versión original, en vez de una versión modificada del algoritmo de iluminación de Sodium.\n\nEsta opción desactiva el control deslizante del sombreado en los bloques de camino."
+  "sspb.options.shadowyness.name":"Intensidad de Sombreado",
+  "sspb.options.shadowyness.tooltip":"Ajusta la intensidad del sombreado original en bloques incompletos.\n§70% ► Valor predeterminado de Sodium.\n§785% ► Valor predeterminado de SSPB.\n§7100% ► Valor máximo con una intensidad igual a la original, pero más oscura en algunas situaciones.\n\n§6❗ §eActivando la opción 'Usar la Iluminación Original en Bloques de Camino', los bloques de camino no se ven afectados.",
+  "sspb.options.onlyaffectpathblocks.name":"Sombrear solo los Bloques de Camino",
+  "sspb.options.onlyaffectpathblocks.tooltip":"El error de Minecraft que provoca que los bloques de camino sean sombreados, afecta en realidad a todos los bloques no fluidos he incompletos.\n§7De forma predeterminada, SSPB también aplica la iluminación suave similar a la original a todos los bloques no fluidos he incompletos.\n\n§6❗ §eActivando esta opción, los efectos se limitarán únicamente a los caminos de tierra.\n\n§8§oValor Predeterminado: Desmarcado.",
+  "sspb.options.vanillapathblocklighting.name":"Usar la Iluminación Original en Bloques de Camino",
+  "sspb.options.vanillapathblocklighting.tooltip":"Cuando está opción se encuentra activada, la iluminación de los bloques de camino se renderizan con un algoritmo preciso a la versión original, en lugar de una versión modificada del algoritmo de iluminación de Sodium.\n\n§6❗ §eActivando esta opción, se invalida el ajuste de la 'Intensidad de Sombreado' de los bloques de camino.\n\n§8§oValor Predeterminado: Desmarcado."
 }
