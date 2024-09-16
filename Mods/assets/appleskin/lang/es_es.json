@@ -1,0 +1,26 @@
+{
+  "text.autoconfig.appleskin.title": "§3§lAppleSkin",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip": "Mostrar los Valores Energéticos del Alimento en su Descripción",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltip.@Tooltip": "Muestra los valores de hambre y saturación de los alimentos\nen su descripción, mientras se mantiene presionada la\ntecla Mayús.",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways": "Mostrar Siempre los Valores Energéticos del Alimento en su Descripción",
+  "text.autoconfig.appleskin.option.showFoodValuesInTooltipAlways.@Tooltip": "Muestra los valores de hambre y saturación de los alimentos\nen su descripción, sin necesidad de mantener presionada la\ntecla Mayús.\n§7Si se encuentra activada la opción 'Mostrar los Valores Energéticos\n§7del Alimento en su Descripción', esta no realizará ningún efecto.",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay": "Visualizar la Saciedad del Alimento en Mano",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlay.@Tooltip": "Muestra el nivel de saciedad del alimento (y la saturación,\nsi se encuentra activada la opción 'Visualizar el Nivel de Saturación')\nque será recuperada al consumir el alimento que sostienes en la mano.",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand": "Visualizar la Saciedad del Alimento en Mano Secundaria",
+  "text.autoconfig.appleskin.option.showFoodValuesHudOverlayWhenOffhand.@Tooltip": "Muestra el nivel de saciedad del alimento, saturación y\nsalud que será recuperada al consumir el alimento que sostienes\nen la mano secundaria.\n\n§cSi tienes instalado el mod 'BetterPVP', deberás tener\n§cdesactivada la información del 'Objeto de la Mano Secundaria',\n§cen §o'Configuración de los Módulos ► Módulo de Armadura' §cpara\n§cque funcione esta característica.",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay": "Salud a Restaurar del Alimento de la Mano",
+  "text.autoconfig.appleskin.option.showFoodHealthHudOverlay.@Tooltip": "Muestra el nivel de salud que será restaurada al\nconsumir el alimento que sostienes en la mano dominante.",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay": "Visualizar el Nivel de Agotamiento Detrás",
+  "text.autoconfig.appleskin.option.showFoodExhaustionHudUnderlay.@Tooltip": "Muestra el nivel de agotamiento de comida como una\nbarra de progreso detrás de la barra de hambre.\n\n§8Personalmente no he encontrado que hace esta opción.",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay": "Visualizar el Nivel de Saturación",
+  "text.autoconfig.appleskin.option.showSaturationHudOverlay.@Tooltip": "Muestra el nivel de saturación actual encima de la barra de hambre.",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo": "Mostrar Valores del Alimento en la Pantalla de Depuración",
+  "text.autoconfig.appleskin.option.showFoodDebugInfo.@Tooltip":"Muestra el nivel de hambre, saturación y agotamiento en la pantalla de depuración (F3).",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay": "Agitar los Iconos para que Coincidan con los Originales",
+  "text.autoconfig.appleskin.option.showVanillaAnimationsOverlay.@Tooltip": "Las animaciones de los iconos de hambre y salud se agitarán al unísono con los iconos originales de Minecraft.",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha": "Transparencia Máxima de los Iconos Parpadeantes",
+  "text.autoconfig.appleskin.option.maxHudOverlayFlashAlpha.@Tooltip": "Ajusta la transparencia máxima de los iconos parpadeantes\nen su punto más visible.\n§7 Valor 1.00 ► Completamente opaco.\n§8 Valor 0.65 ► Predeterminado por AppleSkin.\n§7 Valor 0.00 ► Completamente transparente.",
+
+  "modmenu.summaryTranslation.appleskin": "Añade varias mejoras relacionadas con los alimentos en el HUD.",
+  "modmenu.descriptionTranslation.appleskin": "Añade varias mejoras relacionadas con los alimentos en el HUD."
+}
