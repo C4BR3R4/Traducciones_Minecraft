@@ -3,15 +3,15 @@ general.height = ↕ Alto
 general.on = §aActivado
 general.off = §cDesactivado
 
-popup.done = §aAceptar
+popup.done = §a✔ Aceptar
 
-popup.yesno.confirm = §aConfirmar
-popup.yesno.cancel = §cCancelar
+popup.yesno.confirm = §a✔ Confirmar
+popup.yesno.cancel = §c✘ Cancelar
 
-popup.notification.accept = §aAceptar
+popup.notification.accept = §a✔ Aceptar
 
-popup.choosefile.back = VOLVER
-popup.choosefile.title = Seleccionar Archivo
+popup.choosefile.back = ❮ Retroceder
+popup.choosefile.title = §3Seleccionar Archivo
 popup.choosefile.choose = Seleccionar
 popup.choosefile.supported = §7Tipos de Archivo admitidos:
 
